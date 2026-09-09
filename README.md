@@ -88,6 +88,20 @@ Depois de rodar, **feche e reabra o Hermes Desktop** e vá em
 6. Recompile: `hermes desktop --build-only --force-build`
 7. Feche e reabra o app.
 
+## Skill do Hermes (`hermes-pt-br-i18n`)
+
+Este repo também guarda a skill que documenta esse fluxo pra qualquer sessão
+do Hermes lembrar sozinha (`skill/SKILL.md`). Para reinstalar em outra
+máquina/perfil:
+
+```bash
+mkdir -p "%LOCALAPPDATA%\hermes\skills\hermes-pt-br-i18n"
+copy skill\SKILL.md "%LOCALAPPDATA%\hermes\skills\hermes-pt-br-i18n\SKILL.md"
+```
+
+Se editar a skill via `skill_manage` no Hermes, copie o `SKILL.md`
+atualizado de volta pra cá (`skill/SKILL.md`) e dê commit/push.
+
 ## Estrutura do arquivo de tradução
 
 `i18n/pt-BR.ts` usa o mecanismo `defineLocale()` do próprio Hermes: qualquer
