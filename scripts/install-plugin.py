@@ -17,7 +17,9 @@ dest = home / "desktop-plugins" / "hermes-pt-br"
 dest.mkdir(parents=True, exist_ok=True)
 shutil.copy2(src, dest / "plugin.js")
 version = json.loads((root / "package.json").read_text(encoding="utf-8"))["version"]
+# IMPORTANTE: o app apaga copias cujo `source`/plugin.js nao existe (ghost-prune);
+# por isso source aponta para a propria pasta instalada, que contem plugin.js.
 (dest / ".hermes-package.json").write_text(json.dumps({
-    "package": "hermes-pt-br", "source": str(root), "version": version,
+    "package": "hermes-pt-br", "source": str(dest), "version": version,
     "repo": "https://github.com/fabiopego/hermes-pt-br"}, indent=2), encoding="utf-8")
 print(f"instalado em {dest} (v{version}, {src.stat().st_size} bytes)")
