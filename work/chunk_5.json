@@ -1,0 +1,2342 @@
+[
+ {
+  "id": 812,
+  "key": "settings.customEndpoints.saveFailed",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "saveFailed"
+  ],
+  "isFn": false,
+  "en": "Save failed"
+ },
+ {
+  "id": 813,
+  "key": "settings.customEndpoints.endpointReachable",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "endpointReachable"
+  ],
+  "isFn": false,
+  "en": "Endpoint is reachable."
+ },
+ {
+  "id": 814,
+  "key": "settings.customEndpoints.endpointReachableTransport",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "endpointReachableTransport"
+  ],
+  "isFn": true,
+  "en": "(transport) => `Endpoint is reachable (${transport} route served).`"
+ },
+ {
+  "id": 815,
+  "key": "settings.customEndpoints.endpointReachableModels",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "endpointReachableModels"
+  ],
+  "isFn": true,
+  "en": "(reachable, count) => `${reachable} Found ${count} models.`"
+ },
+ {
+  "id": 816,
+  "key": "settings.customEndpoints.endpointValidationFailed",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "endpointValidationFailed"
+  ],
+  "isFn": false,
+  "en": "Endpoint validation failed."
+ },
+ {
+  "id": 817,
+  "key": "settings.customEndpoints.validationFailed",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "validationFailed"
+  ],
+  "isFn": false,
+  "en": "Validation failed"
+ },
+ {
+  "id": 818,
+  "key": "settings.customEndpoints.activationFailed",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "activationFailed"
+  ],
+  "isFn": false,
+  "en": "Activation failed"
+ },
+ {
+  "id": 819,
+  "key": "settings.customEndpoints.deleteConfirm",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "deleteConfirm"
+  ],
+  "isFn": true,
+  "en": "(name) => `Delete ${name}?`"
+ },
+ {
+  "id": 820,
+  "key": "settings.customEndpoints.deleteFailed",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "deleteFailed"
+  ],
+  "isFn": false,
+  "en": "Delete failed"
+ },
+ {
+  "id": 821,
+  "key": "settings.customEndpoints.title",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Custom Endpoints"
+ },
+ {
+  "id": 822,
+  "key": "settings.customEndpoints.deleteEndpoint",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "deleteEndpoint"
+  ],
+  "isFn": false,
+  "en": "Delete endpoint"
+ },
+ {
+  "id": 823,
+  "key": "settings.customEndpoints.emptyDescription",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "emptyDescription"
+  ],
+  "isFn": false,
+  "en": "Add an OpenAI-compatible endpoint below."
+ },
+ {
+  "id": 824,
+  "key": "settings.customEndpoints.emptyTitle",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "emptyTitle"
+  ],
+  "isFn": false,
+  "en": "No custom endpoints"
+ },
+ {
+  "id": 825,
+  "key": "settings.customEndpoints.namePlaceholder",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "namePlaceholder"
+  ],
+  "isFn": false,
+  "en": "Axet Proxy"
+ },
+ {
+  "id": 826,
+  "key": "settings.customEndpoints.contextPlaceholder",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "contextPlaceholder"
+  ],
+  "isFn": false,
+  "en": "Auto"
+ },
+ {
+  "id": 827,
+  "key": "settings.computerUse.accessibility",
+  "path": [
+   "settings",
+   "computerUse",
+   "accessibility"
+  ],
+  "isFn": false,
+  "en": "Accessibility"
+ },
+ {
+  "id": 828,
+  "key": "settings.computerUse.screenRecording",
+  "path": [
+   "settings",
+   "computerUse",
+   "screenRecording"
+  ],
+  "isFn": false,
+  "en": "Screen Recording"
+ },
+ {
+  "id": 829,
+  "key": "settings.computerUse.driverHealth",
+  "path": [
+   "settings",
+   "computerUse",
+   "driverHealth"
+  ],
+  "isFn": false,
+  "en": "Driver health"
+ },
+ {
+  "id": 830,
+  "key": "settings.about.channel.title",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Update channel"
+ },
+ {
+  "id": 831,
+  "key": "settings.about.channel.description",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "description"
+  ],
+  "isFn": false,
+  "en": "Stable installs published releases only. Every commit follows the main branch as changes land."
+ },
+ {
+  "id": 832,
+  "key": "settings.about.channel.stable",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "stable"
+  ],
+  "isFn": false,
+  "en": "Stable releases"
+ },
+ {
+  "id": 833,
+  "key": "settings.about.channel.main",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "main"
+  ],
+  "isFn": false,
+  "en": "Every commit"
+ },
+ {
+  "id": 834,
+  "key": "settings.about.channel.stableConfirmTitle",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "stableConfirmTitle"
+  ],
+  "isFn": false,
+  "en": "Switch to stable releases?"
+ },
+ {
+  "id": 835,
+  "key": "settings.about.channel.stableConfirmBody",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "stableConfirmBody"
+  ],
+  "isFn": false,
+  "en": "Hermes will move to the latest published release, which can be older than the code you run now. Data written by newer code may not read correctly, so back it up first."
+ },
+ {
+  "id": 836,
+  "key": "settings.about.channel.stableConfirm",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "stableConfirm"
+  ],
+  "isFn": false,
+  "en": "Switch to stable"
+ },
+ {
+  "id": 837,
+  "key": "settings.about.channel.failed",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "failed"
+  ],
+  "isFn": false,
+  "en": "Could not change the update channel"
+ },
+ {
+  "id": 838,
+  "key": "settings.about.channel.detailsLabel",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "detailsLabel"
+  ],
+  "isFn": false,
+  "en": "Channel"
+ },
+ {
+  "id": 839,
+  "key": "settings.about.channel.branch",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "branch"
+  ],
+  "isFn": true,
+  "en": "(b) => `Branch: ${b}`"
+ },
+ {
+  "id": 840,
+  "key": "settings.about.channel.change",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "change"
+  ],
+  "isFn": false,
+  "en": "Change"
+ },
+ {
+  "id": 841,
+  "key": "settings.about.channel.latestRelease",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "latestRelease"
+  ],
+  "isFn": true,
+  "en": "(v) => `You\\u2019re on the latest stable release (${v}).`"
+ },
+ {
+  "id": 842,
+  "key": "settings.about.channel.rollbackTitle",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "rollbackTitle"
+  ],
+  "isFn": true,
+  "en": "(v) => `Back to stable release ${v}`"
+ },
+ {
+  "id": 843,
+  "key": "settings.about.channel.rollbackBody",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "rollbackBody"
+  ],
+  "isFn": true,
+  "en": "(v) => `This build is newer than the stable release ${v}. Installing it moves Hermes back to that release.`"
+ },
+ {
+  "id": 844,
+  "key": "settings.about.channel.rollbackAction",
+  "path": [
+   "settings",
+   "about",
+   "channel",
+   "rollbackAction"
+  ],
+  "isFn": true,
+  "en": "(v) => `Roll back to ${v}`"
+ },
+ {
+  "id": 845,
+  "key": "settings.config.minimizeToTrayTitle",
+  "path": [
+   "settings",
+   "config",
+   "minimizeToTrayTitle"
+  ],
+  "isFn": false,
+  "en": "Minimize to tray"
+ },
+ {
+  "id": 846,
+  "key": "settings.config.minimizeToTrayDesc",
+  "path": [
+   "settings",
+   "config",
+   "minimizeToTrayDesc"
+  ],
+  "isFn": false,
+  "en": "Minimize windows or close the main window to hide them in the system tray (menu bar on macOS) and keep Hermes running. Use Quit Hermes from the tray menu or Cmd+Q to exit. Off by default; applies only to this device."
+ },
+ {
+  "id": 847,
+  "key": "settings.config.minimizeToTrayUnavailable",
+  "path": [
+   "settings",
+   "config",
+   "minimizeToTrayUnavailable"
+  ],
+  "isFn": false,
+  "en": "The system tray is unavailable. Windows will minimize and close normally. Turn this off and on to retry."
+ },
+ {
+  "id": 848,
+  "key": "settings.config.keepAwakeOff",
+  "path": [
+   "settings",
+   "config",
+   "keepAwakeOff"
+  ],
+  "isFn": false,
+  "en": "Off"
+ },
+ {
+  "id": 849,
+  "key": "settings.config.keepAwakeWhileWorking",
+  "path": [
+   "settings",
+   "config",
+   "keepAwakeWhileWorking"
+  ],
+  "isFn": false,
+  "en": "While working"
+ },
+ {
+  "id": 850,
+  "key": "settings.config.keepAwakeAlways",
+  "path": [
+   "settings",
+   "config",
+   "keepAwakeAlways"
+  ],
+  "isFn": false,
+  "en": "Always"
+ },
+ {
+  "id": 851,
+  "key": "settings.config.alwaysExternalLinksTitle",
+  "path": [
+   "settings",
+   "config",
+   "alwaysExternalLinksTitle"
+  ],
+  "isFn": false,
+  "en": "Always open links in external browser"
+ },
+ {
+  "id": 852,
+  "key": "settings.config.alwaysExternalLinksDesc",
+  "path": [
+   "settings",
+   "config",
+   "alwaysExternalLinksDesc"
+  ],
+  "isFn": false,
+  "en": "Open every link you click in your system browser instead of the in-app browser. \"Open in in-app browser\" in the right-click menu still works."
+ },
+ {
+  "id": 853,
+  "key": "settings.config.voiceShortcutHintTitle",
+  "path": [
+   "settings",
+   "config",
+   "voiceShortcutHintTitle"
+  ],
+  "isFn": false,
+  "en": "Voice recording shortcut"
+ },
+ {
+  "id": 854,
+  "key": "settings.config.voiceShortcutHintDesc",
+  "path": [
+   "settings",
+   "config",
+   "voiceShortcutHintDesc"
+  ],
+  "isFn": false,
+  "en": "Set the voice recording shortcut in Settings → Keyboard Shortcuts (\"Start / stop voice conversation\"). The voice.record_key config value only applies to the CLI and TUI."
+ },
+ {
+  "id": 855,
+  "key": "settings.config.showOptions",
+  "path": [
+   "settings",
+   "config",
+   "showOptions"
+  ],
+  "isFn": false,
+  "en": "Show options"
+ },
+ {
+  "id": 856,
+  "key": "settings.hudModifier.title",
+  "path": [
+   "settings",
+   "hudModifier",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Tap to summon HUD"
+ },
+ {
+  "id": 857,
+  "key": "settings.hudModifier.description",
+  "path": [
+   "settings",
+   "hudModifier",
+   "description"
+  ],
+  "isFn": false,
+  "en": "Tap and release ⌘ + Option on Mac, or Ctrl + Alt on Windows/Linux, to bring the HUD forward from any app. Off by default; applies only to this device."
+ },
+ {
+  "id": 858,
+  "key": "settings.hudModifier.permission",
+  "path": [
+   "settings",
+   "hudModifier",
+   "permission"
+  ],
+  "isFn": false,
+  "en": "Allow Hermes in System Settings → Privacy & Security → Input Monitoring, then retry. This gesture does not record keystrokes or capture your screen."
+ },
+ {
+  "id": 859,
+  "key": "settings.hudModifier.unavailable",
+  "path": [
+   "settings",
+   "hudModifier",
+   "unavailable"
+  ],
+  "isFn": false,
+  "en": "The HUD gesture helper could not start or stopped unexpectedly. Retry, or restart Hermes. The existing HUD shortcut still works inside Hermes."
+ },
+ {
+  "id": 860,
+  "key": "settings.hudModifier.missingHelper",
+  "path": [
+   "settings",
+   "hudModifier",
+   "missingHelper"
+  ],
+  "isFn": false,
+  "en": "This Hermes installation is missing the HUD gesture helper. Update or reinstall Hermes, then retry."
+ },
+ {
+  "id": 861,
+  "key": "settings.hudModifier.unsupportedSession",
+  "path": [
+   "settings",
+   "hudModifier",
+   "unsupportedSession"
+  ],
+  "isFn": false,
+  "en": "This desktop session does not support global modifier taps. Linux requires X11; Wayland is not supported."
+ },
+ {
+  "id": 862,
+  "key": "settings.screenshot.enabledTitle",
+  "path": [
+   "settings",
+   "screenshot",
+   "enabledTitle"
+  ],
+  "isFn": false,
+  "en": "Screenshot shortcut"
+ },
+ {
+  "id": 863,
+  "key": "settings.screenshot.enabledDesc",
+  "path": [
+   "settings",
+   "screenshot",
+   "enabledDesc"
+  ],
+  "isFn": false,
+  "en": "Press both Command keys together from any app to capture its frontmost window and attach it to your current Hermes draft. Never sends automatically. Off by default; applies only to this Mac. Window contents may be sensitive — review the attachment before sending."
+ },
+ {
+  "id": 864,
+  "key": "settings.screenshot.statusTitle",
+  "path": [
+   "settings",
+   "screenshot",
+   "statusTitle"
+  ],
+  "isFn": false,
+  "en": "Screenshot shortcut status"
+ },
+ {
+  "id": 865,
+  "key": "settings.screenshot.checking",
+  "path": [
+   "settings",
+   "screenshot",
+   "checking"
+  ],
+  "isFn": false,
+  "en": "Checking screenshot shortcut…"
+ },
+ {
+  "id": 866,
+  "key": "settings.screenshot.disabled",
+  "path": [
+   "settings",
+   "screenshot",
+   "disabled"
+  ],
+  "isFn": false,
+  "en": "Screenshot shortcut is off."
+ },
+ {
+  "id": 867,
+  "key": "settings.screenshot.starting",
+  "path": [
+   "settings",
+   "screenshot",
+   "starting"
+  ],
+  "isFn": false,
+  "en": "Starting the shortcut listener. It is not ready yet."
+ },
+ {
+  "id": 868,
+  "key": "settings.screenshot.ready",
+  "path": [
+   "settings",
+   "screenshot",
+   "ready"
+  ],
+  "isFn": false,
+  "en": "Shortcut is ready. Screenshots attach to your current draft without sending."
+ },
+ {
+  "id": 869,
+  "key": "settings.screenshot.inputPermission",
+  "path": [
+   "settings",
+   "screenshot",
+   "inputPermission"
+  ],
+  "isFn": false,
+  "en": "Input Monitoring permission lets Hermes detect both Command keys while another app is active. Allow Hermes in System Settings → Privacy & Security → Input Monitoring, then return here and retry."
+ },
+ {
+  "id": 870,
+  "key": "settings.screenshot.screenPermission",
+  "path": [
+   "settings",
+   "screenshot",
+   "screenPermission"
+  ],
+  "isFn": false,
+  "en": "Screen Recording permission lets Hermes capture the frontmost app window when you use this shortcut. Allow Hermes in System Settings → Privacy & Security → Screen Recording, then return here and retry. Restart Hermes if macOS asks."
+ },
+ {
+  "id": 871,
+  "key": "settings.screenshot.openSettings",
+  "path": [
+   "settings",
+   "screenshot",
+   "openSettings"
+  ],
+  "isFn": false,
+  "en": "Open System Settings"
+ },
+ {
+  "id": 872,
+  "key": "settings.screenshot.retry",
+  "path": [
+   "settings",
+   "screenshot",
+   "retry"
+  ],
+  "isFn": false,
+  "en": "Retry"
+ },
+ {
+  "id": 873,
+  "key": "settings.screenshot.unavailable",
+  "path": [
+   "settings",
+   "screenshot",
+   "unavailable"
+  ],
+  "isFn": false,
+  "en": "The screenshot shortcut is unavailable. Retry, or turn it off."
+ },
+ {
+  "id": 874,
+  "key": "settings.screenshot.errorTitle",
+  "path": [
+   "settings",
+   "screenshot",
+   "errorTitle"
+  ],
+  "isFn": false,
+  "en": "Screenshot shortcut error"
+ },
+ {
+  "id": 875,
+  "key": "settings.screenshot.loadFailed",
+  "path": [
+   "settings",
+   "screenshot",
+   "loadFailed"
+  ],
+  "isFn": false,
+  "en": "Could not read the shortcut status. Retry to check its current setting."
+ },
+ {
+  "id": 876,
+  "key": "settings.screenshot.saveFailed",
+  "path": [
+   "settings",
+   "screenshot",
+   "saveFailed"
+  ],
+  "isFn": false,
+  "en": "Could not confirm the shortcut change. Retry to check its current setting."
+ },
+ {
+  "id": 877,
+  "key": "settings.screenshot.permissionFailed",
+  "path": [
+   "settings",
+   "screenshot",
+   "permissionFailed"
+  ],
+  "isFn": false,
+  "en": "Could not open System Settings. Open Privacy & Security manually, then retry."
+ },
+ {
+  "id": 878,
+  "key": "settings.screenshot.captureFailed",
+  "path": [
+   "settings",
+   "screenshot",
+   "captureFailed"
+  ],
+  "isFn": false,
+  "en": "Could not capture the frontmost window. Nothing was attached or sent."
+ },
+ {
+  "id": 879,
+  "key": "settings.screenshot.contextChanged",
+  "path": [
+   "settings",
+   "screenshot",
+   "contextChanged"
+  ],
+  "isFn": false,
+  "en": "The current draft changed during capture. The screenshot was not attached or sent."
+ },
+ {
+  "id": 880,
+  "key": "settings.gateway.sshErrInteractiveAuth",
+  "path": [
+   "settings",
+   "gateway",
+   "sshErrInteractiveAuth"
+  ],
+  "isFn": false,
+  "en": "Tailscale SSH requires an interactive browser check. In Terminal, run `ssh <host> true`, complete the check, then retry — Hermes runs SSH non-interactively."
+ },
+ {
+  "id": 881,
+  "key": "settings.model.setupProviderFallback",
+  "path": [
+   "settings",
+   "model",
+   "setupProviderFallback"
+  ],
+  "isFn": false,
+  "en": "provider"
+ },
+ {
+  "id": 882,
+  "key": "settings.model.setUpProvider",
+  "path": [
+   "settings",
+   "model",
+   "setUpProvider"
+  ],
+  "isFn": true,
+  "en": "(name) => `Set up ${name}`"
+ },
+ {
+  "id": 883,
+  "key": "settings.model.staleAuxBefore",
+  "path": [
+   "settings",
+   "model",
+   "staleAuxBefore"
+  ],
+  "isFn": true,
+  "en": "(count, names) => `${count} auxiliary task${count === 1 ? \"\" : \"s\"} (${names}) still run on `"
+ },
+ {
+  "id": 884,
+  "key": "settings.model.staleAuxAfter",
+  "path": [
+   "settings",
+   "model",
+   "staleAuxAfter"
+  ],
+  "isFn": false,
+  "en": ", not your main model."
+ },
+ {
+  "id": 885,
+  "key": "settings.model.staleAuxOtherProviders",
+  "path": [
+   "settings",
+   "model",
+   "staleAuxOtherProviders"
+  ],
+  "isFn": false,
+  "en": "other providers"
+ },
+ {
+  "id": 886,
+  "key": "settings.model.moaEnabled",
+  "path": [
+   "settings",
+   "model",
+   "moaEnabled"
+  ],
+  "isFn": false,
+  "en": "Enabled"
+ },
+ {
+  "id": 887,
+  "key": "settings.model.moaSetDefault",
+  "path": [
+   "settings",
+   "model",
+   "moaSetDefault"
+  ],
+  "isFn": false,
+  "en": "Set default"
+ },
+ {
+  "id": 888,
+  "key": "settings.model.moaNewPresetPlaceholder",
+  "path": [
+   "settings",
+   "model",
+   "moaNewPresetPlaceholder"
+  ],
+  "isFn": false,
+  "en": "new preset"
+ },
+ {
+  "id": 889,
+  "key": "settings.model.moaAddPreset",
+  "path": [
+   "settings",
+   "model",
+   "moaAddPreset"
+  ],
+  "isFn": false,
+  "en": "Add preset"
+ },
+ {
+  "id": 890,
+  "key": "settings.model.customModel",
+  "path": [
+   "settings",
+   "model",
+   "customModel"
+  ],
+  "isFn": false,
+  "en": "Custom model…"
+ },
+ {
+  "id": 891,
+  "key": "settings.model.customModelPlaceholder",
+  "path": [
+   "settings",
+   "model",
+   "customModelPlaceholder"
+  ],
+  "isFn": false,
+  "en": "Model id"
+ },
+ {
+  "id": 892,
+  "key": "settings.model.chooseFromList",
+  "path": [
+   "settings",
+   "model",
+   "chooseFromList"
+  ],
+  "isFn": false,
+  "en": "Choose from list"
+ },
+ {
+  "id": 893,
+  "key": "settings.model.moaDefault",
+  "path": [
+   "settings",
+   "model",
+   "moaDefault"
+  ],
+  "isFn": false,
+  "en": "Default:"
+ },
+ {
+  "id": 894,
+  "key": "settings.model.moaReferenceToggle",
+  "path": [
+   "settings",
+   "model",
+   "moaReferenceToggle"
+  ],
+  "isFn": true,
+  "en": "(enabled, index) => `${enabled ? \"Disable\" : \"Enable\"} reference ${index}`"
+ },
+ {
+  "id": 895,
+  "key": "settings.model.moaReferenceTitle",
+  "path": [
+   "settings",
+   "model",
+   "moaReferenceTitle"
+  ],
+  "isFn": true,
+  "en": "(index) => `Reference ${index}`"
+ },
+ {
+  "id": 896,
+  "key": "settings.model.moaAddReference",
+  "path": [
+   "settings",
+   "model",
+   "moaAddReference"
+  ],
+  "isFn": false,
+  "en": "Add reference model"
+ },
+ {
+  "id": 897,
+  "key": "settings.model.mainAppliedTitle",
+  "path": [
+   "settings",
+   "model",
+   "mainAppliedTitle"
+  ],
+  "isFn": false,
+  "en": "Main model updated"
+ },
+ {
+  "id": 898,
+  "key": "settings.model.mainAppliedMessage",
+  "path": [
+   "settings",
+   "model",
+   "mainAppliedMessage"
+  ],
+  "isFn": true,
+  "en": "(model) => `New sessions will use ${model}.`"
+ },
+ {
+  "id": 899,
+  "key": "settings.model.speed",
+  "path": [
+   "settings",
+   "model",
+   "speed"
+  ],
+  "isFn": false,
+  "en": "Speed"
+ },
+ {
+  "id": 900,
+  "key": "settings.model.speedStandard",
+  "path": [
+   "settings",
+   "model",
+   "speedStandard"
+  ],
+  "isFn": false,
+  "en": "Standard"
+ },
+ {
+  "id": 901,
+  "key": "settings.model.staleAuxDismiss",
+  "path": [
+   "settings",
+   "model",
+   "staleAuxDismiss"
+  ],
+  "isFn": false,
+  "en": "Don't show again"
+ },
+ {
+  "id": 902,
+  "key": "settings.model.inheritMainEffort",
+  "path": [
+   "settings",
+   "model",
+   "inheritMainEffort"
+  ],
+  "isFn": false,
+  "en": "inherit · main model effort"
+ },
+ {
+  "id": 903,
+  "key": "settings.model.inheritsFrom",
+  "path": [
+   "settings",
+   "model",
+   "inheritsFrom"
+  ],
+  "isFn": true,
+  "en": "(task) => `inherits ${task}`"
+ },
+ {
+  "id": 904,
+  "key": "settings.model.followTask",
+  "path": [
+   "settings",
+   "model",
+   "followTask"
+  ],
+  "isFn": true,
+  "en": "(task) => `Follow ${task}`"
+ },
+ {
+  "id": 905,
+  "key": "settings.model.moaTitle",
+  "path": [
+   "settings",
+   "model",
+   "moaTitle"
+  ],
+  "isFn": false,
+  "en": "Mixture of Agents"
+ },
+ {
+  "id": 906,
+  "key": "settings.model.moaPreset",
+  "path": [
+   "settings",
+   "model",
+   "moaPreset"
+  ],
+  "isFn": false,
+  "en": "Preset"
+ },
+ {
+  "id": 907,
+  "key": "settings.model.moaDescription",
+  "path": [
+   "settings",
+   "model",
+   "moaDescription"
+  ],
+  "isFn": false,
+  "en": "Configure named presets that appear as models under the Mixture of Agents provider. The aggregator is the acting model — it runs every step of the tool loop, and almost all of the run’s cost is billed to its provider. References only advise once per user turn by default."
+ },
+ {
+  "id": 908,
+  "key": "settings.model.moaAggregator",
+  "path": [
+   "settings",
+   "model",
+   "moaAggregator"
+  ],
+  "isFn": false,
+  "en": "Aggregator"
+ },
+ {
+  "id": 909,
+  "key": "settings.model.moaAggregatorBilled",
+  "path": [
+   "settings",
+   "model",
+   "moaAggregatorBilled"
+  ],
+  "isFn": false,
+  "en": "acting model · billed for the run"
+ },
+ {
+  "id": 910,
+  "key": "settings.model.moaReferenceHint",
+  "path": [
+   "settings",
+   "model",
+   "moaReferenceHint"
+  ],
+  "isFn": false,
+  "en": "advises once per turn by default"
+ },
+ {
+  "id": 911,
+  "key": "settings.model.tasks.voice_chat.label",
+  "path": [
+   "settings",
+   "model",
+   "tasks",
+   "voice_chat",
+   "label"
+  ],
+  "isFn": false,
+  "en": "Voice chat"
+ },
+ {
+  "id": 912,
+  "key": "settings.model.tasks.voice_chat.hint",
+  "path": [
+   "settings",
+   "model",
+   "tasks",
+   "voice_chat",
+   "hint"
+  ],
+  "isFn": false,
+  "en": "Spoken voice-mode replies"
+ },
+ {
+  "id": 913,
+  "key": "settings.model.tasks.triage_specifier.label",
+  "path": [
+   "settings",
+   "model",
+   "tasks",
+   "triage_specifier",
+   "label"
+  ],
+  "isFn": false,
+  "en": "Triage specifier"
+ },
+ {
+  "id": 914,
+  "key": "settings.model.tasks.triage_specifier.hint",
+  "path": [
+   "settings",
+   "model",
+   "tasks",
+   "triage_specifier",
+   "hint"
+  ],
+  "isFn": false,
+  "en": "Kanban spec fleshing"
+ },
+ {
+  "id": 915,
+  "key": "settings.model.tasks.kanban_decomposer.label",
+  "path": [
+   "settings",
+   "model",
+   "tasks",
+   "kanban_decomposer",
+   "label"
+  ],
+  "isFn": false,
+  "en": "Kanban decomposer"
+ },
+ {
+  "id": 916,
+  "key": "settings.model.tasks.kanban_decomposer.hint",
+  "path": [
+   "settings",
+   "model",
+   "tasks",
+   "kanban_decomposer",
+   "hint"
+  ],
+  "isFn": false,
+  "en": "Task decomposition"
+ },
+ {
+  "id": 917,
+  "key": "settings.model.tasks.profile_describer.label",
+  "path": [
+   "settings",
+   "model",
+   "tasks",
+   "profile_describer",
+   "label"
+  ],
+  "isFn": false,
+  "en": "Profile describer"
+ },
+ {
+  "id": 918,
+  "key": "settings.model.tasks.profile_describer.hint",
+  "path": [
+   "settings",
+   "model",
+   "tasks",
+   "profile_describer",
+   "hint"
+  ],
+  "isFn": false,
+  "en": "Auto profile descriptions"
+ },
+ {
+  "id": 919,
+  "key": "settings.localModels.connectionChanged",
+  "path": [
+   "settings",
+   "localModels",
+   "connectionChanged"
+  ],
+  "isFn": false,
+  "en": "Local models connection changed"
+ },
+ {
+  "id": 920,
+  "key": "settings.localModels.recommendedReason.product-default",
+  "path": [
+   "settings",
+   "localModels",
+   "recommendedReason",
+   "product-default"
+  ],
+  "isFn": false,
+  "en": "The default model for this machine, chosen by its manufacturer."
+ },
+ {
+  "id": 921,
+  "key": "settings.localModels.noRecommendationTitle",
+  "path": [
+   "settings",
+   "localModels",
+   "noRecommendationTitle"
+  ],
+  "isFn": false,
+  "en": "No automatic recommendation for this machine"
+ },
+ {
+  "id": 922,
+  "key": "settings.localModels.noRecommendationDetail",
+  "path": [
+   "settings",
+   "localModels",
+   "noRecommendationDetail"
+  ],
+  "isFn": false,
+  "en": "Automatic setup requires a curated model that runs entirely in GPU or unified memory at full speed. You can still choose a model below or browse more models."
+ },
+ {
+  "id": 923,
+  "key": "settings.localModels.noRecommendationAction",
+  "path": [
+   "settings",
+   "localModels",
+   "noRecommendationAction"
+  ],
+  "isFn": false,
+  "en": "Browse models"
+ },
+ {
+  "id": 924,
+  "key": "settings.localModels.downloadStatusRunning",
+  "path": [
+   "settings",
+   "localModels",
+   "downloadStatusRunning"
+  ],
+  "isFn": false,
+  "en": "Downloading"
+ },
+ {
+  "id": 925,
+  "key": "settings.localModels.downloadSpeed",
+  "path": [
+   "settings",
+   "localModels",
+   "downloadSpeed"
+  ],
+  "isFn": true,
+  "en": "(rate) => `${rate}`"
+ },
+ {
+  "id": 926,
+  "key": "settings.localModels.downloadEta",
+  "path": [
+   "settings",
+   "localModels",
+   "downloadEta"
+  ],
+  "isFn": true,
+  "en": "(time) => `~${time} left`"
+ },
+ {
+  "id": 927,
+  "key": "settings.localModels.downloadEtaSeconds",
+  "path": [
+   "settings",
+   "localModels",
+   "downloadEtaSeconds"
+  ],
+  "isFn": true,
+  "en": "(count) => `${count} sec`"
+ },
+ {
+  "id": 928,
+  "key": "settings.localModels.downloadEtaMinutes",
+  "path": [
+   "settings",
+   "localModels",
+   "downloadEtaMinutes"
+  ],
+  "isFn": true,
+  "en": "(count) => `${count} min`"
+ },
+ {
+  "id": 929,
+  "key": "settings.localModels.downloadEtaHours",
+  "path": [
+   "settings",
+   "localModels",
+   "downloadEtaHours"
+  ],
+  "isFn": true,
+  "en": "(hours, minutes) => minutes ? `${hours} h ${minutes} min` : `${hours} h`"
+ },
+ {
+  "id": 930,
+  "key": "settings.localModels.downloadPausedLabel",
+  "path": [
+   "settings",
+   "localModels",
+   "downloadPausedLabel"
+  ],
+  "isFn": false,
+  "en": "Paused"
+ },
+ {
+  "id": 931,
+  "key": "settings.localModels.downloadPauseAction",
+  "path": [
+   "settings",
+   "localModels",
+   "downloadPauseAction"
+  ],
+  "isFn": false,
+  "en": "Pause"
+ },
+ {
+  "id": 932,
+  "key": "settings.localModels.downloadResumeAction",
+  "path": [
+   "settings",
+   "localModels",
+   "downloadResumeAction"
+  ],
+  "isFn": false,
+  "en": "Resume"
+ },
+ {
+  "id": 933,
+  "key": "settings.localModels.downloadPauseFailed",
+  "path": [
+   "settings",
+   "localModels",
+   "downloadPauseFailed"
+  ],
+  "isFn": true,
+  "en": "(model) => `Couldn\\u2019t pause the download of ${model}`"
+ },
+ {
+  "id": 934,
+  "key": "settings.localModels.downloadResumeFailed",
+  "path": [
+   "settings",
+   "localModels",
+   "downloadResumeFailed"
+  ],
+  "isFn": true,
+  "en": "(model) => `Couldn\\u2019t resume the download of ${model}`"
+ },
+ {
+  "id": 935,
+  "key": "settings.billing.perMonth",
+  "path": [
+   "settings",
+   "billing",
+   "perMonth"
+  ],
+  "isFn": true,
+  "en": "(amount) => `${amount}/mo`"
+ },
+ {
+  "id": 936,
+  "key": "settings.billing.creditsPerMonth",
+  "path": [
+   "settings",
+   "billing",
+   "creditsPerMonth"
+  ],
+  "isFn": true,
+  "en": "(amount) => `${amount} credits/mo`"
+ },
+ {
+  "id": 937,
+  "key": "settings.billing.usageLabel",
+  "path": [
+   "settings",
+   "billing",
+   "usageLabel"
+  ],
+  "isFn": true,
+  "en": "(label) => `${label} usage`"
+ },
+ {
+  "id": 938,
+  "key": "settings.billing.freeTier.signIn",
+  "path": [
+   "settings",
+   "billing",
+   "freeTier",
+   "signIn"
+  ],
+  "isFn": false,
+  "en": "Sign in"
+ },
+ {
+  "id": 939,
+  "key": "settings.billing.freeTier.title",
+  "path": [
+   "settings",
+   "billing",
+   "freeTier",
+   "title"
+  ],
+  "isFn": false,
+  "en": "You're on the Nous free tier"
+ },
+ {
+  "id": 940,
+  "key": "settings.billing.freeTier.message",
+  "path": [
+   "settings",
+   "billing",
+   "freeTier",
+   "message"
+  ],
+  "isFn": false,
+  "en": "Sign in with a Nous account to unlock more models and tools."
+ },
+ {
+  "id": 941,
+  "key": "settings.billing.freeTier.caption",
+  "path": [
+   "settings",
+   "billing",
+   "freeTier",
+   "caption"
+  ],
+  "isFn": false,
+  "en": "Runs on nous/welcome with connectors included. Signing in keeps your connectors and adds the tools that need an account and every other model."
+ },
+ {
+  "id": 942,
+  "key": "settings.billing.freeTier.name",
+  "path": [
+   "settings",
+   "billing",
+   "freeTier",
+   "name"
+  ],
+  "isFn": false,
+  "en": "Nous · free tier"
+ },
+ {
+  "id": 943,
+  "key": "settings.billing.freeTier.footnote",
+  "path": [
+   "settings",
+   "billing",
+   "freeTier",
+   "footnote"
+  ],
+  "isFn": false,
+  "en": "The free tier has no balance and nothing to pay. Payment and usage appear when you sign in with a Nous account."
+ },
+ {
+  "id": 944,
+  "key": "settings.billing.freeTier.plan",
+  "path": [
+   "settings",
+   "billing",
+   "freeTier",
+   "plan"
+  ],
+  "isFn": false,
+  "en": "Free tier"
+ },
+ {
+  "id": 945,
+  "key": "settings.billing.freeTier.model",
+  "path": [
+   "settings",
+   "billing",
+   "freeTier",
+   "model"
+  ],
+  "isFn": false,
+  "en": "Model"
+ },
+ {
+  "id": 946,
+  "key": "settings.billing.freeTier.connectors",
+  "path": [
+   "settings",
+   "billing",
+   "freeTier",
+   "connectors"
+  ],
+  "isFn": false,
+  "en": "Connectors"
+ },
+ {
+  "id": 947,
+  "key": "settings.billing.freeTier.included",
+  "path": [
+   "settings",
+   "billing",
+   "freeTier",
+   "included"
+  ],
+  "isFn": false,
+  "en": "Included"
+ },
+ {
+  "id": 948,
+  "key": "settings.billing.amountValidation.reloadTo",
+  "path": [
+   "settings",
+   "billing",
+   "amountValidation",
+   "reloadTo"
+  ],
+  "isFn": false,
+  "en": "Reload-to"
+ },
+ {
+  "id": 949,
+  "key": "settings.billing.amountValidation.greaterThanThreshold",
+  "path": [
+   "settings",
+   "billing",
+   "amountValidation",
+   "greaterThanThreshold"
+  ],
+  "isFn": false,
+  "en": "Reload-to amount must be greater than the threshold."
+ },
+ {
+  "id": 950,
+  "key": "settings.billing.amountValidation.decimal",
+  "path": [
+   "settings",
+   "billing",
+   "amountValidation",
+   "decimal"
+  ],
+  "isFn": true,
+  "en": "(label) => `${label}: enter a dollar amount with at most 2 decimal places.`"
+ },
+ {
+  "id": 951,
+  "key": "settings.billing.amountValidation.positive",
+  "path": [
+   "settings",
+   "billing",
+   "amountValidation",
+   "positive"
+  ],
+  "isFn": true,
+  "en": "(label) => `${label}: amount must be greater than $0.`"
+ },
+ {
+  "id": 952,
+  "key": "settings.billing.amountValidation.minimum",
+  "path": [
+   "settings",
+   "billing",
+   "amountValidation",
+   "minimum"
+  ],
+  "isFn": true,
+  "en": "(label, amount) => `${label}: minimum is ${amount}.`"
+ },
+ {
+  "id": 953,
+  "key": "settings.billing.amountValidation.maximum",
+  "path": [
+   "settings",
+   "billing",
+   "amountValidation",
+   "maximum"
+  ],
+  "isFn": true,
+  "en": "(label, amount) => `${label}: maximum is ${amount}.`"
+ },
+ {
+  "id": 954,
+  "key": "settings.billing.stepUp.openVerification",
+  "path": [
+   "settings",
+   "billing",
+   "stepUp",
+   "openVerification"
+  ],
+  "isFn": false,
+  "en": "Open verification page"
+ },
+ {
+  "id": 955,
+  "key": "settings.billing.stepUp.dismiss",
+  "path": [
+   "settings",
+   "billing",
+   "stepUp",
+   "dismiss"
+  ],
+  "isFn": false,
+  "en": "Dismiss"
+ },
+ {
+  "id": 956,
+  "key": "settings.billing.stepUp.waiting",
+  "path": [
+   "settings",
+   "billing",
+   "stepUp",
+   "waiting"
+  ],
+  "isFn": false,
+  "en": "Waiting for verification link…"
+ },
+ {
+  "id": 957,
+  "key": "settings.billing.stepUp.verify",
+  "path": [
+   "settings",
+   "billing",
+   "stepUp",
+   "verify"
+  ],
+  "isFn": false,
+  "en": "Verify to continue"
+ },
+ {
+  "id": 958,
+  "key": "settings.billing.stepUp.deniedTitle",
+  "path": [
+   "settings",
+   "billing",
+   "stepUp",
+   "deniedTitle"
+  ],
+  "isFn": false,
+  "en": "Verification was not approved"
+ },
+ {
+  "id": 959,
+  "key": "settings.billing.stepUp.deniedBody",
+  "path": [
+   "settings",
+   "billing",
+   "stepUp",
+   "deniedBody"
+  ],
+  "isFn": false,
+  "en": "Verification finished without allowing Remote Spending for this terminal."
+ },
+ {
+  "id": 960,
+  "key": "settings.billing.stepUp.successTitle",
+  "path": [
+   "settings",
+   "billing",
+   "stepUp",
+   "successTitle"
+  ],
+  "isFn": false,
+  "en": "Verification complete"
+ },
+ {
+  "id": 961,
+  "key": "settings.billing.stepUp.successBody",
+  "path": [
+   "settings",
+   "billing",
+   "stepUp",
+   "successBody"
+  ],
+  "isFn": false,
+  "en": "Remote Spending is allowed for this terminal."
+ },
+ {
+  "id": 962,
+  "key": "settings.billing.charge.added",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "added"
+  ],
+  "isFn": true,
+  "en": "(amount) => amount ? `$${amount} added.` : \"Credits added.\""
+ },
+ {
+  "id": 963,
+  "key": "settings.billing.charge.failedTitle",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "failedTitle"
+  ],
+  "isFn": false,
+  "en": "Charge failed"
+ },
+ {
+  "id": 964,
+  "key": "settings.billing.charge.unconfirmedTitle",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "unconfirmedTitle"
+  ],
+  "isFn": false,
+  "en": "Charge outcome unconfirmed"
+ },
+ {
+  "id": 965,
+  "key": "settings.billing.charge.unconfirmedBody",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "unconfirmedBody"
+  ],
+  "isFn": true,
+  "en": "(message) => `${message} Your last charge's outcome is unconfirmed - check your balance/history before retrying.`"
+ },
+ {
+  "id": 966,
+  "key": "settings.billing.charge.checkTitle",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "checkTitle"
+  ],
+  "isFn": false,
+  "en": "Could not check charge"
+ },
+ {
+  "id": 967,
+  "key": "settings.billing.charge.checkBody",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "checkBody"
+  ],
+  "isFn": false,
+  "en": "Could not check the charge."
+ },
+ {
+  "id": 968,
+  "key": "settings.billing.charge.untrackedTitle",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "untrackedTitle"
+  ],
+  "isFn": false,
+  "en": "Charge could not be tracked"
+ },
+ {
+  "id": 969,
+  "key": "settings.billing.charge.untrackedBody",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "untrackedBody"
+  ],
+  "isFn": false,
+  "en": "The billing service accepted the request but did not return a charge id."
+ },
+ {
+  "id": 970,
+  "key": "settings.billing.charge.timeoutTitle",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "timeoutTitle"
+  ],
+  "isFn": false,
+  "en": "Still processing after 5 minutes"
+ },
+ {
+  "id": 971,
+  "key": "settings.billing.charge.timeoutBody",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "timeoutBody"
+  ],
+  "isFn": false,
+  "en": "Charge may still settle. Check the portal before retrying."
+ },
+ {
+  "id": 972,
+  "key": "settings.billing.charge.authenticationRequired",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "authenticationRequired"
+  ],
+  "isFn": false,
+  "en": "Your bank requires verification (3DS). Complete it on the portal to finish this purchase."
+ },
+ {
+  "id": 973,
+  "key": "settings.billing.charge.expired",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "expired"
+  ],
+  "isFn": false,
+  "en": "Your card has expired. Update it on the portal."
+ },
+ {
+  "id": 974,
+  "key": "settings.billing.charge.declined",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "declined"
+  ],
+  "isFn": false,
+  "en": "Your card was declined. Try another card on the portal."
+ },
+ {
+  "id": 975,
+  "key": "settings.billing.charge.failedBody",
+  "path": [
+   "settings",
+   "billing",
+   "charge",
+   "failedBody"
+  ],
+  "isFn": true,
+  "en": "(reason) => `The charge didn't go through (${reason}).`"
+ },
+ {
+  "id": 976,
+  "key": "settings.billing.title",
+  "path": [
+   "settings",
+   "billing",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Billing"
+ },
+ {
+  "id": 977,
+  "key": "settings.billing.preview",
+  "path": [
+   "settings",
+   "billing",
+   "preview"
+  ],
+  "isFn": false,
+  "en": "preview"
+ },
+ {
+  "id": 978,
+  "key": "settings.billing.summary.balance",
+  "path": [
+   "settings",
+   "billing",
+   "summary",
+   "balance"
+  ],
+  "isFn": false,
+  "en": "Balance"
+ },
+ {
+  "id": 979,
+  "key": "settings.billing.summary.plan",
+  "path": [
+   "settings",
+   "billing",
+   "summary",
+   "plan"
+  ],
+  "isFn": false,
+  "en": "Plan"
+ },
+ {
+  "id": 980,
+  "key": "settings.billing.summary.autoRefill",
+  "path": [
+   "settings",
+   "billing",
+   "summary",
+   "autoRefill"
+  ],
+  "isFn": false,
+  "en": "Auto-refill"
+ },
+ {
+  "id": 981,
+  "key": "settings.billing.sections.invoices",
+  "path": [
+   "settings",
+   "billing",
+   "sections",
+   "invoices"
+  ],
+  "isFn": false,
+  "en": "Invoices"
+ },
+ {
+  "id": 982,
+  "key": "settings.billing.sections.plan",
+  "path": [
+   "settings",
+   "billing",
+   "sections",
+   "plan"
+  ],
+  "isFn": false,
+  "en": "Plan"
+ },
+ {
+  "id": 983,
+  "key": "settings.billing.sections.paymentAndCredits",
+  "path": [
+   "settings",
+   "billing",
+   "sections",
+   "paymentAndCredits"
+  ],
+  "isFn": false,
+  "en": "Payment & credits"
+ },
+ {
+  "id": 984,
+  "key": "settings.billing.sections.usage",
+  "path": [
+   "settings",
+   "billing",
+   "sections",
+   "usage"
+  ],
+  "isFn": false,
+  "en": "Usage"
+ },
+ {
+  "id": 985,
+  "key": "settings.billing.usage.title",
+  "path": [
+   "settings",
+   "billing",
+   "usage",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Usage"
+ },
+ {
+  "id": 986,
+  "key": "settings.billing.buyCredits.customAmount",
+  "path": [
+   "settings",
+   "billing",
+   "buyCredits",
+   "customAmount"
+  ],
+  "isFn": false,
+  "en": "Custom credit amount"
+ },
+ {
+  "id": 987,
+  "key": "settings.billing.buyCredits.title",
+  "path": [
+   "settings",
+   "billing",
+   "buyCredits",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Buy credits now"
+ },
+ {
+  "id": 988,
+  "key": "settings.billing.buyCredits.buyButton",
+  "path": [
+   "settings",
+   "billing",
+   "buyCredits",
+   "buyButton"
+  ],
+  "isFn": false,
+  "en": "Buy"
+ },
+ {
+  "id": 989,
+  "key": "settings.billing.buyCredits.processing",
+  "path": [
+   "settings",
+   "billing",
+   "buyCredits",
+   "processing"
+  ],
+  "isFn": false,
+  "en": "Processing… checking settlement"
+ },
+ {
+  "id": 990,
+  "key": "settings.billing.buyCredits.added",
+  "path": [
+   "settings",
+   "billing",
+   "buyCredits",
+   "added"
+  ],
+  "isFn": true,
+  "en": "(amount) => `${amount} added. Balance is refreshing.`"
+ },
+ {
+  "id": 991,
+  "key": "settings.billing.buyCredits.retry",
+  "path": [
+   "settings",
+   "billing",
+   "buyCredits",
+   "retry"
+  ],
+  "isFn": false,
+  "en": "Retry"
+ },
+ {
+  "id": 992,
+  "key": "settings.billing.buyCredits.openPortal",
+  "path": [
+   "settings",
+   "billing",
+   "buyCredits",
+   "openPortal"
+  ],
+  "isFn": false,
+  "en": "Open portal"
+ },
+ {
+  "id": 993,
+  "key": "settings.billing.plan.title",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Plans"
+ },
+ {
+  "id": 994,
+  "key": "settings.billing.plan.changePlan",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "changePlan"
+  ],
+  "isFn": false,
+  "en": "Change plan"
+ },
+ {
+  "id": 995,
+  "key": "settings.billing.plan.viewPlans",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "viewPlans"
+  ],
+  "isFn": false,
+  "en": "View plans"
+ },
+ {
+  "id": 996,
+  "key": "settings.billing.plan.backAria",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "backAria"
+  ],
+  "isFn": false,
+  "en": "Back to billing"
+ },
+ {
+  "id": 997,
+  "key": "settings.billing.plan.current",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "current"
+  ],
+  "isFn": false,
+  "en": "Current plan"
+ },
+ {
+  "id": 998,
+  "key": "settings.billing.plan.scheduled",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "scheduled"
+  ],
+  "isFn": false,
+  "en": "Scheduled"
+ },
+ {
+  "id": 999,
+  "key": "settings.billing.plan.empty",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "empty"
+  ],
+  "isFn": false,
+  "en": "No plans are available to change to right now."
+ },
+ {
+  "id": 1000,
+  "key": "settings.billing.plan.undo",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "undo"
+  ],
+  "isFn": false,
+  "en": "Undo"
+ },
+ {
+  "id": 1001,
+  "key": "settings.billing.plan.undoing",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "undoing"
+  ],
+  "isFn": false,
+  "en": "Undoing…"
+ },
+ {
+  "id": 1002,
+  "key": "settings.billing.plan.downgrade",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "downgrade"
+  ],
+  "isFn": false,
+  "en": "Downgrade"
+ },
+ {
+  "id": 1003,
+  "key": "settings.billing.plan.confirmDowngrade",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "confirmDowngrade"
+  ],
+  "isFn": false,
+  "en": "Confirm downgrade"
+ },
+ {
+  "id": 1004,
+  "key": "settings.billing.plan.tryAgain",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "tryAgain"
+  ],
+  "isFn": false,
+  "en": "Try again"
+ },
+ {
+  "id": 1005,
+  "key": "settings.billing.plan.checkingChange",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "checkingChange"
+  ],
+  "isFn": false,
+  "en": "Checking this change…"
+ },
+ {
+  "id": 1006,
+  "key": "settings.billing.plan.cannotChange",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "cannotChange"
+  ],
+  "isFn": false,
+  "en": "That change cannot be made here."
+ },
+ {
+  "id": 1007,
+  "key": "settings.billing.plan.alreadyOn",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "alreadyOn"
+  ],
+  "isFn": true,
+  "en": "(name) => `You are already on ${name} \\u2014 nothing to change.`"
+ },
+ {
+  "id": 1008,
+  "key": "settings.billing.plan.notScheduleable",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "notScheduleable"
+  ],
+  "isFn": false,
+  "en": "This change cannot be scheduled here."
+ },
+ {
+  "id": 1009,
+  "key": "settings.billing.plan.scheduling",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "scheduling"
+  ],
+  "isFn": false,
+  "en": "Scheduling…"
+ },
+ {
+  "id": 1010,
+  "key": "settings.billing.plan.cancel",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "cancel"
+  ],
+  "isFn": false,
+  "en": "Cancel"
+ },
+ {
+  "id": 1011,
+  "key": "settings.billing.plan.effectScheduled",
+  "path": [
+   "settings",
+   "billing",
+   "plan",
+   "effectScheduled"
+  ],
+  "isFn": true,
+  "en": "(targetName, effectiveAt, creditsDelta) => `Change to ${targetName} \\u2014 takes effect ${effectiveAt}. No charge now; you keep your current plan until then.${creditsDelta ? ` Monthly credits change: ${creditsDelta}.` : \"\"}`"
+ },
+ {
+  "id": 1012,
+  "key": "settings.billing.autoReload.threshold",
+  "path": [
+   "settings",
+   "billing",
+   "autoReload",
+   "threshold"
+  ],
+  "isFn": false,
+  "en": "Threshold"
+ },
+ {
+  "id": 1013,
+  "key": "settings.billing.autoReload.thresholdAria",
+  "path": [
+   "settings",
+   "billing",
+   "autoReload",
+   "thresholdAria"
+  ],
+  "isFn": false,
+  "en": "Auto-refill threshold"
+ },
+ {
+  "id": 1014,
+  "key": "settings.billing.autoReload.reloadTo",
+  "path": [
+   "settings",
+   "billing",
+   "autoReload",
+   "reloadTo"
+  ],
+  "isFn": false,
+  "en": "Reload to"
+ }
+]

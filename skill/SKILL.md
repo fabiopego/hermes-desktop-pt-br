@@ -3,59 +3,47 @@ name: hermes-pt-br-i18n
 description: Reaplica pt-BR do Hermes Desktop apos hermes update.
 ---
 
-# Traducao pt-BR do Hermes Desktop (fork nao-oficial)
+# Traducao pt-BR do Hermes Desktop (plugin, v2)
 
-O Hermes Desktop nao tem portugues oficialmente (a PR upstream #38846 foi
-fechada sem merge, issue #40239 segue aberta). Construimos uma traducao
-completa (~850 strings) como fork local, versionada em:
+O Hermes Desktop nao tem portugues na interface (PR upstream #38846 fechada,
+issue #40239 aberta). So o backend/terminal vem em pt (`locales/pt.yaml`).
+Mantemos uma traducao propria como **plugin de desktop**:
 
 **https://github.com/fabiopego/hermes-pt-br** (privado)
 
-## Por que quebra a cada `hermes update`
+## Por que plugin
 
-`hermes update` roda `git reset --hard origin/main` no checkout de
-`hermes-agent`, apagando qualquer arquivo/edicao que nao veio do upstream
-oficial: `apps/desktop/src/i18n/pt-BR.ts` e as edicoes em `types.ts` /
-`languages.ts` / `catalog.ts` que registram o idioma no seletor.
+No 0.22+ o idioma entra por `<hermes home>/desktop-plugins/hermes-pt-br/plugin.js`
+(`ctx.i18n.registerAppLocale`). Nao toca no checkout do hermes-agent, nao
+recompila, e o `hermes update` (git reset --hard) nao apaga. O metodo antigo
+(`scripts/apply.py`, editar types/languages/catalog + rebuild) quebrou no 0.22.
+Registra o id `pt` (mesmo do backend, endonym "Portugues"), nao `pt-br`: assim
+nao aparece um segundo "Portugues" duplicado no seletor.
 
-**Sintoma:** depois de atualizar o Hermes, a interface volta pra ingles e
-"Portugues" some do dropdown de idioma em Settings > Appearance > Language.
-
-## Como reaplicar (sempre que isso acontecer)
+## Reinstalar (plugin sumiu ou maquina nova)
 
 ```bash
-git clone https://github.com/fabiopego/hermes-pt-br "$env:TEMP\hermes-pt-br"
-cd "$env:TEMP\hermes-pt-br"
-python scripts/apply.py
+git clone https://github.com/fabiopego/hermes-pt-br && cd hermes-pt-br
+python scripts/install-plugin.py
 ```
+Reabrir o Desktop; Settings > Appearance > Language > Portugues.
 
-O script copia `pt-BR.ts`, reaplica as 3 edicoes (idempotente, seguro
-rodar 2x), roda `tsc --noEmit` pra confirmar que nada quebrou, e recompila
-com `hermes desktop --build-only --force-build`. Termina com: feche e reabra
-o Hermes Desktop, va em Settings > Appearance > Language > Portugues (Brasil).
+## Apos hermes update: textos novos em ingles
 
-Se ja tiver o repo clonado localmente, so `git pull` antes de rodar
-`apply.py` pra garantir a versao mais recente da traducao.
+O plugin cobre o en.ts do 0.22.2 (5.088/5.088). Update novo pode trazer chaves
+novas (ficam em ingles, sem quebrar). Fluxo (detalhes no README do repo):
+`tools/gap.mjs` (lista o que falta) -> traduzir `work/missing.json` em
+`work/out_N.js` (subagentes em paralelo, lotes de ~200, funcao fica funcao,
+plural com ternario) -> `tools/merge-gaps.mjs` -> `tools/build-plugin.mjs` ->
+`tools/verify.mjs` (exigir faltando:0 e tipoDiferente:0) ->
+`scripts/install-plugin.py` -> commit e push no repo.
+Variaveis: HERMES_AGENT_DIR (checkout), REPO_DIR, WORK_DIR, GAPS_OUT (caminhos
+Windows com `C:/...`, node nao entende `/tmp` do bash).
 
-## Quando NAO precisa disso
+## Pegadinhas
 
-Se `hermes update` nao rodou `git reset --hard` (updates menores, sem
-divergencia de historico), os arquivos podem ter sobrevivido -- confirme
-abrindo Settings > Appearance > Language antes de rodar o script a toa.
-
-## Se aparecerem strings novas em ingles apos um update
-
-Normal: o arquivo usa `defineLocale()` com fallback automatico -- qualquer
-chave nova do Hermes (feature adicionada no update) aparece em ingles ate
-ser traduzida, sem quebrar o app. Para traduzir o que falta: comparar
-`i18n/pt-BR.ts` do repo com o `en.ts` mais novo em
-`apps/desktop/src/i18n/en.ts`, adicionar as chaves faltantes, commitar e dar
-push no repo `hermes-pt-br`.
-
-## Bugs conhecidos no en.ts oficial (nao sao nossos)
-
-Tres chaves do arquivo-fonte oficial tem texto corrompido (`***` no lugar
-de texto real): `openaiRejectedApiKey`, `providers.haveApiKey`,
-`onboarding.haveApiKey`, `onboarding.pasteApiKey`. Reconstruidas por
-contexto na traducao. Vale abrir issue no NousResearch/hermes-agent -- ainda
-nao foi feito.
+- Funcao no pt onde o en agora e string (e vice-versa) quebra o texto: o verify
+  acusa em `tipoDiferente`. Corrigir no `i18n/pt-BR.ts`.
+- Funcoes validas que nao retornam string: `intro.custom` (lista) e
+  `settings.vault.identifierShown` (devolve o argumento).
+- 3 chaves do en.ts oficial com `***` corrompido foram reconstruidas por contexto.

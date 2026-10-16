@@ -1,0 +1,2105 @@
+[
+ {
+  "id": 1421,
+  "key": "updates.applyingCloseAppInstaller",
+  "path": [
+   "updates",
+   "applyingCloseAppInstaller"
+  ],
+  "isFn": false,
+  "en": "This window will close, Windows finishes the update, and Hermes reopens on its own."
+ },
+ {
+  "id": 1422,
+  "key": "updates.checkUnknownTitleAppInstaller",
+  "path": [
+   "updates",
+   "checkUnknownTitleAppInstaller"
+  ],
+  "isFn": false,
+  "en": "Couldn’t check for updates"
+ },
+ {
+  "id": 1423,
+  "key": "updates.checkUnknownBodyAppInstaller",
+  "path": [
+   "updates",
+   "checkUnknownBodyAppInstaller"
+  ],
+  "isFn": false,
+  "en": "Windows couldn’t check for updates right now. Updates also install automatically when you restart Hermes."
+ },
+ {
+  "id": 1424,
+  "key": "updates.changeLogNew",
+  "path": [
+   "updates",
+   "changeLogNew"
+  ],
+  "isFn": false,
+  "en": "What's new"
+ },
+ {
+  "id": 1425,
+  "key": "updates.changeLogFixed",
+  "path": [
+   "updates",
+   "changeLogFixed"
+  ],
+  "isFn": false,
+  "en": "Fixed"
+ },
+ {
+  "id": 1426,
+  "key": "updates.changeLogFaster",
+  "path": [
+   "updates",
+   "changeLogFaster"
+  ],
+  "isFn": false,
+  "en": "Faster"
+ },
+ {
+  "id": 1427,
+  "key": "updates.changeLogImproved",
+  "path": [
+   "updates",
+   "changeLogImproved"
+  ],
+  "isFn": false,
+  "en": "Improved"
+ },
+ {
+  "id": 1428,
+  "key": "updates.changeLogOther",
+  "path": [
+   "updates",
+   "changeLogOther"
+  ],
+  "isFn": false,
+  "en": "Other improvements"
+ },
+ {
+  "id": 1429,
+  "key": "updates.changeLogFallbackLabel",
+  "path": [
+   "updates",
+   "changeLogFallbackLabel"
+  ],
+  "isFn": false,
+  "en": "In this update"
+ },
+ {
+  "id": 1430,
+  "key": "updates.changeLogFallbackItem",
+  "path": [
+   "updates",
+   "changeLogFallbackItem"
+  ],
+  "isFn": false,
+  "en": "Improvements and fixes"
+ },
+ {
+  "id": 1431,
+  "key": "updates.applyStatus.owed",
+  "path": [
+   "updates",
+   "applyStatus",
+   "owed"
+  ],
+  "isFn": true,
+  "en": "(steps) => `Backend updated, but still owed: ${steps}. Re-run \\`hermes update\\` to finish them.`"
+ },
+ {
+  "id": 1432,
+  "key": "updates.appName",
+  "path": [
+   "updates",
+   "appName"
+  ],
+  "isFn": false,
+  "en": "Hermes"
+ },
+ {
+  "id": 1433,
+  "key": "updates.version",
+  "path": [
+   "updates",
+   "version"
+  ],
+  "isFn": true,
+  "en": "(value) => `Version ${value}`"
+ },
+ {
+  "id": 1434,
+  "key": "updates.versionUnavailable",
+  "path": [
+   "updates",
+   "versionUnavailable"
+  ],
+  "isFn": false,
+  "en": "Version unavailable"
+ },
+ {
+  "id": 1435,
+  "key": "updates.checkNow",
+  "path": [
+   "updates",
+   "checkNow"
+  ],
+  "isFn": false,
+  "en": "Check now"
+ },
+ {
+  "id": 1436,
+  "key": "updates.seeWhatsNew",
+  "path": [
+   "updates",
+   "seeWhatsNew"
+  ],
+  "isFn": false,
+  "en": "See what's new"
+ },
+ {
+  "id": 1437,
+  "key": "updates.releaseNotes",
+  "path": [
+   "updates",
+   "releaseNotes"
+  ],
+  "isFn": false,
+  "en": "Release notes"
+ },
+ {
+  "id": 1438,
+  "key": "updates.onLatest",
+  "path": [
+   "updates",
+   "onLatest"
+  ],
+  "isFn": false,
+  "en": "You're on the latest version."
+ },
+ {
+  "id": 1439,
+  "key": "updates.installing",
+  "path": [
+   "updates",
+   "installing"
+  ],
+  "isFn": false,
+  "en": "An update is currently installing."
+ },
+ {
+  "id": 1440,
+  "key": "updates.cantReach",
+  "path": [
+   "updates",
+   "cantReach"
+  ],
+  "isFn": false,
+  "en": "We couldn't reach the update server."
+ },
+ {
+  "id": 1441,
+  "key": "updates.tapCheck",
+  "path": [
+   "updates",
+   "tapCheck"
+  ],
+  "isFn": false,
+  "en": "Tap \"Check now\" to look for updates."
+ },
+ {
+  "id": 1442,
+  "key": "updates.updateReady",
+  "path": [
+   "updates",
+   "updateReady"
+  ],
+  "isFn": true,
+  "en": "(count) => `A new update is ready (${count} change${count === 1 ? \"\" : \"s\"} included).`"
+ },
+ {
+  "id": 1443,
+  "key": "updates.updateReadyUnknown",
+  "path": [
+   "updates",
+   "updateReadyUnknown"
+  ],
+  "isFn": false,
+  "en": "A new update is ready."
+ },
+ {
+  "id": 1444,
+  "key": "updates.availableBodyRelease",
+  "path": [
+   "updates",
+   "availableBodyRelease"
+  ],
+  "isFn": true,
+  "en": "(tag) => `Version ${tag} is ready to install.`"
+ },
+ {
+  "id": 1445,
+  "key": "updates.lastChecked",
+  "path": [
+   "updates",
+   "lastChecked"
+  ],
+  "isFn": true,
+  "en": "(age) => `Last checked ${age}`"
+ },
+ {
+  "id": 1446,
+  "key": "updates.never",
+  "path": [
+   "updates",
+   "never"
+  ],
+  "isFn": false,
+  "en": "never"
+ },
+ {
+  "id": 1447,
+  "key": "updates.justNow",
+  "path": [
+   "updates",
+   "justNow"
+  ],
+  "isFn": false,
+  "en": "just now"
+ },
+ {
+  "id": 1448,
+  "key": "updates.minAgo",
+  "path": [
+   "updates",
+   "minAgo"
+  ],
+  "isFn": true,
+  "en": "(count) => `${count} min ago`"
+ },
+ {
+  "id": 1449,
+  "key": "updates.hoursAgo",
+  "path": [
+   "updates",
+   "hoursAgo"
+  ],
+  "isFn": true,
+  "en": "(count) => `${count}h ago`"
+ },
+ {
+  "id": 1450,
+  "key": "updates.daysAgo",
+  "path": [
+   "updates",
+   "daysAgo"
+  ],
+  "isFn": true,
+  "en": "(count) => `${count}d ago`"
+ },
+ {
+  "id": 1451,
+  "key": "updates.justNowSuffix",
+  "path": [
+   "updates",
+   "justNowSuffix"
+  ],
+  "isFn": false,
+  "en": " · just now"
+ },
+ {
+  "id": 1452,
+  "key": "updates.bundleOutOfSync",
+  "path": [
+   "updates",
+   "bundleOutOfSync"
+  ],
+  "isFn": false,
+  "en": "App build out of date"
+ },
+ {
+  "id": 1453,
+  "key": "updates.bundleOutOfSyncDesc",
+  "path": [
+   "updates",
+   "bundleOutOfSyncDesc"
+  ],
+  "isFn": false,
+  "en": "The Hermes runtime was updated, but the desktop app itself is still an older build. Update it to pick up the latest fixes."
+ },
+ {
+  "id": 1454,
+  "key": "updates.bundleOutOfSyncAction",
+  "path": [
+   "updates",
+   "bundleOutOfSyncAction"
+  ],
+  "isFn": false,
+  "en": "Get the installer"
+ },
+ {
+  "id": 1455,
+  "key": "updates.checkingShort",
+  "path": [
+   "updates",
+   "checkingShort"
+  ],
+  "isFn": false,
+  "en": "Checking…"
+ },
+ {
+  "id": 1456,
+  "key": "updates.releaseAvailable",
+  "path": [
+   "updates",
+   "releaseAvailable"
+  ],
+  "isFn": true,
+  "en": "(tag) => `Version ${tag} is available.`"
+ },
+ {
+  "id": 1457,
+  "key": "updates.versionDetailsTitle",
+  "path": [
+   "updates",
+   "versionDetailsTitle"
+  ],
+  "isFn": false,
+  "en": "Version details"
+ },
+ {
+  "id": 1458,
+  "key": "updates.versionDetailsBody",
+  "path": [
+   "updates",
+   "versionDetailsBody"
+  ],
+  "isFn": false,
+  "en": "This install is managed outside the app. Update it the same way you installed it."
+ },
+ {
+  "id": 1459,
+  "key": "updates.versionDetailsVersion",
+  "path": [
+   "updates",
+   "versionDetailsVersion"
+  ],
+  "isFn": false,
+  "en": "Version"
+ },
+ {
+  "id": 1460,
+  "key": "updates.versionDetailsCommit",
+  "path": [
+   "updates",
+   "versionDetailsCommit"
+  ],
+  "isFn": false,
+  "en": "Commit"
+ },
+ {
+  "id": 1461,
+  "key": "updates.versionDetailsBuildOrigin",
+  "path": [
+   "updates",
+   "versionDetailsBuildOrigin"
+  ],
+  "isFn": false,
+  "en": "Build Origin"
+ },
+ {
+  "id": 1462,
+  "key": "updates.versionDetailsDistribution",
+  "path": [
+   "updates",
+   "versionDetailsDistribution"
+  ],
+  "isFn": false,
+  "en": "Distribution"
+ },
+ {
+  "id": 1463,
+  "key": "updates.versionDetailsDistributionDesktop",
+  "path": [
+   "updates",
+   "versionDetailsDistributionDesktop"
+  ],
+  "isFn": false,
+  "en": "Desktop app"
+ },
+ {
+  "id": 1464,
+  "key": "updates.versionDetailsDistributionDesktopMsix",
+  "path": [
+   "updates",
+   "versionDetailsDistributionDesktopMsix"
+  ],
+  "isFn": false,
+  "en": "Desktop app (MSIX)"
+ },
+ {
+  "id": 1465,
+  "key": "updates.versionDetailsDistributionDesktopInstaller",
+  "path": [
+   "updates",
+   "versionDetailsDistributionDesktopInstaller"
+  ],
+  "isFn": false,
+  "en": "Desktop app (installer)"
+ },
+ {
+  "id": 1466,
+  "key": "updates.versionDetailsDistributionSourceInstaller",
+  "path": [
+   "updates",
+   "versionDetailsDistributionSourceInstaller"
+  ],
+  "isFn": false,
+  "en": "Source (install script)"
+ },
+ {
+  "id": 1467,
+  "key": "updates.versionDetailsDistributionSourceInstallerDesktop",
+  "path": [
+   "updates",
+   "versionDetailsDistributionSourceInstallerDesktop"
+  ],
+  "isFn": false,
+  "en": "Source (install script) + hermes desktop"
+ },
+ {
+  "id": 1468,
+  "key": "updates.versionDetailsDistributionSource",
+  "path": [
+   "updates",
+   "versionDetailsDistributionSource"
+  ],
+  "isFn": false,
+  "en": "Source"
+ },
+ {
+  "id": 1469,
+  "key": "updates.versionDetailsDistributionSourceDesktop",
+  "path": [
+   "updates",
+   "versionDetailsDistributionSourceDesktop"
+  ],
+  "isFn": false,
+  "en": "Source + hermes desktop"
+ },
+ {
+  "id": 1470,
+  "key": "updates.versionDetailsDistributionStore",
+  "path": [
+   "updates",
+   "versionDetailsDistributionStore"
+  ],
+  "isFn": false,
+  "en": "Microsoft Store"
+ },
+ {
+  "id": 1471,
+  "key": "updates.versionDetailsRuntime",
+  "path": [
+   "updates",
+   "versionDetailsRuntime"
+  ],
+  "isFn": false,
+  "en": "Runtime"
+ },
+ {
+  "id": 1472,
+  "key": "updates.versionDetailsRuntimeEmbedded",
+  "path": [
+   "updates",
+   "versionDetailsRuntimeEmbedded"
+  ],
+  "isFn": false,
+  "en": "Embedded runtime"
+ },
+ {
+  "id": 1473,
+  "key": "updates.versionDetailsRuntimeExternal",
+  "path": [
+   "updates",
+   "versionDetailsRuntimeExternal"
+  ],
+  "isFn": false,
+  "en": "External (uses the machine runtime)"
+ },
+ {
+  "id": 1474,
+  "key": "updates.versionDetailsInstallId",
+  "path": [
+   "updates",
+   "versionDetailsInstallId"
+  ],
+  "isFn": false,
+  "en": "Install ID"
+ },
+ {
+  "id": 1475,
+  "key": "updates.versionDetailsUncommittedChanges",
+  "path": [
+   "updates",
+   "versionDetailsUncommittedChanges"
+  ],
+  "isFn": false,
+  "en": "uncommitted changes"
+ },
+ {
+  "id": 1476,
+  "key": "install.setupChoiceDescLocal",
+  "path": [
+   "install",
+   "setupChoiceDescLocal"
+  ],
+  "isFn": false,
+  "en": "Install Hermes on this computer, or connect to a Hermes gateway you already run."
+ },
+ {
+  "id": 1477,
+  "key": "install.useLocalTitle",
+  "path": [
+   "install",
+   "useLocalTitle"
+  ],
+  "isFn": false,
+  "en": "Use Hermes on this computer"
+ },
+ {
+  "id": 1478,
+  "key": "install.useLocalDesc",
+  "path": [
+   "install",
+   "useLocalDesc"
+  ],
+  "isFn": false,
+  "en": "A Hermes runtime is already installed here — start it with one click. Nothing downloads."
+ },
+ {
+  "id": 1479,
+  "key": "install.bundledLocalDesc",
+  "path": [
+   "install",
+   "bundledLocalDesc"
+  ],
+  "isFn": false,
+  "en": "Use the Hermes runtime included with this app — the bundled backend is the local install."
+ },
+ {
+  "id": 1480,
+  "key": "install.probeErrorDetails",
+  "path": [
+   "install",
+   "probeErrorDetails"
+  ],
+  "isFn": false,
+  "en": "Details"
+ },
+ {
+  "id": 1481,
+  "key": "install.openLogs",
+  "path": [
+   "install",
+   "openLogs"
+  ],
+  "isFn": false,
+  "en": "Open logs"
+ },
+ {
+  "id": 1482,
+  "key": "onboarding.setupSlowTitle",
+  "path": [
+   "onboarding",
+   "setupSlowTitle"
+  ],
+  "isFn": false,
+  "en": "Setup is taking longer than usual."
+ },
+ {
+  "id": 1483,
+  "key": "onboarding.setupSlowBody",
+  "path": [
+   "onboarding",
+   "setupSlowBody"
+  ],
+  "isFn": false,
+  "en": "Hermes is still starting in the background."
+ },
+ {
+  "id": 1484,
+  "key": "onboarding.continueWithoutSetup",
+  "path": [
+   "onboarding",
+   "continueWithoutSetup"
+  ],
+  "isFn": false,
+  "en": "Continue without setup"
+ },
+ {
+  "id": 1485,
+  "key": "onboarding.localModelNamePlaceholder",
+  "path": [
+   "onboarding",
+   "localModelNamePlaceholder"
+  ],
+  "isFn": false,
+  "en": "Model name (e.g. command-a-plus-05-2026)"
+ },
+ {
+  "id": 1486,
+  "key": "onboarding.signInDidNotFinish",
+  "path": [
+   "onboarding",
+   "signInDidNotFinish"
+  ],
+  "isFn": true,
+  "en": "(provider) => `Sign-in with ${provider} did not finish. Check your internet connection and try again, or pick a different provider.`"
+ },
+ {
+  "id": 1487,
+  "key": "onboarding.tryAgain",
+  "path": [
+   "onboarding",
+   "tryAgain"
+  ],
+  "isFn": false,
+  "en": "Try again"
+ },
+ {
+  "id": 1488,
+  "key": "onboarding.useApiKeyInstead",
+  "path": [
+   "onboarding",
+   "useApiKeyInstead"
+  ],
+  "isFn": false,
+  "en": "Use an API key"
+ },
+ {
+  "id": 1489,
+  "key": "onboarding.errorDetails",
+  "path": [
+   "onboarding",
+   "errorDetails"
+  ],
+  "isFn": false,
+  "en": "Details"
+ },
+ {
+  "id": 1490,
+  "key": "freeTier.providerRowTitle",
+  "path": [
+   "freeTier",
+   "providerRowTitle"
+  ],
+  "isFn": false,
+  "en": "Nous · free tier"
+ },
+ {
+  "id": 1491,
+  "key": "freeTier.providerRowPitch",
+  "path": [
+   "freeTier",
+   "providerRowPitch"
+  ],
+  "isFn": false,
+  "en": "Sign in with a Nous account to unlock more models and tools."
+ },
+ {
+  "id": 1492,
+  "key": "freeTier.readyTitle",
+  "path": [
+   "freeTier",
+   "readyTitle"
+  ],
+  "isFn": false,
+  "en": "Hermes is ready."
+ },
+ {
+  "id": 1493,
+  "key": "freeTier.readyCaption",
+  "path": [
+   "freeTier",
+   "readyCaption"
+  ],
+  "isFn": false,
+  "en": "Free · connectors included"
+ },
+ {
+  "id": 1494,
+  "key": "freeTier.begin",
+  "path": [
+   "freeTier",
+   "begin"
+  ],
+  "isFn": false,
+  "en": "Begin"
+ },
+ {
+  "id": 1495,
+  "key": "freeTier.signInInstead",
+  "path": [
+   "freeTier",
+   "signInInstead"
+  ],
+  "isFn": false,
+  "en": "Sign in with a Nous account instead"
+ },
+ {
+  "id": 1496,
+  "key": "freeTier.otherProviders",
+  "path": [
+   "freeTier",
+   "otherProviders"
+  ],
+  "isFn": false,
+  "en": "Other providers"
+ },
+ {
+  "id": 1497,
+  "key": "freeTier.stripTitle",
+  "path": [
+   "freeTier",
+   "stripTitle"
+  ],
+  "isFn": false,
+  "en": "Free Nous inference and connectors are now available."
+ },
+ {
+  "id": 1498,
+  "key": "freeTier.stripBody",
+  "path": [
+   "freeTier",
+   "stripBody"
+  ],
+  "isFn": false,
+  "en": "Open the model picker to try them, or sign in with a Nous account."
+ },
+ {
+  "id": 1499,
+  "key": "freeTier.openModelPicker",
+  "path": [
+   "freeTier",
+   "openModelPicker"
+  ],
+  "isFn": false,
+  "en": "Open model picker"
+ },
+ {
+  "id": 1500,
+  "key": "freeTier.dismiss",
+  "path": [
+   "freeTier",
+   "dismiss"
+  ],
+  "isFn": false,
+  "en": "Dismiss"
+ },
+ {
+  "id": 1501,
+  "key": "freeTier.providerName",
+  "path": [
+   "freeTier",
+   "providerName"
+  ],
+  "isFn": false,
+  "en": "Nous"
+ },
+ {
+  "id": 1502,
+  "key": "freeTier.statusLabel",
+  "path": [
+   "freeTier",
+   "statusLabel"
+  ],
+  "isFn": true,
+  "en": "(model) => `Nous \\xB7 ${model}`"
+ },
+ {
+  "id": 1503,
+  "key": "freeTier.signIn",
+  "path": [
+   "freeTier",
+   "signIn"
+  ],
+  "isFn": false,
+  "en": "Sign in"
+ },
+ {
+  "id": 1504,
+  "key": "freeTier.signInHeading",
+  "path": [
+   "freeTier",
+   "signInHeading"
+  ],
+  "isFn": false,
+  "en": "Sign in with a Nous account to unlock more models and tools."
+ },
+ {
+  "id": 1505,
+  "key": "freeTier.settingUp",
+  "path": [
+   "freeTier",
+   "settingUp"
+  ],
+  "isFn": false,
+  "en": "Setting up free inference…"
+ },
+ {
+  "id": 1506,
+  "key": "freeTier.codeBody",
+  "path": [
+   "freeTier",
+   "codeBody"
+  ],
+  "isFn": false,
+  "en": "Enter this code in your browser to finish signing in."
+ },
+ {
+  "id": 1507,
+  "key": "freeTier.copyLink",
+  "path": [
+   "freeTier",
+   "copyLink"
+  ],
+  "isFn": false,
+  "en": "Copy link"
+ },
+ {
+  "id": 1508,
+  "key": "freeTier.doNotShare",
+  "path": [
+   "freeTier",
+   "doNotShare"
+  ],
+  "isFn": false,
+  "en": "Do not share this code."
+ },
+ {
+  "id": 1509,
+  "key": "freeTier.waiting",
+  "path": [
+   "freeTier",
+   "waiting"
+  ],
+  "isFn": false,
+  "en": "Waiting for sign-in…"
+ },
+ {
+  "id": 1510,
+  "key": "freeTier.finishingHeading",
+  "path": [
+   "freeTier",
+   "finishingHeading"
+  ],
+  "isFn": false,
+  "en": "Finishing sign-in…"
+ },
+ {
+  "id": 1511,
+  "key": "freeTier.finishingBody",
+  "path": [
+   "freeTier",
+   "finishingBody"
+  ],
+  "isFn": false,
+  "en": "Approved in the browser. Collecting your account tokens."
+ },
+ {
+  "id": 1512,
+  "key": "freeTier.signedInAs",
+  "path": [
+   "freeTier",
+   "signedInAs"
+  ],
+  "isFn": true,
+  "en": "(email) => `Signed in as ${email}`"
+ },
+ {
+  "id": 1513,
+  "key": "freeTier.signedIn",
+  "path": [
+   "freeTier",
+   "signedIn"
+  ],
+  "isFn": false,
+  "en": "Signed in."
+ },
+ {
+  "id": 1514,
+  "key": "freeTier.completedBody",
+  "path": [
+   "freeTier",
+   "completedBody"
+  ],
+  "isFn": false,
+  "en": "Your account now carries inference and tools."
+ },
+ {
+  "id": 1515,
+  "key": "freeTier.defaultModel",
+  "path": [
+   "freeTier",
+   "defaultModel"
+  ],
+  "isFn": false,
+  "en": "Default model"
+ },
+ {
+  "id": 1516,
+  "key": "freeTier.change",
+  "path": [
+   "freeTier",
+   "change"
+  ],
+  "isFn": false,
+  "en": "Change"
+ },
+ {
+  "id": 1517,
+  "key": "freeTier.done",
+  "path": [
+   "freeTier",
+   "done"
+  ],
+  "isFn": false,
+  "en": "Done"
+ },
+ {
+  "id": 1518,
+  "key": "freeTier.notNow",
+  "path": [
+   "freeTier",
+   "notNow"
+  ],
+  "isFn": false,
+  "en": "Not now"
+ },
+ {
+  "id": 1519,
+  "key": "freeTier.tryAgain",
+  "path": [
+   "freeTier",
+   "tryAgain"
+  ],
+  "isFn": false,
+  "en": "Try again"
+ },
+ {
+  "id": 1520,
+  "key": "freeTier.startAgain",
+  "path": [
+   "freeTier",
+   "startAgain"
+  ],
+  "isFn": false,
+  "en": "Start again"
+ },
+ {
+  "id": 1521,
+  "key": "freeTier.didNotComplete",
+  "path": [
+   "freeTier",
+   "didNotComplete"
+  ],
+  "isFn": false,
+  "en": "Sign-in didn't finish"
+ },
+ {
+  "id": 1522,
+  "key": "freeTier.rejectedBody",
+  "path": [
+   "freeTier",
+   "rejectedBody"
+  ],
+  "isFn": false,
+  "en": "No problem, you're still on the free Nous service. Sign in whenever you're ready."
+ },
+ {
+  "id": 1523,
+  "key": "freeTier.supersededBody",
+  "path": [
+   "freeTier",
+   "supersededBody"
+  ],
+  "isFn": false,
+  "en": "A newer sign-in code replaced this one. Use the newest one, or start again."
+ },
+ {
+  "id": 1524,
+  "key": "freeTier.timedOutHeading",
+  "path": [
+   "freeTier",
+   "timedOutHeading"
+  ],
+  "isFn": false,
+  "en": "That sign-in link has expired"
+ },
+ {
+  "id": 1525,
+  "key": "freeTier.timedOutBody",
+  "path": [
+   "freeTier",
+   "timedOutBody"
+  ],
+  "isFn": false,
+  "en": "Start again whenever you're ready. You're still on the free Nous service."
+ },
+ {
+  "id": 1526,
+  "key": "freeTier.retiredBody",
+  "path": [
+   "freeTier",
+   "retiredBody"
+  ],
+  "isFn": false,
+  "en": "Your session ended before the sign-in finished. Hermes will start a new one; then sign in again whenever you're ready."
+ },
+ {
+  "id": 1527,
+  "key": "freeTier.errorBody",
+  "path": [
+   "freeTier",
+   "errorBody"
+  ],
+  "isFn": false,
+  "en": "Sign-in didn't finish. Try again whenever you're ready."
+ },
+ {
+  "id": 1528,
+  "key": "freeTier.busyHeading",
+  "path": [
+   "freeTier",
+   "busyHeading"
+  ],
+  "isFn": false,
+  "en": "Almost there"
+ },
+ {
+  "id": 1529,
+  "key": "freeTier.busyBody",
+  "path": [
+   "freeTier",
+   "busyBody"
+  ],
+  "isFn": true,
+  "en": "(wait) => `Hermes couldn't finish signing you in because the Nous service is busy. Try again in ${wait}. Your session is still here in the meantime.`"
+ },
+ {
+  "id": 1530,
+  "key": "freeTier.unreachableBody",
+  "path": [
+   "freeTier",
+   "unreachableBody"
+  ],
+  "isFn": false,
+  "en": "Hermes couldn't reach the Nous service to finish signing you in. Check your internet connection and try again. Your session is still here."
+ },
+ {
+  "id": 1531,
+  "key": "freeTier.alreadySignedInHeading",
+  "path": [
+   "freeTier",
+   "alreadySignedInHeading"
+  ],
+  "isFn": false,
+  "en": "Already signed in."
+ },
+ {
+  "id": 1532,
+  "key": "freeTier.alreadySignedInBody",
+  "path": [
+   "freeTier",
+   "alreadySignedInBody"
+  ],
+  "isFn": false,
+  "en": "This Hermes is already signed in to a Nous account."
+ },
+ {
+  "id": 1533,
+  "key": "freeTier.offer.heading",
+  "path": [
+   "freeTier",
+   "offer",
+   "heading"
+  ],
+  "isFn": false,
+  "en": "Keep going with Hermes"
+ },
+ {
+  "id": 1534,
+  "key": "freeTier.offer.body",
+  "path": [
+   "freeTier",
+   "offer",
+   "body"
+  ],
+  "isFn": false,
+  "en": "You're on the free allowance. If you keep using Hermes, you'll start running into limits. Sign in with a free Nous account for a bigger allowance."
+ },
+ {
+  "id": 1535,
+  "key": "freeTier.offer.signIn",
+  "path": [
+   "freeTier",
+   "offer",
+   "signIn"
+  ],
+  "isFn": false,
+  "en": "Sign in"
+ },
+ {
+  "id": 1536,
+  "key": "freeTier.offer.notNow",
+  "path": [
+   "freeTier",
+   "offer",
+   "notNow"
+  ],
+  "isFn": false,
+  "en": "Not now"
+ },
+ {
+  "id": 1537,
+  "key": "freeTier.setupFailed.gateClosed",
+  "path": [
+   "freeTier",
+   "setupFailed",
+   "gateClosed"
+  ],
+  "isFn": false,
+  "en": "This version of Hermes can't start without a Nous account. Sign in or create one, it's free and only takes a minute."
+ },
+ {
+  "id": 1538,
+  "key": "freeTier.setupFailed.paused",
+  "path": [
+   "freeTier",
+   "setupFailed",
+   "paused"
+  ],
+  "isFn": false,
+  "en": "Using Hermes without signing in is paused for a moment. Hermes will keep checking. Signing in is free and gets you going right now."
+ },
+ {
+  "id": 1539,
+  "key": "freeTier.setupFailed.rateLimited",
+  "path": [
+   "freeTier",
+   "setupFailed",
+   "rateLimited"
+  ],
+  "isFn": true,
+  "en": "(wait) => `Lots of people are getting started right now, so Hermes will try again in ${wait}. Signing in is free and skips the wait.`"
+ },
+ {
+  "id": 1540,
+  "key": "freeTier.setupFailed.unreachable",
+  "path": [
+   "freeTier",
+   "setupFailed",
+   "unreachable"
+  ],
+  "isFn": false,
+  "en": "Hermes couldn't reach the Nous service. Check your internet connection, then tap Try again. Or connect another provider for now."
+ },
+ {
+  "id": 1541,
+  "key": "freeTier.setupFailed.serverError",
+  "path": [
+   "freeTier",
+   "setupFailed",
+   "serverError"
+  ],
+  "isFn": false,
+  "en": "The Nous service had a hiccup. Tap Try again in a moment, or connect another provider for now."
+ },
+ {
+  "id": 1542,
+  "key": "freeTier.setupFailed.powRequired",
+  "path": [
+   "freeTier",
+   "setupFailed",
+   "powRequired"
+  ],
+  "isFn": false,
+  "en": "The Nous server asked for a proof of work, but that isn't implemented in your Agent yet. Sign in or create a free Nous account to continue."
+ },
+ {
+  "id": 1543,
+  "key": "freeTier.setupFailed.locked",
+  "path": [
+   "freeTier",
+   "setupFailed",
+   "locked"
+  ],
+  "isFn": false,
+  "en": "This session can't continue without signing in. Sign in or create a free Nous account to keep going."
+ },
+ {
+  "id": 1544,
+  "key": "freeTier.setupFailed.generic",
+  "path": [
+   "freeTier",
+   "setupFailed",
+   "generic"
+  ],
+  "isFn": false,
+  "en": "Hermes couldn't set up free access without signing in. Signing in is free, or connect another provider."
+ },
+ {
+  "id": 1545,
+  "key": "freeTier.setupFailed.signInBelow",
+  "path": [
+   "freeTier",
+   "setupFailed",
+   "signInBelow"
+  ],
+  "isFn": false,
+  "en": "Signing in is free. Pick Nous below."
+ },
+ {
+  "id": 1546,
+  "key": "freeTier.setupFailed.tryAgain",
+  "path": [
+   "freeTier",
+   "setupFailed",
+   "tryAgain"
+  ],
+  "isFn": false,
+  "en": "Try again"
+ },
+ {
+  "id": 1547,
+  "key": "freeTier.setupFailed.retrying",
+  "path": [
+   "freeTier",
+   "setupFailed",
+   "retrying"
+  ],
+  "isFn": false,
+  "en": "Trying again…"
+ },
+ {
+  "id": 1548,
+  "key": "modelPicker.customModel",
+  "path": [
+   "modelPicker",
+   "customModel"
+  ],
+  "isFn": false,
+  "en": "Custom model"
+ },
+ {
+  "id": 1549,
+  "key": "modelPicker.addCustomModelAction",
+  "path": [
+   "modelPicker",
+   "addCustomModelAction"
+  ],
+  "isFn": false,
+  "en": "Add custom model…"
+ },
+ {
+  "id": 1550,
+  "key": "modelPicker.customModelPlaceholder",
+  "path": [
+   "modelPicker",
+   "customModelPlaceholder"
+  ],
+  "isFn": false,
+  "en": "Type a model id, e.g. openai/gpt-5"
+ },
+ {
+  "id": 1551,
+  "key": "modelVisibility.addCustomModel",
+  "path": [
+   "modelVisibility",
+   "addCustomModel"
+  ],
+  "isFn": false,
+  "en": "Add custom model"
+ },
+ {
+  "id": 1552,
+  "key": "modelVisibility.removeCustomModel",
+  "path": [
+   "modelVisibility",
+   "removeCustomModel"
+  ],
+  "isFn": false,
+  "en": "Remove custom model"
+ },
+ {
+  "id": 1553,
+  "key": "modelVisibility.resetToDefaults",
+  "path": [
+   "modelVisibility",
+   "resetToDefaults"
+  ],
+  "isFn": false,
+  "en": "Reset to defaults"
+ },
+ {
+  "id": 1554,
+  "key": "modelVisibility.resetConfirm",
+  "path": [
+   "modelVisibility",
+   "resetConfirm"
+  ],
+  "isFn": false,
+  "en": "Reset model visibility to defaults?"
+ },
+ {
+  "id": 1555,
+  "key": "modelVisibility.resetDescription",
+  "path": [
+   "modelVisibility",
+   "resetDescription"
+  ],
+  "isFn": false,
+  "en": "Your shown and hidden model choices are cleared and every provider’s default list comes back. Custom models you added are kept and shown."
+ },
+ {
+  "id": 1556,
+  "key": "modelVisibility.resetAction",
+  "path": [
+   "modelVisibility",
+   "resetAction"
+  ],
+  "isFn": false,
+  "en": "Reset"
+ },
+ {
+  "id": 1557,
+  "key": "shell.modelMenu.followDefault",
+  "path": [
+   "shell",
+   "modelMenu",
+   "followDefault"
+  ],
+  "isFn": false,
+  "en": "Use Settings default"
+ },
+ {
+  "id": 1558,
+  "key": "shell.modelMenu.favorites",
+  "path": [
+   "shell",
+   "modelMenu",
+   "favorites"
+  ],
+  "isFn": false,
+  "en": "Favorites"
+ },
+ {
+  "id": 1559,
+  "key": "shell.modelMenu.addFavorite",
+  "path": [
+   "shell",
+   "modelMenu",
+   "addFavorite"
+  ],
+  "isFn": false,
+  "en": "Add to favorites"
+ },
+ {
+  "id": 1560,
+  "key": "shell.modelMenu.removeFavorite",
+  "path": [
+   "shell",
+   "modelMenu",
+   "removeFavorite"
+  ],
+  "isFn": false,
+  "en": "Remove from favorites"
+ },
+ {
+  "id": 1561,
+  "key": "shell.modelMenu.favoriteShortcut",
+  "path": [
+   "shell",
+   "modelMenu",
+   "favoriteShortcut"
+  ],
+  "isFn": false,
+  "en": "⇧ Click"
+ },
+ {
+  "id": 1562,
+  "key": "shell.modelMenu.free",
+  "path": [
+   "shell",
+   "modelMenu",
+   "free"
+  ],
+  "isFn": false,
+  "en": "free"
+ },
+ {
+  "id": 1563,
+  "key": "shell.modelMenu.cacheRead",
+  "path": [
+   "shell",
+   "modelMenu",
+   "cacheRead"
+  ],
+  "isFn": false,
+  "en": "cached read"
+ },
+ {
+  "id": 1564,
+  "key": "shell.modelMenu.priceTitle",
+  "path": [
+   "shell",
+   "modelMenu",
+   "priceTitle"
+  ],
+  "isFn": true,
+  "en": "(input, output, cache) => `Input ${input}/Mtok \\xB7 Output ${output}/Mtok` + (cache ? ` \\xB7 Cached read ${cache}/Mtok` : \"\")"
+ },
+ {
+  "id": 1565,
+  "key": "shell.modelMenu.localSetup.title",
+  "path": [
+   "shell",
+   "modelMenu",
+   "localSetup",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Run locally · free, private"
+ },
+ {
+  "id": 1566,
+  "key": "shell.modelMenu.localSetup.text",
+  "path": [
+   "shell",
+   "modelMenu",
+   "localSetup",
+   "text"
+  ],
+  "isFn": true,
+  "en": "(model, size) => `${model} fits this machine \\xB7 ${size} download`"
+ },
+ {
+  "id": 1567,
+  "key": "shell.modelMenu.localSetup.action",
+  "path": [
+   "shell",
+   "modelMenu",
+   "localSetup",
+   "action"
+  ],
+  "isFn": false,
+  "en": "Set up"
+ },
+ {
+  "id": 1568,
+  "key": "shell.modelMenu.limited",
+  "path": [
+   "shell",
+   "modelMenu",
+   "limited"
+  ],
+  "isFn": false,
+  "en": "Limited"
+ },
+ {
+  "id": 1569,
+  "key": "shell.modelMenu.limitedUntil",
+  "path": [
+   "shell",
+   "modelMenu",
+   "limitedUntil"
+  ],
+  "isFn": true,
+  "en": "(time) => `Limited until ${time}`"
+ },
+ {
+  "id": 1570,
+  "key": "shell.modelMenu.limitedTip",
+  "path": [
+   "shell",
+   "modelMenu",
+   "limitedTip"
+  ],
+  "isFn": true,
+  "en": "(provider, time) => time ? `${provider} hit its usage limit. It resets at ${time}; you can still pick a model for after.` : `${provider} hit its usage limit. You can still pick a model for after it resets.`"
+ },
+ {
+  "id": 1571,
+  "key": "shell.modelMenu.modelResets",
+  "path": [
+   "shell",
+   "modelMenu",
+   "modelResets"
+  ],
+  "isFn": true,
+  "en": "(time) => `resets ${time}`"
+ },
+ {
+  "id": 1572,
+  "key": "shell.modelMenu.modelLimitedTip",
+  "path": [
+   "shell",
+   "modelMenu",
+   "modelLimitedTip"
+  ],
+  "isFn": true,
+  "en": "(time) => `This model hit its own limit and resets at ${time}. Other models here still work.`"
+ },
+ {
+  "id": 1573,
+  "key": "shell.modelMenu.usageLeft",
+  "path": [
+   "shell",
+   "modelMenu",
+   "usageLeft"
+  ],
+  "isFn": true,
+  "en": "(percent, time) => time ? `${percent}% left \\xB7 resets ${time}` : `${percent}% left`"
+ },
+ {
+  "id": 1574,
+  "key": "shell.modelMenu.poolAccounts",
+  "path": [
+   "shell",
+   "modelMenu",
+   "poolAccounts"
+  ],
+  "isFn": true,
+  "en": "(count) => `${count} ${count === 1 ? \"account\" : \"accounts\"}`"
+ },
+ {
+  "id": 1575,
+  "key": "shell.modelMenu.poolLimited",
+  "path": [
+   "shell",
+   "modelMenu",
+   "poolLimited"
+  ],
+  "isFn": true,
+  "en": "(limited, total) => `${limited}/${total} accounts limited`"
+ },
+ {
+  "id": 1576,
+  "key": "shell.modelMenu.poolAccount",
+  "path": [
+   "shell",
+   "modelMenu",
+   "poolAccount"
+  ],
+  "isFn": true,
+  "en": "(number) => `Account ${number}`"
+ },
+ {
+  "id": 1577,
+  "key": "shell.modelMenu.poolUnknown",
+  "path": [
+   "shell",
+   "modelMenu",
+   "poolUnknown"
+  ],
+  "isFn": false,
+  "en": "Usage unavailable"
+ },
+ {
+  "id": 1578,
+  "key": "shell.modelMenu.poolUnavailable",
+  "path": [
+   "shell",
+   "modelMenu",
+   "poolUnavailable"
+  ],
+  "isFn": false,
+  "en": "Sign in again"
+ },
+ {
+  "id": 1579,
+  "key": "shell.modelMenu.usageTip",
+  "path": [
+   "shell",
+   "modelMenu",
+   "usageTip"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} is close to its usage limit.`"
+ },
+ {
+  "id": 1580,
+  "key": "shell.modelMenu.usageWindow",
+  "path": [
+   "shell",
+   "modelMenu",
+   "usageWindow"
+  ],
+  "isFn": true,
+  "en": "(label, percent, time) => time ? `${label}: ${percent}% left, resets ${time}` : `${label}: ${percent}% left`"
+ },
+ {
+  "id": 1581,
+  "key": "shell.modelOptions.ultrafast",
+  "path": [
+   "shell",
+   "modelOptions",
+   "ultrafast"
+  ],
+  "isFn": false,
+  "en": "Ultrafast"
+ },
+ {
+  "id": 1582,
+  "key": "shell.modelOptions.useStandardSpeed",
+  "path": [
+   "shell",
+   "modelOptions",
+   "useStandardSpeed"
+  ],
+  "isFn": false,
+  "en": "Use standard speed"
+ },
+ {
+  "id": 1583,
+  "key": "shell.modelOptions.sendsOnRoute",
+  "path": [
+   "shell",
+   "modelOptions",
+   "sendsOnRoute"
+  ],
+  "isFn": true,
+  "en": "(level) => `sends ${level} on this route`"
+ },
+ {
+  "id": 1584,
+  "key": "shell.statusbar.releaseAvailable",
+  "path": [
+   "shell",
+   "statusbar",
+   "releaseAvailable"
+  ],
+  "isFn": true,
+  "en": "(tag) => `Version ${tag} is available.`"
+ },
+ {
+  "id": 1585,
+  "key": "shell.statusbar.backend",
+  "path": [
+   "shell",
+   "statusbar",
+   "backend"
+  ],
+  "isFn": false,
+  "en": "Backend"
+ },
+ {
+  "id": 1586,
+  "key": "shell.statusbar.messagingStopped",
+  "path": [
+   "shell",
+   "statusbar",
+   "messagingStopped"
+  ],
+  "isFn": false,
+  "en": "messaging stopped"
+ },
+ {
+  "id": 1587,
+  "key": "shell.statusbar.messagingDegraded",
+  "path": [
+   "shell",
+   "statusbar",
+   "messagingDegraded"
+  ],
+  "isFn": true,
+  "en": "(name) => `${name} down`"
+ },
+ {
+  "id": 1588,
+  "key": "shell.statusbar.toggleFreeTier",
+  "path": [
+   "shell",
+   "statusbar",
+   "toggleFreeTier"
+  ],
+  "isFn": false,
+  "en": "Free tier"
+ },
+ {
+  "id": 1589,
+  "key": "shell.statusbar.compressions",
+  "path": [
+   "shell",
+   "statusbar",
+   "compressions"
+  ],
+  "isFn": true,
+  "en": "(count) => `Compressions: ${count}`"
+ },
+ {
+  "id": 1590,
+  "key": "shell.statusbar.focusedSince",
+  "path": [
+   "shell",
+   "statusbar",
+   "focusedSince"
+  ],
+  "isFn": false,
+  "en": "Focused for"
+ },
+ {
+  "id": 1591,
+  "key": "shell.statusbar.focusedSinceTitle",
+  "path": [
+   "shell",
+   "statusbar",
+   "focusedSinceTitle"
+  ],
+  "isFn": false,
+  "en": "Time since this chat was focused — not how long a turn has been running"
+ },
+ {
+  "id": 1592,
+  "key": "rightSidebar.terminalReadOnly",
+  "path": [
+   "rightSidebar",
+   "terminalReadOnly"
+  ],
+  "isFn": false,
+  "en": "Read-only output"
+ },
+ {
+  "id": 1593,
+  "key": "rightSidebar.terminalReadOnlyHelp",
+  "path": [
+   "rightSidebar",
+   "terminalReadOnlyHelp"
+  ],
+  "isFn": false,
+  "en": "To answer prompts, stop the background command and run it in a new terminal. The new terminal opens a separate shell; it does not connect to this process."
+ },
+ {
+  "id": 1594,
+  "key": "rightSidebar.terminalOpenInteractive",
+  "path": [
+   "rightSidebar",
+   "terminalOpenInteractive"
+  ],
+  "isFn": false,
+  "en": "Open new terminal"
+ },
+ {
+  "id": 1595,
+  "key": "rightSidebar.remotePickerNewFolder",
+  "path": [
+   "rightSidebar",
+   "remotePickerNewFolder"
+  ],
+  "isFn": false,
+  "en": "New folder"
+ },
+ {
+  "id": 1596,
+  "key": "rightSidebar.remotePickerFolderName",
+  "path": [
+   "rightSidebar",
+   "remotePickerFolderName"
+  ],
+  "isFn": false,
+  "en": "Folder name"
+ },
+ {
+  "id": 1597,
+  "key": "rightSidebar.remotePickerCreateFolder",
+  "path": [
+   "rightSidebar",
+   "remotePickerCreateFolder"
+  ],
+  "isFn": false,
+  "en": "Create folder"
+ },
+ {
+  "id": 1598,
+  "key": "rightSidebar.remotePickerInvalidFolderName",
+  "path": [
+   "rightSidebar",
+   "remotePickerInvalidFolderName"
+  ],
+  "isFn": false,
+  "en": "Enter a single folder name, without slashes."
+ },
+ {
+  "id": 1599,
+  "key": "rightSidebar.remotePickerCreateFolderFailed",
+  "path": [
+   "rightSidebar",
+   "remotePickerCreateFolderFailed"
+  ],
+  "isFn": true,
+  "en": "(error) => `Could not create the folder (${error}).`"
+ },
+ {
+  "id": 1600,
+  "key": "rightSidebar.showIgnored",
+  "path": [
+   "rightSidebar",
+   "showIgnored"
+  ],
+  "isFn": false,
+  "en": "Show gitignored files"
+ },
+ {
+  "id": 1601,
+  "key": "rightSidebar.hideIgnored",
+  "path": [
+   "rightSidebar",
+   "hideIgnored"
+  ],
+  "isFn": false,
+  "en": "Hide gitignored files"
+ },
+ {
+  "id": 1602,
+  "key": "preview.pin",
+  "path": [
+   "preview",
+   "pin"
+  ],
+  "isFn": false,
+  "en": "Pin to workspace"
+ },
+ {
+  "id": 1603,
+  "key": "preview.unpin",
+  "path": [
+   "preview",
+   "unpin"
+  ],
+  "isFn": false,
+  "en": "Unpin from workspace"
+ },
+ {
+  "id": 1604,
+  "key": "preview.missingTarget",
+  "path": [
+   "preview",
+   "missingTarget"
+  ],
+  "isFn": false,
+  "en": "That path does not exist on this computer"
+ },
+ {
+  "id": 1605,
+  "key": "preview.missingTitle",
+  "path": [
+   "preview",
+   "missingTitle"
+  ],
+  "isFn": false,
+  "en": "File no longer exists"
+ },
+ {
+  "id": 1606,
+  "key": "preview.missingBody",
+  "path": [
+   "preview",
+   "missingBody"
+  ],
+  "isFn": true,
+  "en": "(label) => `${label} was deleted, moved, or its temporary location was cleared. This tab will not be restored on the next launch.`"
+ },
+ {
+  "id": 1607,
+  "key": "preview.saveScopeChanged",
+  "path": [
+   "preview",
+   "saveScopeChanged"
+  ],
+  "isFn": false,
+  "en": "Switch back to the original connection and profile to save this draft."
+ },
+ {
+  "id": 1608,
+  "key": "interfaceMode.title",
+  "path": [
+   "interfaceMode",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Interface mode"
+ },
+ {
+  "id": 1609,
+  "key": "interfaceMode.hint",
+  "path": [
+   "interfaceMode",
+   "hint"
+  ],
+  "isFn": false,
+  "en": "Changes what is shown, not what Hermes can do."
+ },
+ {
+  "id": 1610,
+  "key": "interfaceMode.sessionNote",
+  "path": [
+   "interfaceMode",
+   "sessionNote"
+  ],
+  "isFn": false,
+  "en": "Set by Simple mode. A change here lasts for this session; switch to Advanced to make it yours."
+ },
+ {
+  "id": 1611,
+  "key": "interfaceMode.simple.label",
+  "path": [
+   "interfaceMode",
+   "simple",
+   "label"
+  ],
+  "isFn": false,
+  "en": "Simple"
+ },
+ {
+  "id": 1612,
+  "key": "interfaceMode.simple.description",
+  "path": [
+   "interfaceMode",
+   "simple",
+   "description"
+  ],
+  "isFn": false,
+  "en": "For talking to Hermes. Sidebar and chat; no terminal, file or diff panes."
+ },
+ {
+  "id": 1613,
+  "key": "interfaceMode.advanced.label",
+  "path": [
+   "interfaceMode",
+   "advanced",
+   "label"
+  ],
+  "isFn": false,
+  "en": "Advanced"
+ },
+ {
+  "id": 1614,
+  "key": "interfaceMode.advanced.description",
+  "path": [
+   "interfaceMode",
+   "advanced",
+   "description"
+  ],
+  "isFn": false,
+  "en": "For developers. Terminal, files, diffs, statusbar and layouts, as you set them."
+ },
+ {
+  "id": 1615,
+  "key": "zones.zoneMenuLabel",
+  "path": [
+   "zones",
+   "zoneMenuLabel"
+  ],
+  "isFn": true,
+  "en": "(title) => `Zone options for ${title}`"
+ },
+ {
+  "id": 1616,
+  "key": "assistant.thread.responseStopped",
+  "path": [
+   "assistant",
+   "thread",
+   "responseStopped"
+  ],
+  "isFn": false,
+  "en": "Response stopped"
+ },
+ {
+  "id": 1617,
+  "key": "assistant.thread.errorLayerBodies.auth",
+  "path": [
+   "assistant",
+   "thread",
+   "errorLayerBodies",
+   "auth"
+  ],
+  "isFn": false,
+  "en": "The AI service rejected your sign-in. Check the credentials for this provider, then send your message again."
+ },
+ {
+  "id": 1618,
+  "key": "assistant.thread.errorLayerBodies.billing",
+  "path": [
+   "assistant",
+   "thread",
+   "errorLayerBodies",
+   "billing"
+  ],
+  "isFn": false,
+  "en": "Your account has no credits left for this provider. Top up or switch provider, then send again."
+ },
+ {
+  "id": 1619,
+  "key": "assistant.thread.errorLayerBodies.disk",
+  "path": [
+   "assistant",
+   "thread",
+   "errorLayerBodies",
+   "disk"
+  ],
+  "isFn": false,
+  "en": "Your disk is full, so Hermes could not save this conversation. Free some space, then retry."
+ },
+ {
+  "id": 1620,
+  "key": "assistant.thread.errorLayerBodies.endpoint",
+  "path": [
+   "assistant",
+   "thread",
+   "errorLayerBodies",
+   "endpoint"
+  ],
+  "isFn": false,
+  "en": "Hermes can't reach your custom model server. Check that it is running, then send your message again."
+ },
+ {
+  "id": 1621,
+  "key": "assistant.thread.errorLayerBodies.gateway",
+  "path": [
+   "assistant",
+   "thread",
+   "errorLayerBodies",
+   "gateway"
+  ],
+  "isFn": false,
+  "en": "Hermes hit an internal problem starting this reply. Send your message again; if it keeps happening, send diagnostics."
+ },
+ {
+  "id": 1622,
+  "key": "assistant.thread.errorLayerBodies.generic",
+  "path": [
+   "assistant",
+   "thread",
+   "errorLayerBodies",
+   "generic"
+  ],
+  "isFn": false,
+  "en": "Something went wrong while Hermes was replying. Retry, or copy the details if it keeps happening."
+ },
+ {
+  "id": 1623,
+  "key": "assistant.thread.errorLayerBodies.provider",
+  "path": [
+   "assistant",
+   "thread",
+   "errorLayerBodies",
+   "provider"
+  ],
+  "isFn": false,
+  "en": "The AI service could not complete this request. Retry in a moment or switch provider."
+ }
+]

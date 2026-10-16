@@ -1,135 +1,52 @@
 # Tradução pt-BR do Hermes Desktop (não-oficial)
 
-Este repositório guarda a tradução completa (pt-BR) da interface do Hermes
-Desktop (Electron/React) — cerca de 850 strings — porque o suporte oficial a
-Português foi proposto (PR
-[#38846](https://github.com/NousResearch/hermes-agent/pull/38846)) mas **foi
-fechado sem merge**. A issue pedindo pt-BR
-([#40239](https://github.com/NousResearch/hermes-agent/issues/40239)) segue
-aberta sem solução.
+O Hermes Desktop **não traz português na interface** (a PR upstream
+[#38846](https://github.com/NousResearch/hermes-agent/pull/38846) foi fechada
+sem merge; issue [#40239](https://github.com/NousResearch/hermes-agent/issues/40239)
+segue aberta). O português que vem de fábrica cobre só o backend/terminal
+(`locales/pt.yaml`), não a tela do app.
 
-## Por que isso quebra a cada `hermes update`
+## v2: plugin de desktop (sobrevive ao `hermes update`)
 
-O comando `hermes update` roda `git reset --hard origin/main` no checkout
-local do `hermes-agent`. Isso apaga qualquer arquivo/edição que não veio do
-upstream oficial — incluindo:
+Desde o Hermes 0.22 o idioma pode entrar por **plugin** em
+`<hermes home>/desktop-plugins/`. Não mexe no código do app, não recompila e
+o `hermes update` não apaga. Este repo gera esse plugin.
 
-- `apps/desktop/src/i18n/pt-BR.ts` (o arquivo de tradução em si)
-- as edições em `types.ts`, `languages.ts`, `catalog.ts` que registram o
-  idioma no seletor
+- Registra o idioma **`pt`** ("Português"), o mesmo id do backend, então a
+  tela e as mensagens do agente ficam alinhadas.
+- Cobertura medida contra o `en.ts` do **0.22.2**: **5.088 de 5.088** textos
+  (`node tools/verify.mjs`).
+- Plurais e `${nome}` funcionam (são funções JS, algo que YAML não permite).
 
-Ou seja: **toda vez que você atualizar o Hermes, a tradução some** e a
-interface volta para inglês (mesmo que a config interna ainda esteja com
-`pt-BR` selecionado — o app só não vai encontrar o arquivo).
-
-## Como reaplicar depois de um update
+### Instalar / reinstalar
 
 ```bash
-python scripts/apply.py
+git clone https://github.com/fabiopego/hermes-pt-br && cd hermes-pt-br
+python scripts/install-plugin.py      # copia dist/plugin.js (já versionado)
 ```
 
-O script:
-1. Copia `i18n/pt-BR.ts` deste repo para dentro do checkout do Hermes
-2. Reaplica as 3 edições em `types.ts` / `languages.ts` / `catalog.ts`
-   (idempotente — pode rodar de novo sem duplicar nada)
-3. Roda o typecheck do TypeScript (`tsc --noEmit`) para confirmar que nada
-   quebrou
-4. Recompila o app (`hermes desktop --build-only --force-build`)
+Depois reabra o Hermes Desktop e vá em Settings > Appearance > Language >
+Português. (Se quiser o backend também em português: `display.language: pt`.)
 
-Por padrão ele assume o Hermes instalado em
-`%LOCALAPPDATA%\hermes\hermes-agent`. Para outro caminho:
+### Depois de um `hermes update` (textos novos em inglês)
 
 ```bash
-python scripts/apply.py --hermes-root "C:\caminho\outro"
+export HERMES_AGENT_DIR="$LOCALAPPDATA/hermes/hermes-agent"   # checkout do hermes-agent
+export REPO_DIR="$PWD" WORK_DIR="$PWD/work" GAPS_OUT="$PWD/i18n/pt-BR.gaps.js"
+node tools/gap.mjs            # lista o que falta: work/missing.json (+ extra.json = obsoletas)
+# traduzir work/missing.json -> work/out_N.js  ({ id: 'texto' | (n) => `...` })
+node tools/merge-gaps.mjs     # valida e gera i18n/pt-BR.gaps.js
+node tools/build-plugin.mjs   # gera dist/plugin.js
+node tools/verify.mjs         # tem que dar faltando:0, tipoDiferente:0
+python scripts/install-plugin.py
 ```
 
-Depois de rodar, **feche e reabra o Hermes Desktop** e vá em
-`Settings > Appearance > Language > Português (Brasil)`.
+Arquivos: `i18n/pt-BR.ts` (base antiga), `i18n/pt-BR.gaps.js` (1.826 textos do
+0.22.2), `i18n/pt-BR.obsolete.js` (132 chaves que saíram do inglês).
+Requer `node` e o `esbuild` que já vem no checkout do hermes-agent.
 
-## Passo a passo manual (se o script falhar)
+## v1 (legado)
 
-1. Copie `i18n/pt-BR.ts` para
-   `apps/desktop/src/i18n/pt-BR.ts` no checkout do Hermes.
-2. Em `apps/desktop/src/i18n/types.ts`, adicione `'pt-BR'` à união `Locale`:
-   ```ts
-   export type Locale = 'en' | 'zh' | 'zh-hant' | 'ja' | 'ar' | 'ru' | 'pt-BR'
-   ```
-3. Em `apps/desktop/src/i18n/languages.ts`:
-   - adicione uma entrada em `LOCALE_OPTIONS`:
-     ```ts
-     {
-       id: 'pt-BR',
-       name: 'Português (Brasil)',
-       englishName: 'Portuguese (Brazil)',
-       configValue: 'pt-BR'
-     }
-     ```
-   - adicione aliases em `LOCALE_ALIASES`:
-     ```ts
-     'pt-br': 'pt-BR',
-     pt_br: 'pt-BR',
-     'pt-pt': 'pt-BR',
-     pt_pt: 'pt-BR',
-     pt: 'pt-BR',
-     portuguese: 'pt-BR',
-     português: 'pt-BR',
-     portugues: 'pt-BR'
-     ```
-4. Em `apps/desktop/src/i18n/catalog.ts`, importe e registre:
-   ```ts
-   import { ptBR } from './pt-BR'
-   // ...
-   export const TRANSLATIONS: Record<Locale, Translations> = {
-     en, zh, 'zh-hant': zhHant, ja, ar, ru,
-     'pt-BR': ptBR
-   }
-   ```
-5. Rode o typecheck: `cd apps/desktop && npx tsc --noEmit -p tsconfig.json`
-6. Recompile: `hermes desktop --build-only --force-build`
-7. Feche e reabra o app.
-
-## Skill do Hermes (`hermes-pt-br-i18n`)
-
-Este repo também guarda a skill que documenta esse fluxo pra qualquer sessão
-do Hermes lembrar sozinha (`skill/SKILL.md`). Para reinstalar em outra
-máquina/perfil:
-
-```bash
-mkdir -p "%LOCALAPPDATA%\hermes\skills\hermes-pt-br-i18n"
-copy skill\SKILL.md "%LOCALAPPDATA%\hermes\skills\hermes-pt-br-i18n\SKILL.md"
-```
-
-Se editar a skill via `skill_manage` no Hermes, copie o `SKILL.md`
-atualizado de volta pra cá (`skill/SKILL.md`) e dê commit/push.
-
-## Estrutura do arquivo de tradução
-
-`i18n/pt-BR.ts` usa o mecanismo `defineLocale()` do próprio Hermes: qualquer
-string que faltar (ex.: uma nova feature adicionada em uma atualização e
-ainda não traduzida) cai automaticamente no fallback em inglês — não quebra
-o app, só aparece em inglês até a próxima tradução.
-
-## Bugs encontrados no arquivo original (`en.ts`) durante a tradução
-
-Três chaves do arquivo-fonte oficial em inglês tinham texto corrompido
-(`***` no lugar do texto real) — bug pré-existente do upstream, não
-introduzido por esta tradução:
-
-- `openaiRejectedApiKey`
-- `providers.haveApiKey`
-- `onboarding.haveApiKey`
-- `onboarding.pasteApiKey`
-
-Reconstruí o texto certo por contexto (comparando com a string irmã
-`openaiRejectedApiKeyWithStatus` e o nome da chave) ao traduzir. Vale reportar
-isso como issue separada no `NousResearch/hermes-agent` — não fiz isso ainda.
-
-## Manutenção
-
-Quando o Hermes adicionar novas strings de interface (após um update), rode
-o typecheck (`npx tsc --noEmit -p tsconfig.json`) dentro de
-`apps/desktop` — qualquer chave nova aparece como erro de tipo apontando pro
-`pt-BR.ts` só se você tentar torná-lo `Translations` completo (não é o caso
-aqui, que usa `defineLocale()` com fallback). Para saber o que ainda falta
-traduzir, compare `i18n/pt-BR.ts` deste repo com o `en.ts` mais recente do
-Hermes.
+`scripts/apply.py` copiava o `pt-BR.ts` para dentro do app e recompilava.
+**Não funciona no 0.22** (o registro de idiomas mudou) e era apagado a cada
+update. Mantido só como histórico.

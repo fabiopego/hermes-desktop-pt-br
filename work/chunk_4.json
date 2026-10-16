@@ -1,0 +1,2263 @@
+[
+ {
+  "id": 609,
+  "key": "settings.appearance.themeSearchPlaceholder",
+  "path": [
+   "settings",
+   "appearance",
+   "themeSearchPlaceholder"
+  ],
+  "isFn": false,
+  "en": "Search your themes or the VS Code Marketplace…"
+ },
+ {
+  "id": 610,
+  "key": "settings.fieldLabels.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "model"
+  ],
+  "isFn": false,
+  "en": "Default Model"
+ },
+ {
+  "id": 611,
+  "key": "settings.fieldLabels.modelContextLength",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "modelContextLength"
+  ],
+  "isFn": false,
+  "en": "Main model context window (override)"
+ },
+ {
+  "id": 612,
+  "key": "settings.fieldLabels.fallbackProviders",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "fallbackProviders"
+  ],
+  "isFn": false,
+  "en": "Fallback Models"
+ },
+ {
+  "id": 613,
+  "key": "settings.fieldLabels.toolsets",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "toolsets"
+  ],
+  "isFn": false,
+  "en": "Enabled Toolsets"
+ },
+ {
+  "id": 614,
+  "key": "settings.fieldLabels.timezone",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "timezone"
+  ],
+  "isFn": false,
+  "en": "Timezone"
+ },
+ {
+  "id": 615,
+  "key": "settings.fieldLabels.display.personality",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "display.personality"
+  ],
+  "isFn": false,
+  "en": "Personality"
+ },
+ {
+  "id": 616,
+  "key": "settings.fieldLabels.display.showReasoning",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "display.showReasoning"
+  ],
+  "isFn": false,
+  "en": "Reasoning Blocks"
+ },
+ {
+  "id": 617,
+  "key": "settings.fieldLabels.desktop.repoScanEnabled",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "desktop.repoScanEnabled"
+  ],
+  "isFn": false,
+  "en": "Automatic Repository Discovery"
+ },
+ {
+  "id": 618,
+  "key": "settings.fieldLabels.desktop.repoScanRoots",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "desktop.repoScanRoots"
+  ],
+  "isFn": false,
+  "en": "Repository Discovery Roots"
+ },
+ {
+  "id": 619,
+  "key": "settings.fieldLabels.desktop.repoScanExcludePaths",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "desktop.repoScanExcludePaths"
+  ],
+  "isFn": false,
+  "en": "Excluded Repository Paths"
+ },
+ {
+  "id": 620,
+  "key": "settings.fieldLabels.agent.maxTurns",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "agent.maxTurns"
+  ],
+  "isFn": false,
+  "en": "Max Agent Steps"
+ },
+ {
+  "id": 621,
+  "key": "settings.fieldLabels.agent.imageInputMode",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "agent.imageInputMode"
+  ],
+  "isFn": false,
+  "en": "Image Attachments"
+ },
+ {
+  "id": 622,
+  "key": "settings.fieldLabels.agent.apiMaxRetries",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "agent.apiMaxRetries"
+  ],
+  "isFn": false,
+  "en": "API Retries"
+ },
+ {
+  "id": 623,
+  "key": "settings.fieldLabels.agent.serviceTier",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "agent.serviceTier"
+  ],
+  "isFn": false,
+  "en": "Service Tier"
+ },
+ {
+  "id": 624,
+  "key": "settings.fieldLabels.agent.toolUseEnforcement",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "agent.toolUseEnforcement"
+  ],
+  "isFn": false,
+  "en": "Tool-Use Enforcement"
+ },
+ {
+  "id": 625,
+  "key": "settings.fieldLabels.terminal.cwd",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "terminal.cwd"
+  ],
+  "isFn": false,
+  "en": "Working Directory"
+ },
+ {
+  "id": 626,
+  "key": "settings.fieldLabels.terminal.backend",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "terminal.backend"
+  ],
+  "isFn": false,
+  "en": "Execution Backend"
+ },
+ {
+  "id": 627,
+  "key": "settings.fieldLabels.terminal.timeout",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "terminal.timeout"
+  ],
+  "isFn": false,
+  "en": "Command Timeout"
+ },
+ {
+  "id": 628,
+  "key": "settings.fieldLabels.terminal.persistentShell",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "terminal.persistentShell"
+  ],
+  "isFn": false,
+  "en": "Persistent Shell"
+ },
+ {
+  "id": 629,
+  "key": "settings.fieldLabels.terminal.envPassthrough",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "terminal.envPassthrough"
+  ],
+  "isFn": false,
+  "en": "Environment Passthrough"
+ },
+ {
+  "id": 630,
+  "key": "settings.fieldLabels.terminal.dockerImage",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "terminal.dockerImage"
+  ],
+  "isFn": false,
+  "en": "Docker Image"
+ },
+ {
+  "id": 631,
+  "key": "settings.fieldLabels.terminal.singularityImage",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "terminal.singularityImage"
+  ],
+  "isFn": false,
+  "en": "Singularity Image"
+ },
+ {
+  "id": 632,
+  "key": "settings.fieldLabels.terminal.modalImage",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "terminal.modalImage"
+  ],
+  "isFn": false,
+  "en": "Modal Image"
+ },
+ {
+  "id": 633,
+  "key": "settings.fieldLabels.terminal.daytonaImage",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "terminal.daytonaImage"
+  ],
+  "isFn": false,
+  "en": "Daytona Image"
+ },
+ {
+  "id": 634,
+  "key": "settings.fieldLabels.fileReadMaxChars",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "fileReadMaxChars"
+  ],
+  "isFn": false,
+  "en": "File Read Limit"
+ },
+ {
+  "id": 635,
+  "key": "settings.fieldLabels.toolOutput.maxBytes",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "toolOutput.maxBytes"
+  ],
+  "isFn": false,
+  "en": "Terminal Output Limit"
+ },
+ {
+  "id": 636,
+  "key": "settings.fieldLabels.toolOutput.maxLines",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "toolOutput.maxLines"
+  ],
+  "isFn": false,
+  "en": "File Page Limit"
+ },
+ {
+  "id": 637,
+  "key": "settings.fieldLabels.toolOutput.maxLineLength",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "toolOutput.maxLineLength"
+  ],
+  "isFn": false,
+  "en": "Line Length Limit"
+ },
+ {
+  "id": 638,
+  "key": "settings.fieldLabels.codeExecution.mode",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "codeExecution.mode"
+  ],
+  "isFn": false,
+  "en": "Code Execution Mode"
+ },
+ {
+  "id": 639,
+  "key": "settings.fieldLabels.approvals.mode",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "approvals.mode"
+  ],
+  "isFn": false,
+  "en": "Approval Mode"
+ },
+ {
+  "id": 640,
+  "key": "settings.fieldLabels.approvals.timeout",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "approvals.timeout"
+  ],
+  "isFn": false,
+  "en": "Approval Timeout"
+ },
+ {
+  "id": 641,
+  "key": "settings.fieldLabels.approvals.mcpReloadConfirm",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "approvals.mcpReloadConfirm"
+  ],
+  "isFn": false,
+  "en": "Confirm MCP Reloads"
+ },
+ {
+  "id": 642,
+  "key": "settings.fieldLabels.commandAllowlist",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "commandAllowlist"
+  ],
+  "isFn": false,
+  "en": "Command Allowlist"
+ },
+ {
+  "id": 643,
+  "key": "settings.fieldLabels.security.redactSecrets",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "security.redactSecrets"
+  ],
+  "isFn": false,
+  "en": "Redact Secrets"
+ },
+ {
+  "id": 644,
+  "key": "settings.fieldLabels.security.allowPrivateUrls",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "security.allowPrivateUrls"
+  ],
+  "isFn": false,
+  "en": "Allow Private URLs"
+ },
+ {
+  "id": 645,
+  "key": "settings.fieldLabels.browser.allowPrivateUrls",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "browser.allowPrivateUrls"
+  ],
+  "isFn": false,
+  "en": "Browser Private URLs"
+ },
+ {
+  "id": 646,
+  "key": "settings.fieldLabels.browser.autoLocalForPrivateUrls",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "browser.autoLocalForPrivateUrls"
+  ],
+  "isFn": false,
+  "en": "Local Browser For Private URLs"
+ },
+ {
+  "id": 647,
+  "key": "settings.fieldLabels.browser.useRealProfile",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "browser.useRealProfile"
+  ],
+  "isFn": false,
+  "en": "Use My Real Browser Profile"
+ },
+ {
+  "id": 648,
+  "key": "settings.fieldLabels.checkpoints.enabled",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "checkpoints.enabled"
+  ],
+  "isFn": false,
+  "en": "File Checkpoints"
+ },
+ {
+  "id": 649,
+  "key": "settings.fieldLabels.checkpoints.maxSnapshots",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "checkpoints.maxSnapshots"
+  ],
+  "isFn": false,
+  "en": "Checkpoint Limit"
+ },
+ {
+  "id": 650,
+  "key": "settings.fieldLabels.voice.maxRecordingSeconds",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "voice.maxRecordingSeconds"
+  ],
+  "isFn": false,
+  "en": "Max Recording Length"
+ },
+ {
+  "id": 651,
+  "key": "settings.fieldLabels.voice.autoTts",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "voice.autoTts"
+  ],
+  "isFn": false,
+  "en": "Read Responses Aloud"
+ },
+ {
+  "id": 652,
+  "key": "settings.fieldLabels.voice.voiceChatMode",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "voice.voiceChatMode"
+  ],
+  "isFn": false,
+  "en": "Voice Chat Mode"
+ },
+ {
+  "id": 653,
+  "key": "settings.fieldLabels.voice.gptLive.voice",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "voice.gptLive.voice"
+  ],
+  "isFn": false,
+  "en": "GPT-Live Voice"
+ },
+ {
+  "id": 654,
+  "key": "settings.fieldLabels.voice.gptLive.instructions",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "voice.gptLive.instructions"
+  ],
+  "isFn": false,
+  "en": "GPT-Live Persona"
+ },
+ {
+  "id": 655,
+  "key": "settings.fieldLabels.stt.enabled",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.enabled"
+  ],
+  "isFn": false,
+  "en": "Speech To Text"
+ },
+ {
+  "id": 656,
+  "key": "settings.fieldLabels.stt.echoTranscripts",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.echoTranscripts"
+  ],
+  "isFn": false,
+  "en": "Echo Transcripts"
+ },
+ {
+  "id": 657,
+  "key": "settings.fieldLabels.stt.provider",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.provider"
+  ],
+  "isFn": false,
+  "en": "Speech-To-Text Provider"
+ },
+ {
+  "id": 658,
+  "key": "settings.fieldLabels.stt.streaming",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.streaming"
+  ],
+  "isFn": false,
+  "en": "Live Transcription"
+ },
+ {
+  "id": 659,
+  "key": "settings.fieldLabels.stt.local.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.local.model"
+  ],
+  "isFn": false,
+  "en": "Local Transcription Model"
+ },
+ {
+  "id": 660,
+  "key": "settings.fieldLabels.stt.local.language",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.local.language"
+  ],
+  "isFn": false,
+  "en": "Transcription Language"
+ },
+ {
+  "id": 661,
+  "key": "settings.fieldLabels.stt.openai.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.openai.model"
+  ],
+  "isFn": false,
+  "en": "OpenAI STT Model"
+ },
+ {
+  "id": 662,
+  "key": "settings.fieldLabels.stt.openai.streamingModel",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.openai.streamingModel"
+  ],
+  "isFn": false,
+  "en": "OpenAI Live Transcription Model"
+ },
+ {
+  "id": 663,
+  "key": "settings.fieldLabels.stt.groq.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.groq.model"
+  ],
+  "isFn": false,
+  "en": "Groq STT Model"
+ },
+ {
+  "id": 664,
+  "key": "settings.fieldLabels.stt.mistral.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.mistral.model"
+  ],
+  "isFn": false,
+  "en": "Mistral STT Model"
+ },
+ {
+  "id": 665,
+  "key": "settings.fieldLabels.stt.xai.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.xai.model"
+  ],
+  "isFn": false,
+  "en": "xAI STT Model"
+ },
+ {
+  "id": 666,
+  "key": "settings.fieldLabels.stt.deepinfra.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.deepinfra.model"
+  ],
+  "isFn": false,
+  "en": "DeepInfra STT Model"
+ },
+ {
+  "id": 667,
+  "key": "settings.fieldLabels.stt.elevenlabs.modelId",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.elevenlabs.modelId"
+  ],
+  "isFn": false,
+  "en": "ElevenLabs STT Model"
+ },
+ {
+  "id": 668,
+  "key": "settings.fieldLabels.stt.elevenlabs.languageCode",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.elevenlabs.languageCode"
+  ],
+  "isFn": false,
+  "en": "ElevenLabs Language"
+ },
+ {
+  "id": 669,
+  "key": "settings.fieldLabels.stt.elevenlabs.tagAudioEvents",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.elevenlabs.tagAudioEvents"
+  ],
+  "isFn": false,
+  "en": "Tag Audio Events"
+ },
+ {
+  "id": 670,
+  "key": "settings.fieldLabels.stt.elevenlabs.diarize",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "stt.elevenlabs.diarize"
+  ],
+  "isFn": false,
+  "en": "Speaker Diarization"
+ },
+ {
+  "id": 671,
+  "key": "settings.fieldLabels.tts.provider",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.provider"
+  ],
+  "isFn": false,
+  "en": "Text-To-Speech Provider"
+ },
+ {
+  "id": 672,
+  "key": "settings.fieldLabels.tts.edge.voice",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.edge.voice"
+  ],
+  "isFn": false,
+  "en": "Edge Voice"
+ },
+ {
+  "id": 673,
+  "key": "settings.fieldLabels.tts.openai.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.openai.model"
+  ],
+  "isFn": false,
+  "en": "OpenAI TTS Model"
+ },
+ {
+  "id": 674,
+  "key": "settings.fieldLabels.tts.openai.voice",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.openai.voice"
+  ],
+  "isFn": false,
+  "en": "OpenAI Voice"
+ },
+ {
+  "id": 675,
+  "key": "settings.fieldLabels.tts.elevenlabs.voiceId",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.elevenlabs.voiceId"
+  ],
+  "isFn": false,
+  "en": "ElevenLabs Voice"
+ },
+ {
+  "id": 676,
+  "key": "settings.fieldLabels.tts.elevenlabs.modelId",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.elevenlabs.modelId"
+  ],
+  "isFn": false,
+  "en": "ElevenLabs Model"
+ },
+ {
+  "id": 677,
+  "key": "settings.fieldLabels.tts.xai.voiceId",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.xai.voiceId"
+  ],
+  "isFn": false,
+  "en": "xAI (Grok) Voice"
+ },
+ {
+  "id": 678,
+  "key": "settings.fieldLabels.tts.xai.language",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.xai.language"
+  ],
+  "isFn": false,
+  "en": "xAI Language"
+ },
+ {
+  "id": 679,
+  "key": "settings.fieldLabels.tts.xai.speed",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.xai.speed"
+  ],
+  "isFn": false,
+  "en": "xAI Playback Speed"
+ },
+ {
+  "id": 680,
+  "key": "settings.fieldLabels.tts.xai.autoSpeechTags",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.xai.autoSpeechTags"
+  ],
+  "isFn": false,
+  "en": "xAI Auto Speech Tags"
+ },
+ {
+  "id": 681,
+  "key": "settings.fieldLabels.tts.xai.optimizeStreamingLatency",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.xai.optimizeStreamingLatency"
+  ],
+  "isFn": false,
+  "en": "xAI Streaming Latency Optimization"
+ },
+ {
+  "id": 682,
+  "key": "settings.fieldLabels.tts.xai.sampleRate",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.xai.sampleRate"
+  ],
+  "isFn": false,
+  "en": "xAI Sample Rate"
+ },
+ {
+  "id": 683,
+  "key": "settings.fieldLabels.tts.xai.bitRate",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.xai.bitRate"
+  ],
+  "isFn": false,
+  "en": "xAI Bit Rate"
+ },
+ {
+  "id": 684,
+  "key": "settings.fieldLabels.tts.minimax.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.minimax.model"
+  ],
+  "isFn": false,
+  "en": "MiniMax TTS Model"
+ },
+ {
+  "id": 685,
+  "key": "settings.fieldLabels.tts.minimax.voiceId",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.minimax.voiceId"
+  ],
+  "isFn": false,
+  "en": "MiniMax Voice"
+ },
+ {
+  "id": 686,
+  "key": "settings.fieldLabels.tts.mistral.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.mistral.model"
+  ],
+  "isFn": false,
+  "en": "Mistral TTS Model"
+ },
+ {
+  "id": 687,
+  "key": "settings.fieldLabels.tts.mistral.voiceId",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.mistral.voiceId"
+  ],
+  "isFn": false,
+  "en": "Mistral Voice"
+ },
+ {
+  "id": 688,
+  "key": "settings.fieldLabels.tts.gemini.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.gemini.model"
+  ],
+  "isFn": false,
+  "en": "Gemini TTS Model"
+ },
+ {
+  "id": 689,
+  "key": "settings.fieldLabels.tts.gemini.voice",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.gemini.voice"
+  ],
+  "isFn": false,
+  "en": "Gemini Voice"
+ },
+ {
+  "id": 690,
+  "key": "settings.fieldLabels.tts.neutts.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.neutts.model"
+  ],
+  "isFn": false,
+  "en": "NeuTTS Model"
+ },
+ {
+  "id": 691,
+  "key": "settings.fieldLabels.tts.neutts.device",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.neutts.device"
+  ],
+  "isFn": false,
+  "en": "NeuTTS Device"
+ },
+ {
+  "id": 692,
+  "key": "settings.fieldLabels.tts.kittentts.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.kittentts.model"
+  ],
+  "isFn": false,
+  "en": "KittenTTS Model"
+ },
+ {
+  "id": 693,
+  "key": "settings.fieldLabels.tts.kittentts.voice",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.kittentts.voice"
+  ],
+  "isFn": false,
+  "en": "KittenTTS Voice"
+ },
+ {
+  "id": 694,
+  "key": "settings.fieldLabels.tts.piper.voice",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.piper.voice"
+  ],
+  "isFn": false,
+  "en": "Piper Voice"
+ },
+ {
+  "id": 695,
+  "key": "settings.fieldLabels.tts.deepinfra.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.deepinfra.model"
+  ],
+  "isFn": false,
+  "en": "DeepInfra TTS Model"
+ },
+ {
+  "id": 696,
+  "key": "settings.fieldLabels.tts.deepinfra.voice",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "tts.deepinfra.voice"
+  ],
+  "isFn": false,
+  "en": "DeepInfra Voice"
+ },
+ {
+  "id": 697,
+  "key": "settings.fieldLabels.memory.memoryEnabled",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "memory.memoryEnabled"
+  ],
+  "isFn": false,
+  "en": "Persistent Memory"
+ },
+ {
+  "id": 698,
+  "key": "settings.fieldLabels.memory.userProfileEnabled",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "memory.userProfileEnabled"
+  ],
+  "isFn": false,
+  "en": "User Profile"
+ },
+ {
+  "id": 699,
+  "key": "settings.fieldLabels.memory.memoryCharLimit",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "memory.memoryCharLimit"
+  ],
+  "isFn": false,
+  "en": "Memory Budget"
+ },
+ {
+  "id": 700,
+  "key": "settings.fieldLabels.memory.userCharLimit",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "memory.userCharLimit"
+  ],
+  "isFn": false,
+  "en": "Profile Budget"
+ },
+ {
+  "id": 701,
+  "key": "settings.fieldLabels.memory.provider",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "memory.provider"
+  ],
+  "isFn": false,
+  "en": "Memory Provider"
+ },
+ {
+  "id": 702,
+  "key": "settings.fieldLabels.context.engine",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "context.engine"
+  ],
+  "isFn": false,
+  "en": "Context Engine"
+ },
+ {
+  "id": 703,
+  "key": "settings.fieldLabels.compression.enabled",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "compression.enabled"
+  ],
+  "isFn": false,
+  "en": "Auto-Compression"
+ },
+ {
+  "id": 704,
+  "key": "settings.fieldLabels.compression.threshold",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "compression.threshold"
+  ],
+  "isFn": false,
+  "en": "Compression Threshold"
+ },
+ {
+  "id": 705,
+  "key": "settings.fieldLabels.compression.codexGpt55Autoraise",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "compression.codexGpt55Autoraise"
+  ],
+  "isFn": false,
+  "en": "Codex Compression Auto-Raise"
+ },
+ {
+  "id": 706,
+  "key": "settings.fieldLabels.compression.targetRatio",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "compression.targetRatio"
+  ],
+  "isFn": false,
+  "en": "Compression Target"
+ },
+ {
+  "id": 707,
+  "key": "settings.fieldLabels.compression.protectLastN",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "compression.protectLastN"
+  ],
+  "isFn": false,
+  "en": "Protected Recent Messages"
+ },
+ {
+  "id": 708,
+  "key": "settings.fieldLabels.auxiliary.compression.timeout",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "auxiliary.compression.timeout"
+  ],
+  "isFn": false,
+  "en": "Compression model timeout (s)"
+ },
+ {
+  "id": 709,
+  "key": "settings.fieldLabels.delegation.model",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "delegation.model"
+  ],
+  "isFn": false,
+  "en": "Subagent Model"
+ },
+ {
+  "id": 710,
+  "key": "settings.fieldLabels.delegation.provider",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "delegation.provider"
+  ],
+  "isFn": false,
+  "en": "Subagent Provider"
+ },
+ {
+  "id": 711,
+  "key": "settings.fieldLabels.delegation.maxIterations",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "delegation.maxIterations"
+  ],
+  "isFn": false,
+  "en": "Subagent Turn Limit"
+ },
+ {
+  "id": 712,
+  "key": "settings.fieldLabels.delegation.maxConcurrentChildren",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "delegation.maxConcurrentChildren"
+  ],
+  "isFn": false,
+  "en": "Parallel Subagents"
+ },
+ {
+  "id": 713,
+  "key": "settings.fieldLabels.delegation.childTimeoutSeconds",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "delegation.childTimeoutSeconds"
+  ],
+  "isFn": false,
+  "en": "Subagent Timeout"
+ },
+ {
+  "id": 714,
+  "key": "settings.fieldLabels.delegation.reasoningEffort",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "delegation.reasoningEffort"
+  ],
+  "isFn": false,
+  "en": "Subagent Reasoning Effort"
+ },
+ {
+  "id": 715,
+  "key": "settings.fieldLabels.updates.nonInteractiveLocalChanges",
+  "path": [
+   "settings",
+   "fieldLabels",
+   "updates.nonInteractiveLocalChanges"
+  ],
+  "isFn": false,
+  "en": "In-App Update Local Changes"
+ },
+ {
+  "id": 716,
+  "key": "settings.fieldDescriptions.model",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "model"
+  ],
+  "isFn": false,
+  "en": "Used for new chats unless you pick a different model in the composer."
+ },
+ {
+  "id": 717,
+  "key": "settings.fieldDescriptions.modelContextLength",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "modelContextLength"
+  ],
+  "isFn": false,
+  "en": "Overrides the detected context window of the MAIN chat model only (tokens). Leave at 0 to use the selected model's detected value. Does not affect auxiliary/MoA models."
+ },
+ {
+  "id": 718,
+  "key": "settings.fieldDescriptions.fallbackProviders",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "fallbackProviders"
+  ],
+  "isFn": false,
+  "en": "Backup provider:model entries to try if the default model fails."
+ },
+ {
+  "id": 719,
+  "key": "settings.fieldDescriptions.display.personality",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "display.personality"
+  ],
+  "isFn": false,
+  "en": "Default assistant style for new sessions."
+ },
+ {
+  "id": 720,
+  "key": "settings.fieldDescriptions.display.showReasoning",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "display.showReasoning"
+  ],
+  "isFn": false,
+  "en": "Show reasoning sections when the backend provides them."
+ },
+ {
+  "id": 721,
+  "key": "settings.fieldDescriptions.desktop.repoScanEnabled",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "desktop.repoScanEnabled"
+  ],
+  "isFn": false,
+  "en": "Scan local folders for Git repositories to show in Projects."
+ },
+ {
+  "id": 722,
+  "key": "settings.fieldDescriptions.desktop.repoScanRoots",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "desktop.repoScanRoots"
+  ],
+  "isFn": false,
+  "en": "Folders to scan. Leave empty to scan your home directory."
+ },
+ {
+  "id": 723,
+  "key": "settings.fieldDescriptions.desktop.repoScanExcludePaths",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "desktop.repoScanExcludePaths"
+  ],
+  "isFn": false,
+  "en": "Folders and their descendants to skip during repository discovery."
+ },
+ {
+  "id": 724,
+  "key": "settings.fieldDescriptions.timezone",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "timezone"
+  ],
+  "isFn": false,
+  "en": "IANA timezone identifier. Blank uses the system timezone."
+ },
+ {
+  "id": 725,
+  "key": "settings.fieldDescriptions.browser.useRealProfile",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "browser.useRealProfile"
+  ],
+  "isFn": false,
+  "en": "Local browsing uses your real logins. Hermes copies your default browser's profile (cookies, logins, preferences) into a managed snapshot and drives it with its packaged Chromium — your live profile is never opened directly, and the copy is refreshed from it on each run. Also lets the agent open a local real-profile session on request even when a cloud browser backend is configured. Only Chromium browsers (Chrome, Edge, Brave, Brave Origin, Chromium) are supported; a non-Chromium default fails with a clear message. Off by default."
+ },
+ {
+  "id": 726,
+  "key": "settings.fieldDescriptions.agent.imageInputMode",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "agent.imageInputMode"
+  ],
+  "isFn": false,
+  "en": "Controls how image attachments are sent to the model."
+ },
+ {
+  "id": 727,
+  "key": "settings.fieldDescriptions.agent.maxTurns",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "agent.maxTurns"
+  ],
+  "isFn": false,
+  "en": "Upper bound for tool-calling turns before Hermes stops a run."
+ },
+ {
+  "id": 728,
+  "key": "settings.fieldDescriptions.terminal.cwd",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "terminal.cwd"
+  ],
+  "isFn": false,
+  "en": "Default project folder for tool and terminal work."
+ },
+ {
+  "id": 729,
+  "key": "settings.fieldDescriptions.terminal.persistentShell",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "terminal.persistentShell"
+  ],
+  "isFn": false,
+  "en": "SSH backend: keep exported variables between commands. Off starts each command from the login environment; the working directory always carries over."
+ },
+ {
+  "id": 730,
+  "key": "settings.fieldDescriptions.terminal.envPassthrough",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "terminal.envPassthrough"
+  ],
+  "isFn": false,
+  "en": "Environment variables to pass into tool execution."
+ },
+ {
+  "id": 731,
+  "key": "settings.fieldDescriptions.terminal.dockerImage",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "terminal.dockerImage"
+  ],
+  "isFn": false,
+  "en": "Container image used when the execution backend is Docker."
+ },
+ {
+  "id": 732,
+  "key": "settings.fieldDescriptions.terminal.singularityImage",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "terminal.singularityImage"
+  ],
+  "isFn": false,
+  "en": "Image used when the execution backend is Singularity."
+ },
+ {
+  "id": 733,
+  "key": "settings.fieldDescriptions.terminal.modalImage",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "terminal.modalImage"
+  ],
+  "isFn": false,
+  "en": "Image used when the execution backend is Modal."
+ },
+ {
+  "id": 734,
+  "key": "settings.fieldDescriptions.terminal.daytonaImage",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "terminal.daytonaImage"
+  ],
+  "isFn": false,
+  "en": "Image used when the execution backend is Daytona."
+ },
+ {
+  "id": 735,
+  "key": "settings.fieldDescriptions.codeExecution.mode",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "codeExecution.mode"
+  ],
+  "isFn": false,
+  "en": "How strictly code execution is scoped to the current project."
+ },
+ {
+  "id": 736,
+  "key": "settings.fieldDescriptions.fileReadMaxChars",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "fileReadMaxChars"
+  ],
+  "isFn": false,
+  "en": "Maximum characters Hermes can read from one file request."
+ },
+ {
+  "id": 737,
+  "key": "settings.fieldDescriptions.approvals.mode",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "approvals.mode"
+  ],
+  "isFn": false,
+  "en": "How Hermes handles commands that need explicit approval."
+ },
+ {
+  "id": 738,
+  "key": "settings.fieldDescriptions.approvals.timeout",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "approvals.timeout"
+  ],
+  "isFn": false,
+  "en": "How long approval prompts wait before timing out."
+ },
+ {
+  "id": 739,
+  "key": "settings.fieldDescriptions.security.redactSecrets",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "security.redactSecrets"
+  ],
+  "isFn": false,
+  "en": "Hide detected secrets from model-visible content when possible."
+ },
+ {
+  "id": 740,
+  "key": "settings.fieldDescriptions.checkpoints.enabled",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "checkpoints.enabled"
+  ],
+  "isFn": false,
+  "en": "Create rollback snapshots before file edits."
+ },
+ {
+  "id": 741,
+  "key": "settings.fieldDescriptions.memory.memoryEnabled",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "memory.memoryEnabled"
+  ],
+  "isFn": false,
+  "en": "Save durable memories that can help future sessions."
+ },
+ {
+  "id": 742,
+  "key": "settings.fieldDescriptions.memory.userProfileEnabled",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "memory.userProfileEnabled"
+  ],
+  "isFn": false,
+  "en": "Maintain a compact profile of user preferences."
+ },
+ {
+  "id": 743,
+  "key": "settings.fieldDescriptions.context.engine",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "context.engine"
+  ],
+  "isFn": false,
+  "en": "Strategy for managing long conversations near the context limit."
+ },
+ {
+  "id": 744,
+  "key": "settings.fieldDescriptions.compression.enabled",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "compression.enabled"
+  ],
+  "isFn": false,
+  "en": "Summarize older context when conversations get large."
+ },
+ {
+  "id": 745,
+  "key": "settings.fieldDescriptions.compression.codexGpt55Autoraise",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "compression.codexGpt55Autoraise"
+  ],
+  "isFn": false,
+  "en": "Raise compression to 85% for supported ChatGPT Codex OAuth models."
+ },
+ {
+  "id": 746,
+  "key": "settings.fieldDescriptions.auxiliary.compression.timeout",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "auxiliary.compression.timeout"
+  ],
+  "isFn": false,
+  "en": "Seconds to wait for the auxiliary compression model per call (default 120). Raise for slow local models."
+ },
+ {
+  "id": 747,
+  "key": "settings.fieldDescriptions.voice.autoTts",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "voice.autoTts"
+  ],
+  "isFn": false,
+  "en": "Automatically speak assistant responses."
+ },
+ {
+  "id": 748,
+  "key": "settings.fieldDescriptions.voice.voiceChatMode",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "voice.voiceChatMode"
+  ],
+  "isFn": false,
+  "en": "chained: speech-to-text → Hermes → text-to-speech with the providers below. gpt-live: one full-duplex OpenAI voice model (gpt-live-1) listens and talks, and hands every real request to Hermes — any model you have selected answers with the full toolset. Needs an OpenAI API key; the voice layer bills $0.05 per minute."
+ },
+ {
+  "id": 749,
+  "key": "settings.fieldDescriptions.voice.gptLive.voice",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "voice.gptLive.voice"
+  ],
+  "isFn": false,
+  "en": "Voice for GPT-Live mode. Custom voice IDs are accepted."
+ },
+ {
+  "id": 750,
+  "key": "settings.fieldDescriptions.voice.gptLive.instructions",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "voice.gptLive.instructions"
+  ],
+  "isFn": false,
+  "en": "Extra sentences for the live voice persona (tone, pace, language). Hermes keeps its own system prompt."
+ },
+ {
+  "id": 751,
+  "key": "settings.fieldDescriptions.tts.xai.voiceId",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "tts.xai.voiceId"
+  ],
+  "isFn": false,
+  "en": "xAI voice ID (e.g. eve) or a custom voice ID."
+ },
+ {
+  "id": 752,
+  "key": "settings.fieldDescriptions.tts.xai.language",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "tts.xai.language"
+  ],
+  "isFn": false,
+  "en": "Spoken language code (e.g. en, pt-BR) or \"auto\" for auto-detection."
+ },
+ {
+  "id": 753,
+  "key": "settings.fieldDescriptions.tts.xai.speed",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "tts.xai.speed"
+  ],
+  "isFn": false,
+  "en": "Playback speed. 0.7 = slower, 1.0 = normal, 1.5 = faster."
+ },
+ {
+  "id": 754,
+  "key": "settings.fieldDescriptions.tts.xai.autoSpeechTags",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "tts.xai.autoSpeechTags"
+  ],
+  "isFn": false,
+  "en": "Let an LLM insert expressive audio tags ([laughing], [sighs]) into the script before synthesis."
+ },
+ {
+  "id": 755,
+  "key": "settings.fieldDescriptions.tts.xai.optimizeStreamingLatency",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "tts.xai.optimizeStreamingLatency"
+  ],
+  "isFn": false,
+  "en": "Latency vs. quality trade-off. 0 = best quality, 2 = lowest latency."
+ },
+ {
+  "id": 756,
+  "key": "settings.fieldDescriptions.tts.xai.sampleRate",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "tts.xai.sampleRate"
+  ],
+  "isFn": false,
+  "en": "Audio sample rate in Hz. Higher = better quality, larger files."
+ },
+ {
+  "id": 757,
+  "key": "settings.fieldDescriptions.tts.xai.bitRate",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "tts.xai.bitRate"
+  ],
+  "isFn": false,
+  "en": "MP3 bitrate in bps. Only applies when codec is mp3."
+ },
+ {
+  "id": 758,
+  "key": "settings.fieldDescriptions.tts.neutts.device",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "tts.neutts.device"
+  ],
+  "isFn": false,
+  "en": "Local inference device for NeuTTS."
+ },
+ {
+  "id": 759,
+  "key": "settings.fieldDescriptions.stt.enabled",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "stt.enabled"
+  ],
+  "isFn": false,
+  "en": "Enable local or provider-backed speech transcription."
+ },
+ {
+  "id": 760,
+  "key": "settings.fieldDescriptions.stt.echoTranscripts",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "stt.echoTranscripts"
+  ],
+  "isFn": false,
+  "en": "Post the raw 🎙️ transcript of voice messages back to the chat."
+ },
+ {
+  "id": 761,
+  "key": "settings.fieldDescriptions.stt.streaming",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "stt.streaming"
+  ],
+  "isFn": false,
+  "en": "Show text while you speak (OpenAI, xAI, ElevenLabs). Falls back to the recording on any failure."
+ },
+ {
+  "id": 762,
+  "key": "settings.fieldDescriptions.stt.elevenlabs.languageCode",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "stt.elevenlabs.languageCode"
+  ],
+  "isFn": false,
+  "en": "Optional ISO-639-3 language code. Blank lets ElevenLabs auto-detect."
+ },
+ {
+  "id": 763,
+  "key": "settings.fieldDescriptions.updates.nonInteractiveLocalChanges",
+  "path": [
+   "settings",
+   "fieldDescriptions",
+   "updates.nonInteractiveLocalChanges"
+  ],
+  "isFn": false,
+  "en": "When Hermes updates itself from the app (no terminal prompt), keep local source edits (stash) or throw them away (discard). Terminal updates always ask."
+ },
+ {
+  "id": 764,
+  "key": "settings.uninstallSection.dangerZone",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "dangerZone"
+  ],
+  "isFn": false,
+  "en": "Danger zone"
+ },
+ {
+  "id": 765,
+  "key": "settings.uninstallSection.checkingInstalled",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "checkingInstalled"
+  ],
+  "isFn": false,
+  "en": "Checking what’s installed…"
+ },
+ {
+  "id": 766,
+  "key": "settings.uninstallSection.uninstallHermes",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "uninstallHermes"
+  ],
+  "isFn": false,
+  "en": "Uninstall Hermes"
+ },
+ {
+  "id": 767,
+  "key": "settings.uninstallSection.managedBody",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "managedBody"
+  ],
+  "isFn": false,
+  "en": "This install is managed by your system, so Hermes cannot remove itself."
+ },
+ {
+  "id": 768,
+  "key": "settings.uninstallSection.dataKept",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "dataKept"
+  ],
+  "isFn": true,
+  "en": "(path) => `Your config, chats, and secrets live in ${path}. Removing the app does not delete them.`"
+ },
+ {
+  "id": 769,
+  "key": "settings.uninstallSection.openAppsSettings",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "openAppsSettings"
+  ],
+  "isFn": false,
+  "en": "Open Apps settings"
+ },
+ {
+  "id": 770,
+  "key": "settings.uninstallSection.chooseHowMuch",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "chooseHowMuch"
+  ],
+  "isFn": false,
+  "en": "Choose how much to remove. The app closes to finish the job; reopen the installer any time to come back."
+ },
+ {
+  "id": 771,
+  "key": "settings.uninstallSection.confirmUninstall",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "confirmUninstall"
+  ],
+  "isFn": false,
+  "en": "Confirm uninstall"
+ },
+ {
+  "id": 772,
+  "key": "settings.uninstallSection.confirmBody",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "confirmBody"
+  ],
+  "isFn": true,
+  "en": "(what) => `This removes ${what}. This can\\u2019t be undone.`"
+ },
+ {
+  "id": 773,
+  "key": "settings.uninstallSection.appLabel",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "appLabel"
+  ],
+  "isFn": false,
+  "en": "App:"
+ },
+ {
+  "id": 774,
+  "key": "settings.uninstallSection.couldNotStart",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "couldNotStart"
+  ],
+  "isFn": false,
+  "en": "Uninstall could not start."
+ },
+ {
+  "id": 775,
+  "key": "settings.uninstallSection.uninstalling",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "uninstalling"
+  ],
+  "isFn": false,
+  "en": "Uninstalling…"
+ },
+ {
+  "id": 776,
+  "key": "settings.uninstallSection.yesUninstall",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "yesUninstall"
+  ],
+  "isFn": false,
+  "en": "Yes, uninstall"
+ },
+ {
+  "id": 777,
+  "key": "settings.uninstallSection.options.gui.title",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "options",
+   "gui",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Uninstall Chat GUI only"
+ },
+ {
+  "id": 778,
+  "key": "settings.uninstallSection.options.gui.description",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "options",
+   "gui",
+   "description"
+  ],
+  "isFn": false,
+  "en": "Remove this desktop app. The Hermes agent, your config, and chats all stay."
+ },
+ {
+  "id": 779,
+  "key": "settings.uninstallSection.options.gui.consequence",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "options",
+   "gui",
+   "consequence"
+  ],
+  "isFn": false,
+  "en": "the desktop Chat GUI (this app and its data)"
+ },
+ {
+  "id": 780,
+  "key": "settings.uninstallSection.options.lite.title",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "options",
+   "lite",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Uninstall GUI + agent, keep my data"
+ },
+ {
+  "id": 781,
+  "key": "settings.uninstallSection.options.lite.description",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "options",
+   "lite",
+   "description"
+  ],
+  "isFn": false,
+  "en": "Remove the app and the Hermes agent, but keep config, chats, and secrets for a future reinstall."
+ },
+ {
+  "id": 782,
+  "key": "settings.uninstallSection.options.lite.consequence",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "options",
+   "lite",
+   "consequence"
+  ],
+  "isFn": false,
+  "en": "the Chat GUI and the Hermes agent (config, chats, and secrets are kept)"
+ },
+ {
+  "id": 783,
+  "key": "settings.uninstallSection.options.full.title",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "options",
+   "full",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Uninstall everything"
+ },
+ {
+  "id": 784,
+  "key": "settings.uninstallSection.options.full.description",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "options",
+   "full",
+   "description"
+  ],
+  "isFn": false,
+  "en": "Remove the app, the agent, and all user data — config, chats, scheduled jobs, secrets, logs."
+ },
+ {
+  "id": 785,
+  "key": "settings.uninstallSection.options.full.consequence",
+  "path": [
+   "settings",
+   "uninstallSection",
+   "options",
+   "full",
+   "consequence"
+  ],
+  "isFn": false,
+  "en": "EVERYTHING — the Chat GUI, the Hermes agent, and all of your config, chats, secrets, and logs"
+ },
+ {
+  "id": 786,
+  "key": "settings.poolLimits.warmBotBackendsAria",
+  "path": [
+   "settings",
+   "poolLimits",
+   "warmBotBackendsAria"
+  ],
+  "isFn": false,
+  "en": "Warm bot backends"
+ },
+ {
+  "id": 787,
+  "key": "settings.poolLimits.warmBotBackendsTitle",
+  "path": [
+   "settings",
+   "poolLimits",
+   "warmBotBackendsTitle"
+  ],
+  "isFn": false,
+  "en": "Warm Bot Backends"
+ },
+ {
+  "id": 788,
+  "key": "settings.poolLimits.backendIdleTimeoutAria",
+  "path": [
+   "settings",
+   "poolLimits",
+   "backendIdleTimeoutAria"
+  ],
+  "isFn": false,
+  "en": "Backend idle timeout in milliseconds"
+ },
+ {
+  "id": 789,
+  "key": "settings.poolLimits.backendIdleTimeoutTitle",
+  "path": [
+   "settings",
+   "poolLimits",
+   "backendIdleTimeoutTitle"
+  ],
+  "isFn": false,
+  "en": "Backend Idle Timeout"
+ },
+ {
+  "id": 790,
+  "key": "settings.customEndpoints.active",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "active"
+  ],
+  "isFn": false,
+  "en": "Active"
+ },
+ {
+  "id": 791,
+  "key": "settings.customEndpoints.apiKeySet",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "apiKeySet"
+  ],
+  "isFn": false,
+  "en": "API key set"
+ },
+ {
+  "id": 792,
+  "key": "settings.customEndpoints.use",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "use"
+  ],
+  "isFn": false,
+  "en": "Use"
+ },
+ {
+  "id": 793,
+  "key": "settings.customEndpoints.editTitle",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "editTitle"
+  ],
+  "isFn": false,
+  "en": "Edit Endpoint"
+ },
+ {
+  "id": 794,
+  "key": "settings.customEndpoints.addTitle",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "addTitle"
+  ],
+  "isFn": false,
+  "en": "Add Endpoint"
+ },
+ {
+  "id": 795,
+  "key": "settings.customEndpoints.fields.name",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "fields",
+   "name"
+  ],
+  "isFn": false,
+  "en": "Name"
+ },
+ {
+  "id": 796,
+  "key": "settings.customEndpoints.fields.providerId",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "fields",
+   "providerId"
+  ],
+  "isFn": false,
+  "en": "Provider ID"
+ },
+ {
+  "id": 797,
+  "key": "settings.customEndpoints.fields.endpointUrl",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "fields",
+   "endpointUrl"
+  ],
+  "isFn": false,
+  "en": "Endpoint URL"
+ },
+ {
+  "id": 798,
+  "key": "settings.customEndpoints.fields.defaultModel",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "fields",
+   "defaultModel"
+  ],
+  "isFn": false,
+  "en": "Default Model"
+ },
+ {
+  "id": 799,
+  "key": "settings.customEndpoints.fields.context",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "fields",
+   "context"
+  ],
+  "isFn": false,
+  "en": "Context"
+ },
+ {
+  "id": 800,
+  "key": "settings.customEndpoints.fields.apiKey",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "fields",
+   "apiKey"
+  ],
+  "isFn": false,
+  "en": "API Key"
+ },
+ {
+  "id": 801,
+  "key": "settings.customEndpoints.fields.apiKeyNewPlaceholder",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "fields",
+   "apiKeyNewPlaceholder"
+  ],
+  "isFn": false,
+  "en": "Leave blank to keep current key"
+ },
+ {
+  "id": 802,
+  "key": "settings.customEndpoints.fields.apiKeyPlaceholder",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "fields",
+   "apiKeyPlaceholder"
+  ],
+  "isFn": false,
+  "en": "Optional"
+ },
+ {
+  "id": 803,
+  "key": "settings.customEndpoints.fields.useNewChats",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "fields",
+   "useNewChats"
+  ],
+  "isFn": false,
+  "en": "Use for new chats"
+ },
+ {
+  "id": 804,
+  "key": "settings.customEndpoints.fields.discoverModels",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "fields",
+   "discoverModels"
+  ],
+  "isFn": false,
+  "en": "Discover models"
+ },
+ {
+  "id": 805,
+  "key": "settings.customEndpoints.test",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "test"
+  ],
+  "isFn": false,
+  "en": "Test"
+ },
+ {
+  "id": 806,
+  "key": "settings.customEndpoints.save",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "save"
+  ],
+  "isFn": false,
+  "en": "Save"
+ },
+ {
+  "id": 807,
+  "key": "settings.customEndpoints.newEndpoint",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "newEndpoint"
+  ],
+  "isFn": false,
+  "en": "New endpoint"
+ },
+ {
+  "id": 808,
+  "key": "settings.customEndpoints.apiMode",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "apiMode"
+  ],
+  "isFn": false,
+  "en": "API Mode"
+ },
+ {
+  "id": 809,
+  "key": "settings.customEndpoints.autoDetect",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "autoDetect"
+  ],
+  "isFn": false,
+  "en": "Auto-detect"
+ },
+ {
+  "id": 810,
+  "key": "settings.customEndpoints.couldNotLoad",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "couldNotLoad"
+  ],
+  "isFn": false,
+  "en": "Could not load custom endpoints"
+ },
+ {
+  "id": 811,
+  "key": "settings.customEndpoints.endpointSaved",
+  "path": [
+   "settings",
+   "customEndpoints",
+   "endpointSaved"
+  ],
+  "isFn": false,
+  "en": "Custom endpoint saved."
+ }
+]

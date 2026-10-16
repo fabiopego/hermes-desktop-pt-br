@@ -3636,9 +3636,9 @@ export const ptBR = defineLocale({
       lateAnswerHint: 'Este prompt não está mais aguardando. Escolha uma opção para redigi-la como mensagem de acompanhamento.'
     },
     mcpSetup: {
-      installTitle: server => `Adicionar o servidor MCP ${server}?`,
-      enableTitle: server => `Ativar o servidor MCP ${server}?`,
-      authorizeTitle: server => `Autorizar o servidor MCP ${server}?`,
+      installTitle: 'Adicionar servidores MCP',
+      enableTitle: 'Ativar servidores MCP',
+      authorizeTitle: 'Autorizar servidores MCP',
       installAction: 'Instalar',
       enableAction: 'Ativar',
       authorizeAction: 'Autorizar',

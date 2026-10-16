@@ -1,0 +1,2176 @@
+[
+ {
+  "id": 1218,
+  "key": "messaging.telegramQr.quickSetup",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "quickSetup"
+  ],
+  "isFn": false,
+  "en": "Quick setup"
+ },
+ {
+  "id": 1219,
+  "key": "messaging.telegramQr.recommended",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "recommended"
+  ],
+  "isFn": false,
+  "en": "Recommended"
+ },
+ {
+  "id": 1220,
+  "key": "messaging.telegramQr.quickHelp",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "quickHelp"
+  ],
+  "isFn": false,
+  "en": "Scan a QR code and confirm in Telegram. Hermes creates the bot and detects your Telegram user ID automatically."
+ },
+ {
+  "id": 1221,
+  "key": "messaging.telegramQr.createWithQr",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "createWithQr"
+  ],
+  "isFn": false,
+  "en": "Create with QR"
+ },
+ {
+  "id": 1222,
+  "key": "messaging.telegramQr.starting",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "starting"
+  ],
+  "isFn": false,
+  "en": "Starting…"
+ },
+ {
+  "id": 1223,
+  "key": "messaging.telegramQr.replaceWarning",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "replaceWarning"
+  ],
+  "isFn": false,
+  "en": "Telegram credentials are already configured. A new QR setup or bot token will replace the current bot when you save."
+ },
+ {
+  "id": 1224,
+  "key": "messaging.telegramQr.scanHint",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "scanHint"
+  ],
+  "isFn": false,
+  "en": "Scan with the Telegram app on your phone, or open the link on this computer."
+ },
+ {
+  "id": 1225,
+  "key": "messaging.telegramQr.waiting",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "waiting"
+  ],
+  "isFn": false,
+  "en": "Waiting for Telegram…"
+ },
+ {
+  "id": 1226,
+  "key": "messaging.telegramQr.expiresIn",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "expiresIn"
+  ],
+  "isFn": true,
+  "en": "(remaining) => `Expires in ${remaining}`"
+ },
+ {
+  "id": 1227,
+  "key": "messaging.telegramQr.expired",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "expired"
+  ],
+  "isFn": false,
+  "en": "Expired"
+ },
+ {
+  "id": 1228,
+  "key": "messaging.telegramQr.openTelegram",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "openTelegram"
+  ],
+  "isFn": false,
+  "en": "Open Telegram"
+ },
+ {
+  "id": 1229,
+  "key": "messaging.telegramQr.ready",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "ready"
+  ],
+  "isFn": false,
+  "en": "Bot created"
+ },
+ {
+  "id": 1230,
+  "key": "messaging.telegramQr.allowedUsers",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "allowedUsers"
+  ],
+  "isFn": false,
+  "en": "Allowed users"
+ },
+ {
+  "id": 1231,
+  "key": "messaging.telegramQr.ownerDetected",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "ownerDetected"
+  ],
+  "isFn": false,
+  "en": "Owner detected"
+ },
+ {
+  "id": 1232,
+  "key": "messaging.telegramQr.addAtLeastOne",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "addAtLeastOne"
+  ],
+  "isFn": false,
+  "en": "Add at least one Telegram user ID."
+ },
+ {
+  "id": 1233,
+  "key": "messaging.telegramQr.userIdPlaceholder",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "userIdPlaceholder"
+  ],
+  "isFn": false,
+  "en": "Telegram user ID"
+ },
+ {
+  "id": 1234,
+  "key": "messaging.telegramQr.add",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "add"
+  ],
+  "isFn": false,
+  "en": "Add"
+ },
+ {
+  "id": 1235,
+  "key": "messaging.telegramQr.numericOnly",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "numericOnly"
+  ],
+  "isFn": false,
+  "en": "Allowed Telegram user IDs must be numeric."
+ },
+ {
+  "id": 1236,
+  "key": "messaging.telegramQr.saveAndRestart",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "saveAndRestart"
+  ],
+  "isFn": false,
+  "en": "Save and restart"
+ },
+ {
+  "id": 1237,
+  "key": "messaging.telegramQr.applying",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "applying"
+  ],
+  "isFn": false,
+  "en": "Saving…"
+ },
+ {
+  "id": 1238,
+  "key": "messaging.telegramQr.pairingExpired",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "pairingExpired"
+  ],
+  "isFn": false,
+  "en": "Telegram pairing expired. Start a new QR setup to try again."
+ },
+ {
+  "id": 1239,
+  "key": "messaging.telegramQr.stillWaiting",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "stillWaiting"
+  ],
+  "isFn": true,
+  "en": "(detail) => `Still waiting for Telegram. Retrying after: ${detail}`"
+ },
+ {
+  "id": 1240,
+  "key": "messaging.telegramQr.savedRestarting",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "savedRestarting"
+  ],
+  "isFn": false,
+  "en": "Telegram saved; gateway restarting…"
+ },
+ {
+  "id": 1241,
+  "key": "messaging.telegramQr.savedRestartFailed",
+  "path": [
+   "messaging",
+   "telegramQr",
+   "savedRestartFailed"
+  ],
+  "isFn": true,
+  "en": "(detail) => `Telegram saved; gateway restart failed${detail}`"
+ },
+ {
+  "id": 1242,
+  "key": "profiles.fleet.localDevice",
+  "path": [
+   "profiles",
+   "fleet",
+   "localDevice"
+  ],
+  "isFn": false,
+  "en": "This device (local backend — installs Hermes if missing, otherwise opens a fresh session)"
+ },
+ {
+  "id": 1243,
+  "key": "profiles.fleet.switchDeviceTitle",
+  "path": [
+   "profiles",
+   "fleet",
+   "switchDeviceTitle"
+  ],
+  "isFn": false,
+  "en": "Switch to This device?"
+ },
+ {
+  "id": 1244,
+  "key": "profiles.fleet.switchDeviceDesc",
+  "path": [
+   "profiles",
+   "fleet",
+   "switchDeviceDesc"
+  ],
+  "isFn": false,
+  "en": "This opens a fresh session on this computer. The conversation you are in stays on the other gateway."
+ },
+ {
+  "id": 1245,
+  "key": "profiles.fleet.switchDeviceConfirm",
+  "path": [
+   "profiles",
+   "fleet",
+   "switchDeviceConfirm"
+  ],
+  "isFn": false,
+  "en": "Switch"
+ },
+ {
+  "id": 1246,
+  "key": "profiles.fleet.installDeviceTitle",
+  "path": [
+   "profiles",
+   "fleet",
+   "installDeviceTitle"
+  ],
+  "isFn": false,
+  "en": "Switch to This device?"
+ },
+ {
+  "id": 1247,
+  "key": "profiles.fleet.installDeviceDesc",
+  "path": [
+   "profiles",
+   "fleet",
+   "installDeviceDesc"
+  ],
+  "isFn": false,
+  "en": "This will install Hermes locally, then open a fresh session on this computer. Nothing is installed until you confirm."
+ },
+ {
+  "id": 1248,
+  "key": "profiles.fleet.installDeviceConfirm",
+  "path": [
+   "profiles",
+   "fleet",
+   "installDeviceConfirm"
+  ],
+  "isFn": false,
+  "en": "Install locally"
+ },
+ {
+  "id": 1249,
+  "key": "profiles.fleet.connectExistingInstead",
+  "path": [
+   "profiles",
+   "fleet",
+   "connectExistingInstead"
+  ],
+  "isFn": false,
+  "en": "Connect to existing instead"
+ },
+ {
+  "id": 1250,
+  "key": "profiles.status.unread",
+  "path": [
+   "profiles",
+   "status",
+   "unread"
+  ],
+  "isFn": true,
+  "en": "(count) => count === 1 ? \"1 unread session\" : `${count} unread sessions`"
+ },
+ {
+  "id": 1251,
+  "key": "profiles.status.needsInput",
+  "path": [
+   "profiles",
+   "status",
+   "needsInput"
+  ],
+  "isFn": true,
+  "en": "(count) => count === 1 ? \"1 session needs your answer\" : `${count} sessions need your answer`"
+ },
+ {
+  "id": 1252,
+  "key": "profiles.status.working",
+  "path": [
+   "profiles",
+   "status",
+   "working"
+  ],
+  "isFn": true,
+  "en": "(count) => count === 1 ? \"1 session running\" : `${count} sessions running`"
+ },
+ {
+  "id": 1253,
+  "key": "profiles.openInNewWindow",
+  "path": [
+   "profiles",
+   "openInNewWindow"
+  ],
+  "isFn": false,
+  "en": "Open in new window"
+ },
+ {
+  "id": 1254,
+  "key": "profiles.setAsDefault",
+  "path": [
+   "profiles",
+   "setAsDefault"
+  ],
+  "isFn": false,
+  "en": "Set as default"
+ },
+ {
+  "id": 1255,
+  "key": "profiles.defaultProfile",
+  "path": [
+   "profiles",
+   "defaultProfile"
+  ],
+  "isFn": false,
+  "en": "Default profile"
+ },
+ {
+  "id": 1256,
+  "key": "profiles.defaultSet",
+  "path": [
+   "profiles",
+   "defaultSet"
+  ],
+  "isFn": true,
+  "en": "(name) => `${name} is now the default`"
+ },
+ {
+  "id": 1257,
+  "key": "profiles.defaultDescription",
+  "path": [
+   "profiles",
+   "defaultDescription"
+  ],
+  "isFn": false,
+  "en": "Used when Hermes opens and for new chats. Existing sessions stay in their profiles."
+ },
+ {
+  "id": 1258,
+  "key": "profiles.failedSetDefault",
+  "path": [
+   "profiles",
+   "failedSetDefault"
+  ],
+  "isFn": false,
+  "en": "Could not set the default profile"
+ },
+ {
+  "id": 1259,
+  "key": "profiles.soulMissing",
+  "path": [
+   "profiles",
+   "soulMissing"
+  ],
+  "isFn": false,
+  "en": "No SOUL.md file exists for this profile yet. Add instructions below and save to create one. Personality presets in config.yaml are managed separately."
+ },
+ {
+  "id": 1260,
+  "key": "modelAssignment.saveFailed",
+  "path": [
+   "modelAssignment",
+   "saveFailed"
+  ],
+  "isFn": false,
+  "en": "Hermes did not save that model change."
+ },
+ {
+  "id": 1261,
+  "key": "modelAssignment.confirmTitle",
+  "path": [
+   "modelAssignment",
+   "confirmTitle"
+  ],
+  "isFn": false,
+  "en": "Model Selection Warning"
+ },
+ {
+  "id": 1262,
+  "key": "modelAssignment.confirmDetail",
+  "path": [
+   "modelAssignment",
+   "confirmDetail"
+  ],
+  "isFn": false,
+  "en": "Confirm only if you accept this trade-off."
+ },
+ {
+  "id": 1263,
+  "key": "modelAssignment.confirmAction",
+  "path": [
+   "modelAssignment",
+   "confirmAction"
+  ],
+  "isFn": false,
+  "en": "Confirm"
+ },
+ {
+  "id": 1264,
+  "key": "modelAssignment.declined",
+  "path": [
+   "modelAssignment",
+   "declined"
+  ],
+  "isFn": false,
+  "en": "Model change cancelled — you declined the data-training tier warning."
+ },
+ {
+  "id": 1265,
+  "key": "cron.lastRunFailed",
+  "path": [
+   "cron",
+   "lastRunFailed"
+  ],
+  "isFn": false,
+  "en": "Last run failed:"
+ },
+ {
+  "id": 1266,
+  "key": "cron.editJob",
+  "path": [
+   "cron",
+   "editJob"
+  ],
+  "isFn": false,
+  "en": "Edit job"
+ },
+ {
+  "id": 1267,
+  "key": "cron.runAgain",
+  "path": [
+   "cron",
+   "runAgain"
+  ],
+  "isFn": false,
+  "en": "Run again"
+ },
+ {
+  "id": 1268,
+  "key": "cron.overdueSince",
+  "path": [
+   "cron",
+   "overdueSince"
+  ],
+  "isFn": false,
+  "en": "Overdue since:"
+ },
+ {
+  "id": 1269,
+  "key": "cron.queuedRun",
+  "path": [
+   "cron",
+   "queuedRun"
+  ],
+  "isFn": false,
+  "en": "Queued run"
+ },
+ {
+  "id": 1270,
+  "key": "cron.scriptLabel",
+  "path": [
+   "cron",
+   "scriptLabel"
+  ],
+  "isFn": false,
+  "en": "Script"
+ },
+ {
+  "id": 1271,
+  "key": "cron.scriptBadge",
+  "path": [
+   "cron",
+   "scriptBadge"
+  ],
+  "isFn": false,
+  "en": "script"
+ },
+ {
+  "id": 1272,
+  "key": "sidebar.filter.grouping",
+  "path": [
+   "sidebar",
+   "filter",
+   "grouping"
+  ],
+  "isFn": false,
+  "en": "Grouping"
+ },
+ {
+  "id": 1273,
+  "key": "sidebar.filter.ordering",
+  "path": [
+   "sidebar",
+   "filter",
+   "ordering"
+  ],
+  "isFn": false,
+  "en": "Ordering"
+ },
+ {
+  "id": 1274,
+  "key": "sidebar.filter.show",
+  "path": [
+   "sidebar",
+   "filter",
+   "show"
+  ],
+  "isFn": false,
+  "en": "Show"
+ },
+ {
+  "id": 1275,
+  "key": "sidebar.filter.filters",
+  "path": [
+   "sidebar",
+   "filter",
+   "filters"
+  ],
+  "isFn": false,
+  "en": "Filters"
+ },
+ {
+  "id": 1276,
+  "key": "sidebar.filter.status",
+  "path": [
+   "sidebar",
+   "filter",
+   "status"
+  ],
+  "isFn": false,
+  "en": "Status"
+ },
+ {
+  "id": 1277,
+  "key": "sidebar.filter.pullRequest",
+  "path": [
+   "sidebar",
+   "filter",
+   "pullRequest"
+  ],
+  "isFn": false,
+  "en": "Pull request"
+ },
+ {
+  "id": 1278,
+  "key": "sidebar.filter.profile",
+  "path": [
+   "sidebar",
+   "filter",
+   "profile"
+  ],
+  "isFn": false,
+  "en": "Profile"
+ },
+ {
+  "id": 1279,
+  "key": "sidebar.filter.project",
+  "path": [
+   "sidebar",
+   "filter",
+   "project"
+  ],
+  "isFn": false,
+  "en": "Project"
+ },
+ {
+  "id": 1280,
+  "key": "sidebar.filter.archived",
+  "path": [
+   "sidebar",
+   "filter",
+   "archived"
+  ],
+  "isFn": false,
+  "en": "Archived"
+ },
+ {
+  "id": 1281,
+  "key": "sidebar.filter.resetToDefaults",
+  "path": [
+   "sidebar",
+   "filter",
+   "resetToDefaults"
+  ],
+  "isFn": false,
+  "en": "Reset to defaults"
+ },
+ {
+  "id": 1282,
+  "key": "sidebar.filter.expandAll",
+  "path": [
+   "sidebar",
+   "filter",
+   "expandAll"
+  ],
+  "isFn": false,
+  "en": "Expand all"
+ },
+ {
+  "id": 1283,
+  "key": "sidebar.filter.collapseAll",
+  "path": [
+   "sidebar",
+   "filter",
+   "collapseAll"
+  ],
+  "isFn": false,
+  "en": "Collapse all"
+ },
+ {
+  "id": 1284,
+  "key": "sidebar.filter.inboxStyle",
+  "path": [
+   "sidebar",
+   "filter",
+   "inboxStyle"
+  ],
+  "isFn": false,
+  "en": "Inbox style"
+ },
+ {
+  "id": 1285,
+  "key": "sidebar.filter.updated",
+  "path": [
+   "sidebar",
+   "filter",
+   "updated"
+  ],
+  "isFn": false,
+  "en": "Updated"
+ },
+ {
+  "id": 1286,
+  "key": "sidebar.filter.created",
+  "path": [
+   "sidebar",
+   "filter",
+   "created"
+  ],
+  "isFn": false,
+  "en": "Created"
+ },
+ {
+  "id": 1287,
+  "key": "sidebar.filter.tokens",
+  "path": [
+   "sidebar",
+   "filter",
+   "tokens"
+  ],
+  "isFn": false,
+  "en": "Tokens"
+ },
+ {
+  "id": 1288,
+  "key": "sidebar.filter.cost",
+  "path": [
+   "sidebar",
+   "filter",
+   "cost"
+  ],
+  "isFn": false,
+  "en": "Cost"
+ },
+ {
+  "id": 1289,
+  "key": "sidebar.filter.manual",
+  "path": [
+   "sidebar",
+   "filter",
+   "manual"
+  ],
+  "isFn": false,
+  "en": "Manual"
+ },
+ {
+  "id": 1290,
+  "key": "sidebar.filter.preview",
+  "path": [
+   "sidebar",
+   "filter",
+   "preview"
+  ],
+  "isFn": false,
+  "en": "Preview"
+ },
+ {
+  "id": 1291,
+  "key": "sidebar.filter.pr",
+  "path": [
+   "sidebar",
+   "filter",
+   "pr"
+  ],
+  "isFn": false,
+  "en": "PR"
+ },
+ {
+  "id": 1292,
+  "key": "sidebar.filter.needsInput",
+  "path": [
+   "sidebar",
+   "filter",
+   "needsInput"
+  ],
+  "isFn": false,
+  "en": "Needs input"
+ },
+ {
+  "id": 1293,
+  "key": "sidebar.filter.working",
+  "path": [
+   "sidebar",
+   "filter",
+   "working"
+  ],
+  "isFn": false,
+  "en": "Working"
+ },
+ {
+  "id": 1294,
+  "key": "sidebar.filter.unread",
+  "path": [
+   "sidebar",
+   "filter",
+   "unread"
+  ],
+  "isFn": false,
+  "en": "Unread"
+ },
+ {
+  "id": 1295,
+  "key": "sidebar.filter.draft",
+  "path": [
+   "sidebar",
+   "filter",
+   "draft"
+  ],
+  "isFn": false,
+  "en": "Draft"
+ },
+ {
+  "id": 1296,
+  "key": "sidebar.filter.idle",
+  "path": [
+   "sidebar",
+   "filter",
+   "idle"
+  ],
+  "isFn": false,
+  "en": "Idle"
+ },
+ {
+  "id": 1297,
+  "key": "sidebar.filter.open",
+  "path": [
+   "sidebar",
+   "filter",
+   "open"
+  ],
+  "isFn": false,
+  "en": "Open"
+ },
+ {
+  "id": 1298,
+  "key": "sidebar.filter.merged",
+  "path": [
+   "sidebar",
+   "filter",
+   "merged"
+  ],
+  "isFn": false,
+  "en": "Merged"
+ },
+ {
+  "id": 1299,
+  "key": "sidebar.filter.closed",
+  "path": [
+   "sidebar",
+   "filter",
+   "closed"
+  ],
+  "isFn": false,
+  "en": "Closed"
+ },
+ {
+  "id": 1300,
+  "key": "sidebar.filter.noPR",
+  "path": [
+   "sidebar",
+   "filter",
+   "noPR"
+  ],
+  "isFn": false,
+  "en": "No PR"
+ },
+ {
+  "id": 1301,
+  "key": "sidebar.profileRail",
+  "path": [
+   "sidebar",
+   "profileRail"
+  ],
+  "isFn": false,
+  "en": "Profile rail"
+ },
+ {
+  "id": 1302,
+  "key": "sidebar.nav.capabilities",
+  "path": [
+   "sidebar",
+   "nav",
+   "capabilities"
+  ],
+  "isFn": false,
+  "en": "Capabilities"
+ },
+ {
+  "id": 1303,
+  "key": "sidebar.terminal",
+  "path": [
+   "sidebar",
+   "terminal"
+  ],
+  "isFn": false,
+  "en": "Terminal"
+ },
+ {
+  "id": 1304,
+  "key": "sidebar.files",
+  "path": [
+   "sidebar",
+   "files"
+  ],
+  "isFn": false,
+  "en": "Files"
+ },
+ {
+  "id": 1305,
+  "key": "sidebar.review",
+  "path": [
+   "sidebar",
+   "review"
+  ],
+  "isFn": false,
+  "en": "Review"
+ },
+ {
+  "id": 1306,
+  "key": "sidebar.logs",
+  "path": [
+   "sidebar",
+   "logs"
+  ],
+  "isFn": false,
+  "en": "Logs"
+ },
+ {
+  "id": 1307,
+  "key": "sidebar.storageCorrupt.title",
+  "path": [
+   "sidebar",
+   "storageCorrupt",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Session database is damaged"
+ },
+ {
+  "id": 1308,
+  "key": "sidebar.storageCorrupt.body",
+  "path": [
+   "sidebar",
+   "storageCorrupt",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(profiles) => `Hermes can't read all of the session history for ${profiles}. Chats missing from this list were not deleted; the file they are stored in is damaged.`"
+ },
+ {
+  "id": 1309,
+  "key": "sidebar.storageCorrupt.action",
+  "path": [
+   "sidebar",
+   "storageCorrupt",
+   "action"
+  ],
+  "isFn": false,
+  "en": "Quit Hermes on this profile, then inspect the file without changing it, or restore a snapshot:"
+ },
+ {
+  "id": 1310,
+  "key": "sidebar.storageCorrupt.guide",
+  "path": [
+   "sidebar",
+   "storageCorrupt",
+   "guide"
+  ],
+  "isFn": false,
+  "en": "Recovery guide"
+ },
+ {
+  "id": 1311,
+  "key": "sidebar.projects.showAllSessions",
+  "path": [
+   "sidebar",
+   "projects",
+   "showAllSessions"
+  ],
+  "isFn": false,
+  "en": "Show all sessions"
+ },
+ {
+  "id": 1312,
+  "key": "sidebar.projects.createdInPreviousContext",
+  "path": [
+   "sidebar",
+   "projects",
+   "createdInPreviousContext"
+  ],
+  "isFn": false,
+  "en": "Project created on the previous connection or profile. Switch back to find it; IDEA.md wasn't written."
+ },
+ {
+  "id": 1313,
+  "key": "sidebar.projects.hiddenFromSidebar",
+  "path": [
+   "sidebar",
+   "projects",
+   "hiddenFromSidebar"
+  ],
+  "isFn": false,
+  "en": "Hidden from sidebar"
+ },
+ {
+  "id": 1314,
+  "key": "sidebar.projects.undoHide",
+  "path": [
+   "sidebar",
+   "projects",
+   "undoHide"
+  ],
+  "isFn": false,
+  "en": "Undo"
+ },
+ {
+  "id": 1315,
+  "key": "sidebar.projects.showAllCount",
+  "path": [
+   "sidebar",
+   "projects",
+   "showAllCount"
+  ],
+  "isFn": true,
+  "en": "(count) => `Show all ${count} sessions`"
+ },
+ {
+  "id": 1316,
+  "key": "sidebar.row.unarchive",
+  "path": [
+   "sidebar",
+   "row",
+   "unarchive"
+  ],
+  "isFn": false,
+  "en": "Unarchive"
+ },
+ {
+  "id": 1317,
+  "key": "sidebar.row.continuationOrigin",
+  "path": [
+   "sidebar",
+   "row",
+   "continuationOrigin"
+  ],
+  "isFn": false,
+  "en": "Automatic continuation — this conversation was compressed and continued"
+ },
+ {
+  "id": 1318,
+  "key": "composer.voiceEngine",
+  "path": [
+   "composer",
+   "voiceEngine"
+  ],
+  "isFn": false,
+  "en": "Voice chat engine"
+ },
+ {
+  "id": 1319,
+  "key": "composer.voiceEngineChained",
+  "path": [
+   "composer",
+   "voiceEngineChained"
+  ],
+  "isFn": false,
+  "en": "Speech-to-text + Hermes voice"
+ },
+ {
+  "id": 1320,
+  "key": "composer.voiceEngineLive",
+  "path": [
+   "composer",
+   "voiceEngineLive"
+  ],
+  "isFn": false,
+  "en": "GPT-Live (full-duplex, delegates to Hermes)"
+ },
+ {
+  "id": 1321,
+  "key": "composer.voiceEngineLiveNeedsKey",
+  "path": [
+   "composer",
+   "voiceEngineLiveNeedsKey"
+  ],
+  "isFn": false,
+  "en": "Needs an OpenAI API key"
+ },
+ {
+  "id": 1322,
+  "key": "composer.voiceEngineChangeFailed",
+  "path": [
+   "composer",
+   "voiceEngineChangeFailed"
+  ],
+  "isFn": false,
+  "en": "Could not change the voice chat engine"
+ },
+ {
+  "id": 1323,
+  "key": "composer.voiceEngineChainedShort",
+  "path": [
+   "composer",
+   "voiceEngineChainedShort"
+  ],
+  "isFn": false,
+  "en": "speech-to-text"
+ },
+ {
+  "id": 1324,
+  "key": "composer.voiceEngineLiveShort",
+  "path": [
+   "composer",
+   "voiceEngineLiveShort"
+  ],
+  "isFn": false,
+  "en": "GPT-Live"
+ },
+ {
+  "id": 1325,
+  "key": "composer.wakeWord",
+  "path": [
+   "composer",
+   "wakeWord"
+  ],
+  "isFn": true,
+  "en": "(phrase) => `Wake word \"${phrase}\"`"
+ },
+ {
+  "id": 1326,
+  "key": "composer.commandDescs./start",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/start"
+  ],
+  "isFn": false,
+  "en": "Acknowledge platform start pings without a reply"
+ },
+ {
+  "id": 1327,
+  "key": "composer.commandDescs./new",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/new"
+  ],
+  "isFn": false,
+  "en": "Start a new desktop chat"
+ },
+ {
+  "id": 1328,
+  "key": "composer.commandDescs./topic",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/topic"
+  ],
+  "isFn": false,
+  "en": "Enable or inspect Telegram DM topic sessions"
+ },
+ {
+  "id": 1329,
+  "key": "composer.commandDescs./save",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/save"
+  ],
+  "isFn": false,
+  "en": "Save the current transcript to JSON"
+ },
+ {
+  "id": 1330,
+  "key": "composer.commandDescs./retry",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/retry"
+  ],
+  "isFn": false,
+  "en": "Retry the last message (resend to agent)"
+ },
+ {
+  "id": 1331,
+  "key": "composer.commandDescs./prompt",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/prompt"
+  ],
+  "isFn": false,
+  "en": "Compose your next prompt in $EDITOR (markdown), then send it"
+ },
+ {
+  "id": 1332,
+  "key": "composer.commandDescs./undo",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/undo"
+  ],
+  "isFn": false,
+  "en": "Back up N user turns and re-prompt (default 1)"
+ },
+ {
+  "id": 1333,
+  "key": "composer.commandDescs./title",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/title"
+  ],
+  "isFn": false,
+  "en": "Rename the current session"
+ },
+ {
+  "id": 1334,
+  "key": "composer.commandDescs./handoff",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/handoff"
+  ],
+  "isFn": false,
+  "en": "Hand off this session to a messaging platform"
+ },
+ {
+  "id": 1335,
+  "key": "composer.commandDescs./branch",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/branch"
+  ],
+  "isFn": false,
+  "en": "Branch the latest message into a new chat"
+ },
+ {
+  "id": 1336,
+  "key": "composer.commandDescs./worktree",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/worktree"
+  ],
+  "isFn": false,
+  "en": "Show, list, create, or prune isolated git worktrees"
+ },
+ {
+  "id": 1337,
+  "key": "composer.commandDescs./compress",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/compress"
+  ],
+  "isFn": false,
+  "en": "Compress this conversation context"
+ },
+ {
+  "id": 1338,
+  "key": "composer.commandDescs./rollback",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/rollback"
+  ],
+  "isFn": false,
+  "en": "List or restore filesystem checkpoints (restores keep your hand-edits; --all overrides)"
+ },
+ {
+  "id": 1339,
+  "key": "composer.commandDescs./export",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/export"
+  ],
+  "isFn": false,
+  "en": "Export a profile (config, skills, theme) to a shareable archive"
+ },
+ {
+  "id": 1340,
+  "key": "composer.commandDescs./import",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/import"
+  ],
+  "isFn": false,
+  "en": "Import a shared profile archive as a new profile"
+ },
+ {
+  "id": 1341,
+  "key": "composer.commandDescs./stop",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/stop"
+  ],
+  "isFn": false,
+  "en": "Stop the active turn and background processes"
+ },
+ {
+  "id": 1342,
+  "key": "composer.commandDescs./pause",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/pause"
+  ],
+  "isFn": false,
+  "en": "Pause new work globally (emergency stop); '/pause off' resumes"
+ },
+ {
+  "id": 1343,
+  "key": "composer.commandDescs./bg",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/bg"
+  ],
+  "isFn": false,
+  "en": "Run a prompt in a separate background session"
+ },
+ {
+  "id": 1344,
+  "key": "composer.commandDescs./btw",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/btw"
+  ],
+  "isFn": false,
+  "en": "Ask a side question about this conversation without interrupting it"
+ },
+ {
+  "id": 1345,
+  "key": "composer.commandDescs./agents",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/agents"
+  ],
+  "isFn": false,
+  "en": "Show active agents and running tasks"
+ },
+ {
+  "id": 1346,
+  "key": "composer.commandDescs./journey",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/journey"
+  ],
+  "isFn": false,
+  "en": "Open the memory graph — skills + memories over time"
+ },
+ {
+  "id": 1347,
+  "key": "composer.commandDescs./queue",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/queue"
+  ],
+  "isFn": false,
+  "en": "Queue a prompt for the next turn, or list/edit/rm/move/clear queued prompts"
+ },
+ {
+  "id": 1348,
+  "key": "composer.commandDescs./steer",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/steer"
+  ],
+  "isFn": false,
+  "en": "Inject a message after the next tool call without interrupting"
+ },
+ {
+  "id": 1349,
+  "key": "composer.commandDescs./goal",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/goal"
+  ],
+  "isFn": false,
+  "en": "Set a standing goal Hermes works on across turns until achieved"
+ },
+ {
+  "id": 1350,
+  "key": "composer.commandDescs./heartbeat",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/heartbeat"
+  ],
+  "isFn": false,
+  "en": "Set a recurring prompt that re-enters this session when idle"
+ },
+ {
+  "id": 1351,
+  "key": "composer.commandDescs./refine",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/refine"
+  ],
+  "isFn": false,
+  "en": "Review this conversation now and save lessons to memory/skills"
+ },
+ {
+  "id": 1352,
+  "key": "composer.commandDescs./review",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/review"
+  ],
+  "isFn": false,
+  "en": "Spawn an independent subagent to review the work just discussed (PR, code, docs)"
+ },
+ {
+  "id": 1353,
+  "key": "composer.commandDescs./loop",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/loop"
+  ],
+  "isFn": false,
+  "en": "Re-run a prompt on a recurring interval in this session"
+ },
+ {
+  "id": 1354,
+  "key": "composer.commandDescs./plan",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/plan"
+  ],
+  "isFn": false,
+  "en": "Write a markdown implementation plan to .hermes/plans/ without executing anything"
+ },
+ {
+  "id": 1355,
+  "key": "composer.commandDescs./moa",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/moa"
+  ],
+  "isFn": false,
+  "en": "Run one prompt through the default Mixture of Agents preset, then restore your model"
+ },
+ {
+  "id": 1356,
+  "key": "composer.commandDescs./subgoal",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/subgoal"
+  ],
+  "isFn": false,
+  "en": "Add or manage extra criteria on the active goal"
+ },
+ {
+  "id": 1357,
+  "key": "composer.commandDescs./status",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/status"
+  ],
+  "isFn": false,
+  "en": "Show current session status"
+ },
+ {
+  "id": 1358,
+  "key": "composer.commandDescs./egress",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/egress"
+  ],
+  "isFn": false,
+  "en": "Show Docker egress proxy status"
+ },
+ {
+  "id": 1359,
+  "key": "composer.commandDescs./context",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/context"
+  ],
+  "isFn": false,
+  "en": "Show detailed context window view with usage gauge, category breakdown, compression stats, and throughput"
+ },
+ {
+  "id": 1360,
+  "key": "composer.commandDescs./whoami",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/whoami"
+  ],
+  "isFn": false,
+  "en": "Show your slash command access (admin / user)"
+ },
+ {
+  "id": 1361,
+  "key": "composer.commandDescs./profile",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/profile"
+  ],
+  "isFn": false,
+  "en": "Switch the active Hermes profile"
+ },
+ {
+  "id": 1362,
+  "key": "composer.commandDescs./codex-runtime",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/codex-runtime"
+  ],
+  "isFn": false,
+  "en": "Toggle codex app-server runtime for OpenAI/Codex models"
+ },
+ {
+  "id": 1363,
+  "key": "composer.commandDescs./personality",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/personality"
+  ],
+  "isFn": false,
+  "en": "Set a predefined personality"
+ },
+ {
+  "id": 1364,
+  "key": "composer.commandDescs./battery",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/battery"
+  ],
+  "isFn": false,
+  "en": "Toggle a color-coded battery indicator in the status bar"
+ },
+ {
+  "id": 1365,
+  "key": "composer.commandDescs./timestamps",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/timestamps"
+  ],
+  "isFn": false,
+  "en": "Toggle [HH:MM] timestamps on messages and /history"
+ },
+ {
+  "id": 1366,
+  "key": "composer.commandDescs./diff",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/diff"
+  ],
+  "isFn": false,
+  "en": "Show git changes in the working directory"
+ },
+ {
+  "id": 1367,
+  "key": "composer.commandDescs./focus",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/focus"
+  ],
+  "isFn": false,
+  "en": "Toggle focus view — show only your prompt and the final response"
+ },
+ {
+  "id": 1368,
+  "key": "composer.commandDescs./yolo",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/yolo"
+  ],
+  "isFn": false,
+  "en": "Toggle YOLO — auto-approve dangerous commands"
+ },
+ {
+  "id": 1369,
+  "key": "composer.commandDescs./approvals",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/approvals"
+  ],
+  "isFn": false,
+  "en": "Show or set the persistent dangerous-command approval mode"
+ },
+ {
+  "id": 1370,
+  "key": "composer.commandDescs./reasoning",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/reasoning"
+  ],
+  "isFn": false,
+  "en": "Reasoning effort or display [<level> [--global]|show|hide|full|clamp]"
+ },
+ {
+  "id": 1371,
+  "key": "composer.commandDescs./skin",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/skin"
+  ],
+  "isFn": false,
+  "en": "Switch desktop theme or cycle to the next one"
+ },
+ {
+  "id": 1372,
+  "key": "composer.commandDescs./wake",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/wake"
+  ],
+  "isFn": false,
+  "en": "Control the desktop wake-word listener [on|off|status]"
+ },
+ {
+  "id": 1373,
+  "key": "composer.commandDescs./tools",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/tools"
+  ],
+  "isFn": false,
+  "en": "Manage tools: /tools [list|disable|enable] [name...]"
+ },
+ {
+  "id": 1374,
+  "key": "composer.commandDescs./memory",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/memory"
+  ],
+  "isFn": false,
+  "en": "Review pending memory writes / toggle the approval gate"
+ },
+ {
+  "id": 1375,
+  "key": "composer.commandDescs./bundles",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/bundles"
+  ],
+  "isFn": false,
+  "en": "List skill bundles (aliases /<name> for multiple skills)"
+ },
+ {
+  "id": 1376,
+  "key": "composer.commandDescs./pet",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/pet"
+  ],
+  "isFn": false,
+  "en": "Toggle or adopt a petdex mascot (/pet, /pet list, /pet boba)"
+ },
+ {
+  "id": 1377,
+  "key": "composer.commandDescs./hatch",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/hatch"
+  ],
+  "isFn": false,
+  "en": "Generate a new pet (opens the pet generator)"
+ },
+ {
+  "id": 1378,
+  "key": "composer.commandDescs./learn",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/learn"
+  ],
+  "isFn": false,
+  "en": "Learn a reusable skill from anything you describe (dirs, URLs, this chat, notes)"
+ },
+ {
+  "id": 1379,
+  "key": "composer.commandDescs./init",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/init"
+  ],
+  "isFn": false,
+  "en": "Generate or update AGENTS.md project instructions from a repo scan"
+ },
+ {
+  "id": 1380,
+  "key": "composer.commandDescs./suggestions",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/suggestions"
+  ],
+  "isFn": false,
+  "en": "Review suggested automations (accept/dismiss)"
+ },
+ {
+  "id": 1381,
+  "key": "composer.commandDescs./blueprint",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/blueprint"
+  ],
+  "isFn": false,
+  "en": "Set up an automation from a blueprint template"
+ },
+ {
+  "id": 1382,
+  "key": "composer.commandDescs./browser",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/browser"
+  ],
+  "isFn": false,
+  "en": "Manage the agent browser [connect|disconnect|status|use]"
+ },
+ {
+  "id": 1383,
+  "key": "composer.commandDescs./palette",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/palette"
+  ],
+  "isFn": false,
+  "en": "Open the fuzzy command palette (also Ctrl+P)"
+ },
+ {
+  "id": 1384,
+  "key": "composer.commandDescs./usage",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/usage"
+  ],
+  "isFn": false,
+  "en": "Show token usage and rate limits; `reset` redeems a banked Codex limit reset"
+ },
+ {
+  "id": 1385,
+  "key": "composer.commandDescs./subscription",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/subscription"
+  ],
+  "isFn": false,
+  "en": "View your Nous plan and change it in the browser"
+ },
+ {
+  "id": 1386,
+  "key": "composer.commandDescs./topup",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/topup"
+  ],
+  "isFn": false,
+  "en": "Show your Nous balance and manage billing on the portal"
+ },
+ {
+  "id": 1387,
+  "key": "composer.commandDescs./platform",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/platform"
+  ],
+  "isFn": false,
+  "en": "Pause, resume, or list a failing gateway platform"
+ },
+ {
+  "id": 1388,
+  "key": "composer.commandDescs./version",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/version"
+  ],
+  "isFn": false,
+  "en": "Show Hermes Agent version"
+ },
+ {
+  "id": 1389,
+  "key": "composer.commandDescs./debug",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/debug"
+  ],
+  "isFn": false,
+  "en": "Upload debug report (system info + logs) and get shareable links"
+ },
+ {
+  "id": 1390,
+  "key": "composer.commandDescs./model",
+  "path": [
+   "composer",
+   "commandDescs",
+   "/model"
+  ],
+  "isFn": false,
+  "en": "Switch the model for this session"
+ },
+ {
+  "id": 1391,
+  "key": "composer.hiddenQueued",
+  "path": [
+   "composer",
+   "hiddenQueued"
+  ],
+  "isFn": false,
+  "en": "Setup note"
+ },
+ {
+  "id": 1392,
+  "key": "composer.restoredDraftNotice",
+  "path": [
+   "composer",
+   "restoredDraftNotice"
+  ],
+  "isFn": false,
+  "en": "Restored your unsent message"
+ },
+ {
+  "id": 1393,
+  "key": "composer.restoredDraftUndo",
+  "path": [
+   "composer",
+   "restoredDraftUndo"
+  ],
+  "isFn": false,
+  "en": "Undo"
+ },
+ {
+  "id": 1394,
+  "key": "composer.queueExpand",
+  "path": [
+   "composer",
+   "queueExpand"
+  ],
+  "isFn": false,
+  "en": "Expand"
+ },
+ {
+  "id": 1395,
+  "key": "composer.queueCollapse",
+  "path": [
+   "composer",
+   "queueCollapse"
+  ],
+  "isFn": false,
+  "en": "Collapse"
+ },
+ {
+  "id": 1396,
+  "key": "composer.queueDroppedTitle",
+  "path": [
+   "composer",
+   "queueDroppedTitle"
+  ],
+  "isFn": false,
+  "en": "Queued prompt dropped"
+ },
+ {
+  "id": 1397,
+  "key": "composer.queueDroppedBody",
+  "path": [
+   "composer",
+   "queueDroppedBody"
+  ],
+  "isFn": false,
+  "en": "This background queue entry was dropped because its session could not be resumed after repeated attempts. Nothing else in the queue was affected."
+ },
+ {
+  "id": 1398,
+  "key": "composer.terminalSelectionMissingTitle",
+  "path": [
+   "composer",
+   "terminalSelectionMissingTitle"
+  ],
+  "isFn": false,
+  "en": "Terminal selection unavailable"
+ },
+ {
+  "id": 1399,
+  "key": "composer.terminalSelectionMissingBody",
+  "path": [
+   "composer",
+   "terminalSelectionMissingBody"
+  ],
+  "isFn": false,
+  "en": "Re-select the terminal lines (Ctrl/Cmd+L) before sending — this chip has no original text."
+ },
+ {
+  "id": 1400,
+  "key": "composer.queuedTerminalSelectionExpiredBody",
+  "path": [
+   "composer",
+   "queuedTerminalSelectionExpiredBody"
+  ],
+  "isFn": false,
+  "en": "This queued terminal selection is no longer available. Re-select the lines (Ctrl/Cmd+L) and queue the message again."
+ },
+ {
+  "id": 1401,
+  "key": "statusStack.hideStack",
+  "path": [
+   "statusStack",
+   "hideStack"
+  ],
+  "isFn": false,
+  "en": "Hide status stack"
+ },
+ {
+  "id": 1402,
+  "key": "statusStack.showStack",
+  "path": [
+   "statusStack",
+   "showStack"
+  ],
+  "isFn": false,
+  "en": "Show status stack"
+ },
+ {
+  "id": 1403,
+  "key": "statusStack.previousTodos",
+  "path": [
+   "statusStack",
+   "previousTodos"
+  ],
+  "isFn": true,
+  "en": "(done, total) => `Previous tasks ${done}/${total}`"
+ },
+ {
+  "id": 1404,
+  "key": "statusStack.coding.readOnlyScope",
+  "path": [
+   "statusStack",
+   "coding",
+   "readOnlyScope"
+  ],
+  "isFn": false,
+  "en": "Read-only view — stage, revert, and commit apply to Uncommitted"
+ },
+ {
+  "id": 1405,
+  "key": "updates.discontinuedTitle",
+  "path": [
+   "updates",
+   "discontinuedTitle"
+  ],
+  "isFn": false,
+  "en": "This build of Hermes is no longer supported"
+ },
+ {
+  "id": 1406,
+  "key": "updates.discontinuedBody",
+  "path": [
+   "updates",
+   "discontinuedBody"
+  ],
+  "isFn": false,
+  "en": "This build of Hermes is no longer supported and may break — uninstall it. Your data stays on disk."
+ },
+ {
+  "id": 1407,
+  "key": "updates.channels.stable",
+  "path": [
+   "updates",
+   "channels",
+   "stable"
+  ],
+  "isFn": false,
+  "en": "Stable"
+ },
+ {
+  "id": 1408,
+  "key": "updates.channels.canary",
+  "path": [
+   "updates",
+   "channels",
+   "canary"
+  ],
+  "isFn": false,
+  "en": "Canary"
+ },
+ {
+  "id": 1409,
+  "key": "updates.bundleSwapPending",
+  "path": [
+   "updates",
+   "bundleSwapPending"
+  ],
+  "isFn": false,
+  "en": "Restart to finish the update"
+ },
+ {
+  "id": 1410,
+  "key": "updates.bundleSwapPendingDesc",
+  "path": [
+   "updates",
+   "bundleSwapPendingDesc"
+  ],
+  "isFn": false,
+  "en": "The updated app is already installed — Hermes only needs to restart to load it. Chats and settings are untouched."
+ },
+ {
+  "id": 1411,
+  "key": "updates.bundleSwapPendingAction",
+  "path": [
+   "updates",
+   "bundleSwapPendingAction"
+  ],
+  "isFn": false,
+  "en": "Restart Hermes"
+ },
+ {
+  "id": 1412,
+  "key": "updates.gitUnusable",
+  "path": [
+   "updates",
+   "gitUnusable"
+  ],
+  "isFn": false,
+  "en": "Hermes could not run Git on this computer, so it could not check for updates."
+ },
+ {
+  "id": 1413,
+  "key": "updates.connectionSettings",
+  "path": [
+   "updates",
+   "connectionSettings"
+  ],
+  "isFn": false,
+  "en": "Connection settings"
+ },
+ {
+  "id": 1414,
+  "key": "updates.openDownloadPage",
+  "path": [
+   "updates",
+   "openDownloadPage"
+  ],
+  "isFn": false,
+  "en": "Open download page"
+ },
+ {
+  "id": 1415,
+  "key": "updates.availableBodyAppInstaller",
+  "path": [
+   "updates",
+   "availableBodyAppInstaller"
+  ],
+  "isFn": false,
+  "en": "A new version of Hermes is ready. Hermes will close, Windows will finish the update, and Hermes will reopen on its own."
+ },
+ {
+  "id": 1416,
+  "key": "updates.copyFullLog",
+  "path": [
+   "updates",
+   "copyFullLog"
+  ],
+  "isFn": false,
+  "en": "Copy full changelog"
+ },
+ {
+  "id": 1417,
+  "key": "updates.manualUnavailableTitle",
+  "path": [
+   "updates",
+   "manualUnavailableTitle"
+  ],
+  "isFn": false,
+  "en": "Can't update from here"
+ },
+ {
+  "id": 1418,
+  "key": "updates.manualBodyBackend",
+  "path": [
+   "updates",
+   "manualBodyBackend"
+  ],
+  "isFn": false,
+  "en": "The Hermes backend is managed outside this app. Run this on the server that hosts it:"
+ },
+ {
+  "id": 1419,
+  "key": "updates.manualPickedUpBackend",
+  "path": [
+   "updates",
+   "manualPickedUpBackend"
+  ],
+  "isFn": false,
+  "en": "The backend picks up the new version after the update completes."
+ },
+ {
+  "id": 1420,
+  "key": "updates.applyingBodyAppInstaller",
+  "path": [
+   "updates",
+   "applyingBodyAppInstaller"
+  ],
+  "isFn": false,
+  "en": "Hermes will close and Windows will finish the update. Hermes will reopen when it’s done — you don’t need to do anything."
+ }
+]

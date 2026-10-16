@@ -1,0 +1,2335 @@
+[
+ {
+  "id": 1624,
+  "key": "assistant.thread.errorLayerBodies.runtime",
+  "path": [
+   "assistant",
+   "thread",
+   "errorLayerBodies",
+   "runtime"
+  ],
+  "isFn": false,
+  "en": "Hermes hit an internal problem starting this reply. Send your message again; if it keeps happening, send diagnostics."
+ },
+ {
+  "id": 1625,
+  "key": "assistant.thread.errorLayerBodies.streaming",
+  "path": [
+   "assistant",
+   "thread",
+   "errorLayerBodies",
+   "streaming"
+  ],
+  "isFn": false,
+  "en": "The connection dropped before the reply finished. Retry to send it again."
+ },
+ {
+  "id": 1626,
+  "key": "assistant.thread.errorCodes.auth.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "auth",
+   "title"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} rejected your sign-in`"
+ },
+ {
+  "id": 1627,
+  "key": "assistant.thread.errorCodes.auth.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "auth",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `The credentials saved for ${provider} were not accepted. Fix them in Settings or switch provider, then send your message again.`"
+ },
+ {
+  "id": 1628,
+  "key": "assistant.thread.errorCodes.auth_permanent.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "auth_permanent",
+   "title"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} rejected your sign-in`"
+ },
+ {
+  "id": 1629,
+  "key": "assistant.thread.errorCodes.auth_permanent.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "auth_permanent",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `The credentials saved for ${provider} are invalid or were revoked. Update them or switch provider, then send your message again.`"
+ },
+ {
+  "id": 1630,
+  "key": "assistant.thread.errorCodes.billing.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "billing",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Out of credits"
+ },
+ {
+  "id": 1631,
+  "key": "assistant.thread.errorCodes.billing.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "billing",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `Your ${provider} account has no credits left. Top up or switch provider, then send again.`"
+ },
+ {
+  "id": 1632,
+  "key": "assistant.thread.errorCodes.rate_limit.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "rate_limit",
+   "title"
+  ],
+  "isFn": false,
+  "en": "The AI service is busy"
+ },
+ {
+  "id": 1633,
+  "key": "assistant.thread.errorCodes.rate_limit.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "rate_limit",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} is limiting requests right now. Wait a minute, then retry.`"
+ },
+ {
+  "id": 1634,
+  "key": "assistant.thread.errorCodes.upstream_rate_limit.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "upstream_rate_limit",
+   "title"
+  ],
+  "isFn": false,
+  "en": "The AI service is busy"
+ },
+ {
+  "id": 1635,
+  "key": "assistant.thread.errorCodes.upstream_rate_limit.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "upstream_rate_limit",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} is limiting requests right now. Wait a minute, then retry.`"
+ },
+ {
+  "id": 1636,
+  "key": "assistant.thread.errorCodes.overloaded.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "overloaded",
+   "title"
+  ],
+  "isFn": false,
+  "en": "The AI service is overloaded"
+ },
+ {
+  "id": 1637,
+  "key": "assistant.thread.errorCodes.overloaded.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "overloaded",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} is having problems right now. Retry in a moment or switch provider.`"
+ },
+ {
+  "id": 1638,
+  "key": "assistant.thread.errorCodes.server_error.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "server_error",
+   "title"
+  ],
+  "isFn": false,
+  "en": "The AI service had a problem"
+ },
+ {
+  "id": 1639,
+  "key": "assistant.thread.errorCodes.server_error.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "server_error",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} returned a server error. Retry in a moment or switch provider.`"
+ },
+ {
+  "id": 1640,
+  "key": "assistant.thread.errorCodes.timeout.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "timeout",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Could not reach the AI service"
+ },
+ {
+  "id": 1641,
+  "key": "assistant.thread.errorCodes.timeout.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "timeout",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} could not be reached or did not answer in time. Check your internet connection, then retry.`"
+ },
+ {
+  "id": 1642,
+  "key": "assistant.thread.errorCodes.stream_drop.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "stream_drop",
+   "title"
+  ],
+  "isFn": false,
+  "en": "The reply was cut off"
+ },
+ {
+  "id": 1643,
+  "key": "assistant.thread.errorCodes.stream_drop.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "stream_drop",
+   "body"
+  ],
+  "isFn": false,
+  "en": "The connection dropped before the reply finished. Retry to send it again."
+ },
+ {
+  "id": 1644,
+  "key": "assistant.thread.errorCodes.no_reply.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "no_reply",
+   "title"
+  ],
+  "isFn": false,
+  "en": "The reply didn't finish"
+ },
+ {
+  "id": 1645,
+  "key": "assistant.thread.errorCodes.no_reply.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "no_reply",
+   "body"
+  ],
+  "isFn": false,
+  "en": "Hermes ended this turn without a reply. Retry to send it again."
+ },
+ {
+  "id": 1646,
+  "key": "assistant.thread.errorCodes.upstream_blocked.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "upstream_blocked",
+   "title"
+  ],
+  "isFn": false,
+  "en": "A firewall blocked the request"
+ },
+ {
+  "id": 1647,
+  "key": "assistant.thread.errorCodes.upstream_blocked.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "upstream_blocked",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `A firewall or CDN in front of ${provider} blocked the request before it reached the model \\u2014 your key is probably fine. Set a User-Agent header via the provider's extra_headers in Settings, or switch provider, then send your message again.`"
+ },
+ {
+  "id": 1648,
+  "key": "assistant.thread.errorCodes.ssl_cert_verification.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "ssl_cert_verification",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Secure connection failed"
+ },
+ {
+  "id": 1649,
+  "key": "assistant.thread.errorCodes.ssl_cert_verification.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "ssl_cert_verification",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `Hermes could not verify the secure connection to ${provider}. Check your network or proxy settings, or switch provider, then send your message again.`"
+ },
+ {
+  "id": 1650,
+  "key": "assistant.thread.errorCodes.context_overflow.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "context_overflow",
+   "title"
+  ],
+  "isFn": false,
+  "en": "This conversation is too long"
+ },
+ {
+  "id": 1651,
+  "key": "assistant.thread.errorCodes.context_overflow.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "context_overflow",
+   "body"
+  ],
+  "isFn": false,
+  "en": "The conversation no longer fits the model. Compress it or start a new chat, then send again."
+ },
+ {
+  "id": 1652,
+  "key": "assistant.thread.errorCodes.payload_too_large.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "payload_too_large",
+   "title"
+  ],
+  "isFn": false,
+  "en": "This message is too large"
+ },
+ {
+  "id": 1653,
+  "key": "assistant.thread.errorCodes.payload_too_large.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "payload_too_large",
+   "body"
+  ],
+  "isFn": false,
+  "en": "The request was too big for the model. Compress the conversation or start a new chat, then send again."
+ },
+ {
+  "id": 1654,
+  "key": "assistant.thread.errorCodes.model_not_found.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "model_not_found",
+   "title"
+  ],
+  "isFn": false,
+  "en": "This model is not available"
+ },
+ {
+  "id": 1655,
+  "key": "assistant.thread.errorCodes.model_not_found.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "model_not_found",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} does not offer this model on your account. Choose another model, then send your message again.`"
+ },
+ {
+  "id": 1656,
+  "key": "assistant.thread.errorCodes.provider_policy_blocked.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "provider_policy_blocked",
+   "title"
+  ],
+  "isFn": false,
+  "en": "This model is blocked by your account settings"
+ },
+ {
+  "id": 1657,
+  "key": "assistant.thread.errorCodes.provider_policy_blocked.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "provider_policy_blocked",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} would not route this request under your account's data or privacy settings. Choose another model or switch provider.`"
+ },
+ {
+  "id": 1658,
+  "key": "assistant.thread.errorCodes.content_policy_blocked.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "content_policy_blocked",
+   "title"
+  ],
+  "isFn": false,
+  "en": "The AI service declined this request"
+ },
+ {
+  "id": 1659,
+  "key": "assistant.thread.errorCodes.content_policy_blocked.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "content_policy_blocked",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} would not answer this message. Edit it and send again.`"
+ },
+ {
+  "id": 1660,
+  "key": "assistant.thread.errorCodes.format_error.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "format_error",
+   "title"
+  ],
+  "isFn": false,
+  "en": "The AI service rejected the request"
+ },
+ {
+  "id": 1661,
+  "key": "assistant.thread.errorCodes.format_error.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "format_error",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} did not accept how this request was built. Switch provider or send diagnostics so we can look into it.`"
+ },
+ {
+  "id": 1662,
+  "key": "assistant.thread.errorCodes.truncated.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "truncated",
+   "title"
+  ],
+  "isFn": false,
+  "en": "The reply was cut short"
+ },
+ {
+  "id": 1663,
+  "key": "assistant.thread.errorCodes.truncated.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "truncated",
+   "body"
+  ],
+  "isFn": false,
+  "en": "The model stopped before finishing. Retry to get a complete reply."
+ },
+ {
+  "id": 1664,
+  "key": "assistant.thread.errorCodes.invalid_response.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "invalid_response",
+   "title"
+  ],
+  "isFn": false,
+  "en": "The AI service sent an unreadable reply"
+ },
+ {
+  "id": 1665,
+  "key": "assistant.thread.errorCodes.invalid_response.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "invalid_response",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} returned something Hermes could not read. Retry in a moment.`"
+ },
+ {
+  "id": 1666,
+  "key": "assistant.thread.errorCodes.empty_response.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "empty_response",
+   "title"
+  ],
+  "isFn": false,
+  "en": "The AI service sent an empty reply"
+ },
+ {
+  "id": 1667,
+  "key": "assistant.thread.errorCodes.empty_response.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "empty_response",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} returned nothing for this message. Retry in a moment.`"
+ },
+ {
+  "id": 1668,
+  "key": "assistant.thread.errorCodes.loop_error.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "loop_error",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Hermes got stuck in a loop"
+ },
+ {
+  "id": 1669,
+  "key": "assistant.thread.errorCodes.loop_error.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "loop_error",
+   "body"
+  ],
+  "isFn": false,
+  "en": "The reply kept repeating the same steps, so Hermes stopped it. Retry, or start a new chat if it happens again."
+ },
+ {
+  "id": 1670,
+  "key": "assistant.thread.errorCodes.SESSION_NOT_OWNED.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "SESSION_NOT_OWNED",
+   "title"
+  ],
+  "isFn": false,
+  "en": "This chat is open somewhere else"
+ },
+ {
+  "id": 1671,
+  "key": "assistant.thread.errorCodes.SESSION_NOT_OWNED.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "SESSION_NOT_OWNED",
+   "body"
+  ],
+  "isFn": false,
+  "en": "This chat is currently open in another Hermes window or terminal. Close it there and send your message again, or start a new chat here."
+ },
+ {
+  "id": 1672,
+  "key": "assistant.thread.errorCodes.disk_full.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "disk_full",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Disk full"
+ },
+ {
+  "id": 1673,
+  "key": "assistant.thread.errorCodes.disk_full.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "disk_full",
+   "body"
+  ],
+  "isFn": false,
+  "en": "Your disk is full, so Hermes could not save this conversation. Free some space, then retry."
+ },
+ {
+  "id": 1674,
+  "key": "assistant.thread.errorCodes.free_tier_disabled.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_disabled",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Using Hermes without signing in is switched off right now"
+ },
+ {
+  "id": 1675,
+  "key": "assistant.thread.errorCodes.free_tier_disabled.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_disabled",
+   "body"
+  ],
+  "isFn": false,
+  "en": "Sign in with a Nous account to keep chatting, it's free."
+ },
+ {
+  "id": 1676,
+  "key": "assistant.thread.errorCodes.free_tier_rate_limited.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_rate_limited",
+   "title"
+  ],
+  "isFn": false,
+  "en": "You've used up the allowance for chatting without signing in"
+ },
+ {
+  "id": 1677,
+  "key": "assistant.thread.errorCodes.free_tier_rate_limited.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_rate_limited",
+   "body"
+  ],
+  "isFn": false,
+  "en": "It refreshes shortly. Sign in with a Nous account for a bigger allowance, it's free."
+ },
+ {
+  "id": 1678,
+  "key": "assistant.thread.errorCodes.free_tier_at_capacity.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_at_capacity",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Chatting without signing in is really busy right now"
+ },
+ {
+  "id": 1679,
+  "key": "assistant.thread.errorCodes.free_tier_at_capacity.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_at_capacity",
+   "body"
+  ],
+  "isFn": false,
+  "en": "Sign in to skip the queue, it's free, or try again in a little while."
+ },
+ {
+  "id": 1680,
+  "key": "assistant.thread.errorCodes.free_tier_model_not_free.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_model_not_free",
+   "title"
+  ],
+  "isFn": false,
+  "en": "That model isn't available without signing in"
+ },
+ {
+  "id": 1681,
+  "key": "assistant.thread.errorCodes.free_tier_model_not_free.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_model_not_free",
+   "body"
+  ],
+  "isFn": false,
+  "en": "Hermes uses the free model for now. Sign in with a Nous account for more models, it's free."
+ },
+ {
+  "id": 1682,
+  "key": "assistant.thread.errorCodes.free_tier_route.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_route",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Hermes couldn't reach the free model on this route"
+ },
+ {
+  "id": 1683,
+  "key": "assistant.thread.errorCodes.free_tier_route.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_route",
+   "body"
+  ],
+  "isFn": false,
+  "en": "Sign in with a Nous account, it's free, or check the NOUS_INFERENCE_BASE_URL setting."
+ },
+ {
+  "id": 1684,
+  "key": "assistant.thread.errorCodes.free_tier_outage.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_outage",
+   "title"
+  ],
+  "isFn": false,
+  "en": "The free model is having trouble responding right now"
+ },
+ {
+  "id": 1685,
+  "key": "assistant.thread.errorCodes.free_tier_outage.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_outage",
+   "body"
+  ],
+  "isFn": false,
+  "en": "Try sending your message again in a minute."
+ },
+ {
+  "id": 1686,
+  "key": "assistant.thread.errorCodes.free_tier_refused.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_refused",
+   "title"
+  ],
+  "isFn": false,
+  "en": "Hermes couldn't send that without signing in"
+ },
+ {
+  "id": 1687,
+  "key": "assistant.thread.errorCodes.free_tier_refused.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCodes",
+   "free_tier_refused",
+   "body"
+  ],
+  "isFn": false,
+  "en": "Signing in with a Nous account is free."
+ },
+ {
+  "id": 1688,
+  "key": "assistant.thread.errorAuthKinds.api_key.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorAuthKinds",
+   "api_key",
+   "title"
+  ],
+  "isFn": true,
+  "en": "(provider) => `${provider} rejected your API key`"
+ },
+ {
+  "id": 1689,
+  "key": "assistant.thread.errorAuthKinds.api_key.body",
+  "path": [
+   "assistant",
+   "thread",
+   "errorAuthKinds",
+   "api_key",
+   "body"
+  ],
+  "isFn": true,
+  "en": "(provider) => `The key saved for ${provider} is invalid or was revoked. Update it, then retry.`"
+ },
+ {
+  "id": 1690,
+  "key": "assistant.thread.errorAuthKinds.oauth.title",
+  "path": [
+   "assistant",
+   "thread",
+   "errorAuthKinds",
+   "oauth",
+   "title"
+  ],
+  "isFn": true,
+  "en": "(provider) => `Your ${provider} sign-in expired`"
+ },
+ {
+  "id": 1691,
+  "key": "assistant.thread.errorDetails",
+  "path": [
+   "assistant",
+   "thread",
+   "errorDetails"
+  ],
+  "isFn": false,
+  "en": "Details"
+ },
+ {
+  "id": 1692,
+  "key": "assistant.thread.errorGenericProvider",
+  "path": [
+   "assistant",
+   "thread",
+   "errorGenericProvider"
+  ],
+  "isFn": false,
+  "en": "The AI service"
+ },
+ {
+  "id": 1693,
+  "key": "assistant.thread.errorToastTitle",
+  "path": [
+   "assistant",
+   "thread",
+   "errorToastTitle"
+  ],
+  "isFn": false,
+  "en": "Hermes couldn't finish the reply"
+ },
+ {
+  "id": 1694,
+  "key": "assistant.thread.errorLimitResets",
+  "path": [
+   "assistant",
+   "thread",
+   "errorLimitResets"
+  ],
+  "isFn": true,
+  "en": "(time) => `Limit resets at ${time}`"
+ },
+ {
+  "id": 1695,
+  "key": "assistant.thread.errorRetryAtReset",
+  "path": [
+   "assistant",
+   "thread",
+   "errorRetryAtReset"
+  ],
+  "isFn": true,
+  "en": "(time) => `Retry when the limit resets (${time})`"
+ },
+ {
+  "id": 1696,
+  "key": "assistant.thread.errorRetryScheduled",
+  "path": [
+   "assistant",
+   "thread",
+   "errorRetryScheduled"
+  ],
+  "isFn": true,
+  "en": "(time, wait) => `Retrying at ${time} \\u2014 in ${wait}`"
+ },
+ {
+  "id": 1697,
+  "key": "assistant.thread.errorRetryScheduledCancel",
+  "path": [
+   "assistant",
+   "thread",
+   "errorRetryScheduledCancel"
+  ],
+  "isFn": false,
+  "en": "Cancel"
+ },
+ {
+  "id": 1698,
+  "key": "assistant.thread.errorChooseModel",
+  "path": [
+   "assistant",
+   "thread",
+   "errorChooseModel"
+  ],
+  "isFn": false,
+  "en": "Choose a model"
+ },
+ {
+  "id": 1699,
+  "key": "assistant.thread.errorCompressConversation",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCompressConversation"
+  ],
+  "isFn": false,
+  "en": "Compress conversation"
+ },
+ {
+  "id": 1700,
+  "key": "assistant.thread.errorCompressFailed",
+  "path": [
+   "assistant",
+   "thread",
+   "errorCompressFailed"
+  ],
+  "isFn": false,
+  "en": "Could not compress the conversation"
+ },
+ {
+  "id": 1701,
+  "key": "assistant.thread.errorOpenHermesFolder",
+  "path": [
+   "assistant",
+   "thread",
+   "errorOpenHermesFolder"
+  ],
+  "isFn": false,
+  "en": "Open Hermes folder"
+ },
+ {
+  "id": 1702,
+  "key": "assistant.thread.errorOpenHermesFolderFailed",
+  "path": [
+   "assistant",
+   "thread",
+   "errorOpenHermesFolderFailed"
+  ],
+  "isFn": false,
+  "en": "Could not open the Hermes folder"
+ },
+ {
+  "id": 1703,
+  "key": "assistant.thread.errorUpdateApiKey",
+  "path": [
+   "assistant",
+   "thread",
+   "errorUpdateApiKey"
+  ],
+  "isFn": false,
+  "en": "Update API key"
+ },
+ {
+  "id": 1704,
+  "key": "assistant.thread.errorSignInAgain",
+  "path": [
+   "assistant",
+   "thread",
+   "errorSignInAgain"
+  ],
+  "isFn": true,
+  "en": "(provider) => `Sign in to ${provider} again`"
+ },
+ {
+  "id": 1705,
+  "key": "assistant.thread.errorSignInFreeTier",
+  "path": [
+   "assistant",
+   "thread",
+   "errorSignInFreeTier"
+  ],
+  "isFn": false,
+  "en": "Sign in with a Nous account"
+ },
+ {
+  "id": 1706,
+  "key": "assistant.thread.errorOauthExpired",
+  "path": [
+   "assistant",
+   "thread",
+   "errorOauthExpired"
+  ],
+  "isFn": true,
+  "en": "(provider) => `Your ${provider} sign-in has expired or was revoked. Sign in again to keep chatting.`"
+ },
+ {
+  "id": 1707,
+  "key": "assistant.thread.copyFullResponse",
+  "path": [
+   "assistant",
+   "thread",
+   "copyFullResponse"
+  ],
+  "isFn": false,
+  "en": "Copy full response"
+ },
+ {
+  "id": 1708,
+  "key": "assistant.thread.readAloudFullResponseHint",
+  "path": [
+   "assistant",
+   "thread",
+   "readAloudFullResponseHint"
+  ],
+  "isFn": false,
+  "en": "Shift-click: read the full response"
+ },
+ {
+  "id": 1709,
+  "key": "assistant.approval.reconnect",
+  "path": [
+   "assistant",
+   "approval",
+   "reconnect"
+  ],
+  "isFn": false,
+  "en": "Reconnect"
+ },
+ {
+  "id": 1710,
+  "key": "assistant.approval.timedOutSystemLine",
+  "path": [
+   "assistant",
+   "approval",
+   "timedOutSystemLine"
+  ],
+  "isFn": false,
+  "en": "Approval timed out — the command was not run. Ask Hermes to try again, or raise the limit in Settings → Safety → Approval timeout."
+ },
+ {
+  "id": 1711,
+  "key": "assistant.approval.openSafetySettings",
+  "path": [
+   "assistant",
+   "approval",
+   "openSafetySettings"
+  ],
+  "isFn": false,
+  "en": "Open Safety settings"
+ },
+ {
+  "id": 1712,
+  "key": "assistant.approval.commandDetails",
+  "path": [
+   "assistant",
+   "approval",
+   "commandDetails"
+  ],
+  "isFn": false,
+  "en": "Command details"
+ },
+ {
+  "id": 1713,
+  "key": "assistant.clarify.noAnswer",
+  "path": [
+   "assistant",
+   "clarify",
+   "noAnswer"
+  ],
+  "isFn": false,
+  "en": "No answer"
+ },
+ {
+  "id": 1714,
+  "key": "assistant.clarify.singleSelectHint",
+  "path": [
+   "assistant",
+   "clarify",
+   "singleSelectHint"
+  ],
+  "isFn": false,
+  "en": "Pick one"
+ },
+ {
+  "id": 1715,
+  "key": "assistant.clarify.multiSelectHint",
+  "path": [
+   "assistant",
+   "clarify",
+   "multiSelectHint"
+  ],
+  "isFn": false,
+  "en": "Select all that apply"
+ },
+ {
+  "id": 1716,
+  "key": "assistant.clarify.oneQuestion",
+  "path": [
+   "assistant",
+   "clarify",
+   "oneQuestion"
+  ],
+  "isFn": false,
+  "en": "1 question"
+ },
+ {
+  "id": 1717,
+  "key": "assistant.clarify.notDelivered",
+  "path": [
+   "assistant",
+   "clarify",
+   "notDelivered"
+  ],
+  "isFn": false,
+  "en": "This question didn't reach the app, so it can't be answered here. Press Stop to end the turn, then reply in chat."
+ },
+ {
+  "id": 1718,
+  "key": "assistant.themePicker.accent",
+  "path": [
+   "assistant",
+   "themePicker",
+   "accent"
+  ],
+  "isFn": false,
+  "en": "Accent color"
+ },
+ {
+  "id": 1719,
+  "key": "assistant.themePicker.layout",
+  "path": [
+   "assistant",
+   "themePicker",
+   "layout"
+  ],
+  "isFn": false,
+  "en": "Layout"
+ },
+ {
+  "id": 1720,
+  "key": "assistant.themePicker.mode",
+  "path": [
+   "assistant",
+   "themePicker",
+   "mode"
+  ],
+  "isFn": false,
+  "en": "Appearance"
+ },
+ {
+  "id": 1721,
+  "key": "assistant.themePicker.customColor",
+  "path": [
+   "assistant",
+   "themePicker",
+   "customColor"
+  ],
+  "isFn": false,
+  "en": "Custom color"
+ },
+ {
+  "id": 1722,
+  "key": "assistant.themePicker.themeAccent",
+  "path": [
+   "assistant",
+   "themePicker",
+   "themeAccent"
+  ],
+  "isFn": false,
+  "en": "Theme default"
+ },
+ {
+  "id": 1723,
+  "key": "assistant.themePicker.basic",
+  "path": [
+   "assistant",
+   "themePicker",
+   "basic"
+  ],
+  "isFn": false,
+  "en": "Basic"
+ },
+ {
+  "id": 1724,
+  "key": "assistant.themePicker.basicDetail",
+  "path": [
+   "assistant",
+   "themePicker",
+   "basicDetail"
+  ],
+  "isFn": false,
+  "en": "For talking to Hermes."
+ },
+ {
+  "id": 1725,
+  "key": "assistant.themePicker.elite",
+  "path": [
+   "assistant",
+   "themePicker",
+   "elite"
+  ],
+  "isFn": false,
+  "en": "Elite"
+ },
+ {
+  "id": 1726,
+  "key": "assistant.themePicker.eliteDetail",
+  "path": [
+   "assistant",
+   "themePicker",
+   "eliteDetail"
+  ],
+  "isFn": false,
+  "en": "For developers: terminal, files, diffs."
+ },
+ {
+  "id": 1727,
+  "key": "assistant.themePicker.noPick",
+  "path": [
+   "assistant",
+   "themePicker",
+   "noPick"
+  ],
+  "isFn": false,
+  "en": "No pick"
+ },
+ {
+  "id": 1728,
+  "key": "assistant.catalogInstall.preparing",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "preparing"
+  ],
+  "isFn": false,
+  "en": "Preparing the install…"
+ },
+ {
+  "id": 1729,
+  "key": "assistant.catalogInstall.install",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "install"
+  ],
+  "isFn": false,
+  "en": "Install"
+ },
+ {
+  "id": 1730,
+  "key": "assistant.catalogInstall.advanced",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "advanced"
+  ],
+  "isFn": false,
+  "en": "Advanced"
+ },
+ {
+  "id": 1731,
+  "key": "assistant.catalogInstall.skip",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "skip"
+  ],
+  "isFn": false,
+  "en": "Skip"
+ },
+ {
+  "id": 1732,
+  "key": "assistant.catalogInstall.installing",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "installing"
+  ],
+  "isFn": false,
+  "en": "Installing…"
+ },
+ {
+  "id": 1733,
+  "key": "assistant.catalogInstall.installed",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "installed"
+  ],
+  "isFn": false,
+  "en": "Installed"
+ },
+ {
+  "id": 1734,
+  "key": "assistant.catalogInstall.notInstalled",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "notInstalled"
+  ],
+  "isFn": false,
+  "en": "Not installed"
+ },
+ {
+  "id": 1735,
+  "key": "assistant.catalogInstall.failed",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "failed"
+  ],
+  "isFn": false,
+  "en": "Failed"
+ },
+ {
+  "id": 1736,
+  "key": "assistant.catalogInstall.showNames",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "showNames"
+  ],
+  "isFn": false,
+  "en": "show names"
+ },
+ {
+  "id": 1737,
+  "key": "assistant.catalogInstall.hideNames",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "hideNames"
+  ],
+  "isFn": false,
+  "en": "hide names"
+ },
+ {
+  "id": 1738,
+  "key": "assistant.catalogInstall.skill",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "skill"
+  ],
+  "isFn": true,
+  "en": "(name) => `skill ${name}`"
+ },
+ {
+  "id": 1739,
+  "key": "assistant.catalogInstall.kind.plugin",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "kind",
+   "plugin"
+  ],
+  "isFn": false,
+  "en": "plugin"
+ },
+ {
+  "id": 1740,
+  "key": "assistant.catalogInstall.kind.skill",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "kind",
+   "skill"
+  ],
+  "isFn": false,
+  "en": "skill"
+ },
+ {
+  "id": 1741,
+  "key": "assistant.catalogInstall.tier.official",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "tier",
+   "official"
+  ],
+  "isFn": false,
+  "en": "official"
+ },
+ {
+  "id": 1742,
+  "key": "assistant.catalogInstall.tier.community",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "tier",
+   "community"
+  ],
+  "isFn": false,
+  "en": "community"
+ },
+ {
+  "id": 1743,
+  "key": "assistant.catalogInstall.targetProfile",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "targetProfile"
+  ],
+  "isFn": true,
+  "en": "(profile) => `Installs into your ${profile} profile`"
+ },
+ {
+  "id": 1744,
+  "key": "assistant.catalogInstall.sendFailed",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "sendFailed"
+  ],
+  "isFn": false,
+  "en": "Could not send your answer. Try again."
+ },
+ {
+  "id": 1745,
+  "key": "assistant.catalogInstall.commitLabel",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "commitLabel"
+  ],
+  "isFn": false,
+  "en": "Commit"
+ },
+ {
+  "id": 1746,
+  "key": "assistant.catalogInstall.subdirLabel",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "subdirLabel"
+  ],
+  "isFn": false,
+  "en": "Folder"
+ },
+ {
+  "id": 1747,
+  "key": "assistant.catalogInstall.securityHeading",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "securityHeading"
+  ],
+  "isFn": false,
+  "en": "Security"
+ },
+ {
+  "id": 1748,
+  "key": "assistant.catalogInstall.scan.passed",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "scan",
+   "passed"
+  ],
+  "isFn": false,
+  "en": "Scan passed"
+ },
+ {
+  "id": 1749,
+  "key": "assistant.catalogInstall.scan.warnings",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "scan",
+   "warnings"
+  ],
+  "isFn": false,
+  "en": "Scan found warnings"
+ },
+ {
+  "id": 1750,
+  "key": "assistant.catalogInstall.scan.failed",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "scan",
+   "failed"
+  ],
+  "isFn": false,
+  "en": "Scan failed"
+ },
+ {
+  "id": 1751,
+  "key": "assistant.catalogInstall.requirementsLabel",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "requirementsLabel"
+  ],
+  "isFn": false,
+  "en": "Requires"
+ },
+ {
+  "id": 1752,
+  "key": "assistant.catalogInstall.requiresHermes",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "requiresHermes"
+  ],
+  "isFn": true,
+  "en": "(range) => `Hermes ${range}`"
+ },
+ {
+  "id": 1753,
+  "key": "assistant.catalogInstall.envVar",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "envVar"
+  ],
+  "isFn": true,
+  "en": "(name) => `${name} environment variable`"
+ },
+ {
+  "id": 1754,
+  "key": "assistant.catalogInstall.credentialsHeading",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "credentialsHeading"
+  ],
+  "isFn": false,
+  "en": "Credentials"
+ },
+ {
+  "id": 1755,
+  "key": "assistant.catalogInstall.phase.downloading",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "phase",
+   "downloading"
+  ],
+  "isFn": false,
+  "en": "Downloading…"
+ },
+ {
+  "id": 1756,
+  "key": "assistant.catalogInstall.phase.python_packages",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "phase",
+   "python_packages"
+  ],
+  "isFn": false,
+  "en": "Installing Python packages…"
+ },
+ {
+  "id": 1757,
+  "key": "assistant.catalogInstall.phase.loading_tools",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "phase",
+   "loading_tools"
+  ],
+  "isFn": false,
+  "en": "Loading its tools…"
+ },
+ {
+  "id": 1758,
+  "key": "assistant.catalogInstall.serverNotConnected",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "serverNotConnected"
+  ],
+  "isFn": true,
+  "en": "(server, reason) => `MCP server ${server} not connected${reason ? `: ${reason}` : \"\"}`"
+ },
+ {
+  "id": 1759,
+  "key": "assistant.catalogInstall.notEnabled",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "notEnabled"
+  ],
+  "isFn": false,
+  "en": "Installed but not turned on"
+ },
+ {
+  "id": 1760,
+  "key": "assistant.catalogInstall.missingEnv",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "missingEnv"
+  ],
+  "isFn": true,
+  "en": "(names) => `Set ${names} to finish setup`"
+ },
+ {
+  "id": 1761,
+  "key": "assistant.catalogInstall.alreadyInstalled",
+  "path": [
+   "assistant",
+   "catalogInstall",
+   "alreadyInstalled"
+  ],
+  "isFn": false,
+  "en": "Already installed; left as it is"
+ },
+ {
+  "id": 1762,
+  "key": "assistant.tool.failedCalls",
+  "path": [
+   "assistant",
+   "tool",
+   "failedCalls"
+  ],
+  "isFn": true,
+  "en": "(count) => `${count} tool call${count === 1 ? \"\" : \"s\"} failed`"
+ },
+ {
+  "id": 1763,
+  "key": "assistant.tool.skillActivity.loading",
+  "path": [
+   "assistant",
+   "tool",
+   "skillActivity",
+   "loading"
+  ],
+  "isFn": false,
+  "en": "Loading skill"
+ },
+ {
+  "id": 1764,
+  "key": "assistant.tool.skillActivity.loaded",
+  "path": [
+   "assistant",
+   "tool",
+   "skillActivity",
+   "loaded"
+  ],
+  "isFn": false,
+  "en": "Loaded skill"
+ },
+ {
+  "id": 1765,
+  "key": "assistant.tool.skillActivity.loadFailed",
+  "path": [
+   "assistant",
+   "tool",
+   "skillActivity",
+   "loadFailed"
+  ],
+  "isFn": false,
+  "en": "Failed to load skill"
+ },
+ {
+  "id": 1766,
+  "key": "assistant.tool.skillActivity.readingResource",
+  "path": [
+   "assistant",
+   "tool",
+   "skillActivity",
+   "readingResource"
+  ],
+  "isFn": false,
+  "en": "Reading skill resource"
+ },
+ {
+  "id": 1767,
+  "key": "assistant.tool.skillActivity.readResource",
+  "path": [
+   "assistant",
+   "tool",
+   "skillActivity",
+   "readResource"
+  ],
+  "isFn": false,
+  "en": "Read skill resource"
+ },
+ {
+  "id": 1768,
+  "key": "assistant.tool.skillActivity.resourceFailed",
+  "path": [
+   "assistant",
+   "tool",
+   "skillActivity",
+   "resourceFailed"
+  ],
+  "isFn": false,
+  "en": "Failed to read skill resource"
+ },
+ {
+  "id": 1769,
+  "key": "assistant.tool.skillActivity.listing",
+  "path": [
+   "assistant",
+   "tool",
+   "skillActivity",
+   "listing"
+  ],
+  "isFn": false,
+  "en": "Listing skills"
+ },
+ {
+  "id": 1770,
+  "key": "assistant.tool.skillActivity.listed",
+  "path": [
+   "assistant",
+   "tool",
+   "skillActivity",
+   "listed"
+  ],
+  "isFn": false,
+  "en": "Listed skills"
+ },
+ {
+  "id": 1771,
+  "key": "assistant.tool.skillActivity.listFailed",
+  "path": [
+   "assistant",
+   "tool",
+   "skillActivity",
+   "listFailed"
+  ],
+  "isFn": false,
+  "en": "Failed to list skills"
+ },
+ {
+  "id": 1772,
+  "key": "assistant.tool.skillActivity.unavailable",
+  "path": [
+   "assistant",
+   "tool",
+   "skillActivity",
+   "unavailable"
+  ],
+  "isFn": false,
+  "en": "Skill result unavailable"
+ },
+ {
+  "id": 1773,
+  "key": "assistant.tool.resultUnavailable",
+  "path": [
+   "assistant",
+   "tool",
+   "resultUnavailable"
+  ],
+  "isFn": false,
+  "en": "Result unavailable"
+ },
+ {
+  "id": 1774,
+  "key": "assistant.tool.resultInterrupted",
+  "path": [
+   "assistant",
+   "tool",
+   "resultInterrupted"
+  ],
+  "isFn": false,
+  "en": "Interrupted"
+ },
+ {
+  "id": 1775,
+  "key": "prompts.reconnect",
+  "path": [
+   "prompts",
+   "reconnect"
+  ],
+  "isFn": false,
+  "en": "Reconnect"
+ },
+ {
+  "id": 1776,
+  "key": "prompts.sudoCommandUnavailable",
+  "path": [
+   "prompts",
+   "sudoCommandUnavailable"
+  ],
+  "isFn": false,
+  "en": "This agent did not provide the command. Cancel if you cannot verify it in the conversation."
+ },
+ {
+  "id": 1777,
+  "key": "prompts.sudoInstallDesc",
+  "path": [
+   "prompts",
+   "sudoInstallDesc"
+  ],
+  "isFn": false,
+  "en": "Hermes needs your sudo password to install the Bot Screen packages (TigerVNC + Xfce) on the gateway host. It is sent only to that host."
+ },
+ {
+  "id": 1778,
+  "key": "prompts.vaultUnlockSendFailed",
+  "path": [
+   "prompts",
+   "vaultUnlockSendFailed"
+  ],
+  "isFn": false,
+  "en": "Could not send master password"
+ },
+ {
+  "id": 1779,
+  "key": "prompts.vaultUnlockTitle",
+  "path": [
+   "prompts",
+   "vaultUnlockTitle"
+  ],
+  "isFn": true,
+  "en": "(name) => `Unlock ${name}`"
+ },
+ {
+  "id": 1780,
+  "key": "prompts.vaultUnlockDesc",
+  "path": [
+   "prompts",
+   "vaultUnlockDesc"
+  ],
+  "isFn": true,
+  "en": "(name) => `The agent wants to sign into a site with a login saved in ${name}. Enter your master password to unlock it for this session \\u2014 it goes straight to ${name} on this machine and is never stored or shown to the agent.`"
+ },
+ {
+  "id": 1781,
+  "key": "prompts.vaultUnlockPlaceholder",
+  "path": [
+   "prompts",
+   "vaultUnlockPlaceholder"
+  ],
+  "isFn": false,
+  "en": "Master password"
+ },
+ {
+  "id": 1782,
+  "key": "prompts.vaultUnlockKeepLocked",
+  "path": [
+   "prompts",
+   "vaultUnlockKeepLocked"
+  ],
+  "isFn": false,
+  "en": "Keep locked"
+ },
+ {
+  "id": 1783,
+  "key": "prompts.vaultUnlockConfirm",
+  "path": [
+   "prompts",
+   "vaultUnlockConfirm"
+  ],
+  "isFn": false,
+  "en": "Unlock"
+ },
+ {
+  "id": 1784,
+  "key": "prompts.vaultSaveSendFailed",
+  "path": [
+   "prompts",
+   "vaultSaveSendFailed"
+  ],
+  "isFn": false,
+  "en": "Could not save the login"
+ },
+ {
+  "id": 1785,
+  "key": "prompts.vaultSaveTitle",
+  "path": [
+   "prompts",
+   "vaultSaveTitle"
+  ],
+  "isFn": true,
+  "en": "(site) => `Save your ${site} login?`"
+ },
+ {
+  "id": 1786,
+  "key": "prompts.vaultSaveDesc",
+  "path": [
+   "prompts",
+   "vaultSaveDesc"
+  ],
+  "isFn": true,
+  "en": "(origin) => `Hermes reached a sign-in page at ${origin} and has no login for it. Enter it once here; it is encrypted on this machine and filled into the page without the model ever seeing the password.`"
+ },
+ {
+  "id": 1787,
+  "key": "prompts.vaultSaveIdentifierLabel",
+  "path": [
+   "prompts",
+   "vaultSaveIdentifierLabel"
+  ],
+  "isFn": false,
+  "en": "Email or username"
+ },
+ {
+  "id": 1788,
+  "key": "prompts.vaultSaveIdentifierPlaceholder",
+  "path": [
+   "prompts",
+   "vaultSaveIdentifierPlaceholder"
+  ],
+  "isFn": false,
+  "en": "you@example.com"
+ },
+ {
+  "id": 1789,
+  "key": "prompts.vaultSavePasswordPlaceholder",
+  "path": [
+   "prompts",
+   "vaultSavePasswordPlaceholder"
+  ],
+  "isFn": false,
+  "en": "Password"
+ },
+ {
+  "id": 1790,
+  "key": "prompts.vaultSaveFootnote",
+  "path": [
+   "prompts",
+   "vaultSaveFootnote"
+  ],
+  "isFn": false,
+  "en": "Manage saved logins in Settings → Passwords & Logins."
+ },
+ {
+  "id": 1791,
+  "key": "prompts.vaultSaveDecline",
+  "path": [
+   "prompts",
+   "vaultSaveDecline"
+  ],
+  "isFn": false,
+  "en": "Don't save"
+ },
+ {
+  "id": 1792,
+  "key": "prompts.vaultSaveConfirm",
+  "path": [
+   "prompts",
+   "vaultSaveConfirm"
+  ],
+  "isFn": false,
+  "en": "Save & sign in"
+ },
+ {
+  "id": 1793,
+  "key": "prompts.vaultCodeSendFailed",
+  "path": [
+   "prompts",
+   "vaultCodeSendFailed"
+  ],
+  "isFn": false,
+  "en": "Could not send the code"
+ },
+ {
+  "id": 1794,
+  "key": "prompts.vaultCodeTitle",
+  "path": [
+   "prompts",
+   "vaultCodeTitle"
+  ],
+  "isFn": true,
+  "en": "(site) => `Verification code for ${site}`"
+ },
+ {
+  "id": 1795,
+  "key": "prompts.vaultCodeDesc",
+  "path": [
+   "prompts",
+   "vaultCodeDesc"
+  ],
+  "isFn": true,
+  "en": "(site) => `${site} is asking for a one-time code (text message, email or authenticator app). Enter it here and Hermes types it into the page; the model never sees it.`"
+ },
+ {
+  "id": 1796,
+  "key": "prompts.vaultCodeLabel",
+  "path": [
+   "prompts",
+   "vaultCodeLabel"
+  ],
+  "isFn": false,
+  "en": "Code"
+ },
+ {
+  "id": 1797,
+  "key": "prompts.vaultCodeFootnote",
+  "path": [
+   "prompts",
+   "vaultCodeFootnote"
+  ],
+  "isFn": false,
+  "en": "Tip: save the authenticator key with this login in Settings → Passwords & Logins and Hermes enters codes for you."
+ },
+ {
+  "id": 1798,
+  "key": "prompts.vaultCodeSkip",
+  "path": [
+   "prompts",
+   "vaultCodeSkip"
+  ],
+  "isFn": false,
+  "en": "Skip"
+ },
+ {
+  "id": 1799,
+  "key": "prompts.vaultCodeConfirm",
+  "path": [
+   "prompts",
+   "vaultCodeConfirm"
+  ],
+  "isFn": false,
+  "en": "Enter code"
+ },
+ {
+  "id": 1800,
+  "key": "desktop.slashCommandIgnoredTitle",
+  "path": [
+   "desktop",
+   "slashCommandIgnoredTitle"
+  ],
+  "isFn": false,
+  "en": "Command not sent"
+ },
+ {
+  "id": 1801,
+  "key": "desktop.slashCommandIgnoredBody",
+  "path": [
+   "desktop",
+   "slashCommandIgnoredBody"
+  ],
+  "isFn": false,
+  "en": "Slash commands cannot be combined with attachments. Remove the attachment or send the command separately."
+ },
+ {
+  "id": 1802,
+  "key": "desktop.poolSlotTimeoutBody",
+  "path": [
+   "desktop",
+   "poolSlotTimeoutBody"
+  ],
+  "isFn": false,
+  "en": "Too many bots are running at once for this computer's limit. Raise the limit in Settings → Advanced, or wait for one to finish and retry."
+ },
+ {
+  "id": 1803,
+  "key": "desktop.poolSlotTimeoutOpenSettings",
+  "path": [
+   "desktop",
+   "poolSlotTimeoutOpenSettings"
+  ],
+  "isFn": false,
+  "en": "Open Advanced Settings"
+ },
+ {
+  "id": 1804,
+  "key": "desktop.restored",
+  "path": [
+   "desktop",
+   "restored"
+  ],
+  "isFn": false,
+  "en": "Restored"
+ },
+ {
+  "id": 1805,
+  "key": "desktop.unarchiveFailed",
+  "path": [
+   "desktop",
+   "unarchiveFailed"
+  ],
+  "isFn": false,
+  "en": "Unarchive failed"
+ },
+ {
+  "id": 1806,
+  "key": "desktop.modelSwitchConfirmBody",
+  "path": [
+   "desktop",
+   "modelSwitchConfirmBody"
+  ],
+  "isFn": false,
+  "en": "This model switch needs confirmation."
+ },
+ {
+  "id": 1807,
+  "key": "desktop.modelSwitchConfirmLabel",
+  "path": [
+   "desktop",
+   "modelSwitchConfirmLabel"
+  ],
+  "isFn": false,
+  "en": "Switch anyway"
+ },
+ {
+  "id": 1808,
+  "key": "desktop.modelSwitchConfirmTitle",
+  "path": [
+   "desktop",
+   "modelSwitchConfirmTitle"
+  ],
+  "isFn": true,
+  "en": "(model) => `Switch to ${model}?`"
+ },
+ {
+  "id": 1809,
+  "key": "desktop.modelSwitchConfirmTitleFallback",
+  "path": [
+   "desktop",
+   "modelSwitchConfirmTitleFallback"
+  ],
+  "isFn": false,
+  "en": "Switch models?"
+ },
+ {
+  "id": 1810,
+  "key": "desktop.modelSwitchKeepLabel",
+  "path": [
+   "desktop",
+   "modelSwitchKeepLabel"
+  ],
+  "isFn": false,
+  "en": "Keep current model"
+ },
+ {
+  "id": 1811,
+  "key": "desktop.modelSwitchStaleNotice",
+  "path": [
+   "desktop",
+   "modelSwitchStaleNotice"
+  ],
+  "isFn": false,
+  "en": "Selection changed — the model switch was not applied."
+ },
+ {
+  "id": 1812,
+  "key": "desktop.zoomIn",
+  "path": [
+   "desktop",
+   "zoomIn"
+  ],
+  "isFn": false,
+  "en": "Zoom in"
+ },
+ {
+  "id": 1813,
+  "key": "desktop.zoomOut",
+  "path": [
+   "desktop",
+   "zoomOut"
+  ],
+  "isFn": false,
+  "en": "Zoom out"
+ },
+ {
+  "id": 1814,
+  "key": "desktop.resetZoom",
+  "path": [
+   "desktop",
+   "resetZoom"
+  ],
+  "isFn": false,
+  "en": "Reset zoom"
+ },
+ {
+  "id": 1815,
+  "key": "desktop.pastedContent",
+  "path": [
+   "desktop",
+   "pastedContent"
+  ],
+  "isFn": false,
+  "en": "Pasted content"
+ },
+ {
+  "id": 1816,
+  "key": "desktop.pasteAttachFailed",
+  "path": [
+   "desktop",
+   "pasteAttachFailed"
+  ],
+  "isFn": false,
+  "en": "Could not attach pasted text"
+ },
+ {
+  "id": 1817,
+  "key": "desktop.handoff.startMessaging",
+  "path": [
+   "desktop",
+   "handoff",
+   "startMessaging"
+  ],
+  "isFn": false,
+  "en": "Start messaging"
+ },
+ {
+  "id": 1818,
+  "key": "tips.items.local-runtime-update.title",
+  "path": [
+   "tips",
+   "items",
+   "local-runtime-update",
+   "title"
+  ],
+  "isFn": false,
+  "en": "A local engine update is available"
+ },
+ {
+  "id": 1819,
+  "key": "tips.items.local-runtime-update.text",
+  "path": [
+   "tips",
+   "items",
+   "local-runtime-update",
+   "text"
+  ],
+  "isFn": false,
+  "en": "Update the engine that runs your local models. Active local requests may be interrupted."
+ },
+ {
+  "id": 1820,
+  "key": "tips.items.local-runtime-update.action",
+  "path": [
+   "tips",
+   "items",
+   "local-runtime-update",
+   "action"
+  ],
+  "isFn": false,
+  "en": "Update now"
+ },
+ {
+  "id": 1821,
+  "key": "errors.boundaryDetails",
+  "path": [
+   "errors",
+   "boundaryDetails"
+  ],
+  "isFn": false,
+  "en": "Details"
+ },
+ {
+  "id": 1822,
+  "key": "errors.sendDiagnostics",
+  "path": [
+   "errors",
+   "sendDiagnostics"
+  ],
+  "isFn": false,
+  "en": "Send diagnostics"
+ },
+ {
+  "id": 1823,
+  "key": "ui.logs.bottom",
+  "path": [
+   "ui",
+   "logs",
+   "bottom"
+  ],
+  "isFn": false,
+  "en": "Bottom of log"
+ },
+ {
+  "id": 1824,
+  "key": "ui.logs.search",
+  "path": [
+   "ui",
+   "logs",
+   "search"
+  ],
+  "isFn": false,
+  "en": "Search logs…"
+ },
+ {
+  "id": 1825,
+  "key": "ui.logs.top",
+  "path": [
+   "ui",
+   "logs",
+   "top"
+  ],
+  "isFn": false,
+  "en": "Top of log"
+ }
+]
