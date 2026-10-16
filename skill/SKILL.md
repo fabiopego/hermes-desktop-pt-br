@@ -35,7 +35,7 @@ novas (ficam em ingles, sem quebrar). Fluxo (detalhes no README do repo):
 `tools/gap.mjs` (lista o que falta) -> traduzir `work/missing.json` em
 `work/out_N.js` (subagentes em paralelo, lotes de ~200, funcao fica funcao,
 plural com ternario) -> `tools/merge-gaps.mjs` -> `tools/build-plugin.mjs` ->
-`tools/verify.mjs` (exigir faltando:0 e tipoDiferente:0) ->
+`tools/verify.mjs` (exigir faltando:0 e tipoDiferente:0; o build gera `plugin.js` na RAIZ do repo, nao em dist/, para o botao "Instalar do Git" do app achar) ->
 `scripts/install-plugin.py` -> commit e push no repo.
 Variaveis: HERMES_AGENT_DIR (checkout), REPO_DIR, WORK_DIR, GAPS_OUT (caminhos
 Windows com `C:/...`, node nao entende `/tmp` do bash).

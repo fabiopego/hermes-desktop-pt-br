@@ -1,4 +1,4 @@
-// Gera dist/plugin.js: plugin de desktop (ESM puro, sem imports externos) que registra o idioma 'pt'.
+// Gera plugin.js (raiz): plugin de desktop (ESM puro, sem imports externos) que registra o idioma pt.
 // Carrega sem recompilar o app e sobrevive ao `hermes update`.
 import { createRequire } from 'node:module'
 import path from 'node:path'
@@ -36,11 +36,11 @@ export default {
   }
 }
 `
-fs.mkdirSync(path.join(ROOT, 'dist'), { recursive: true })
+
 await build({
   stdin: { contents: entry, resolveDir: ROOT, loader: 'js' },
   bundle: true, format: 'esm', platform: 'neutral', target: 'es2022', charset: 'utf8',
-  outfile: path.join(ROOT, 'dist/plugin.js'), alias: { '@': SRC }, plugins: [stub], logLevel: 'error',
+  outfile: path.join(ROOT, 'plugin.js'), alias: { '@': SRC }, plugins: [stub], logLevel: 'error',
   loader: { '.ts': 'ts' }
 })
-console.log('ok', fs.statSync(path.join(ROOT, 'dist/plugin.js')).size, 'bytes')
+console.log('ok', fs.statSync(path.join(ROOT, 'plugin.js')).size, 'bytes')

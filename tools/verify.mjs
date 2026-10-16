@@ -4,7 +4,7 @@ const { build } = createRequire(AGENT + '/apps/desktop/package.json')('esbuild')
 const SRC = path.join(AGENT, 'apps/desktop/src'), out = path.join(process.env.TMPDIR || '.', 'ptgap/en2.mjs')
 await build({ entryPoints: [path.join(SRC, 'i18n/en.ts')], bundle: true, format: 'esm', platform: 'node', outfile: out, alias: { '@': SRC, '@hermes/shared/i18n': path.join(AGENT, 'apps/shared/src/i18n.ts'), '@hermes/shared': path.join(AGENT, 'apps/shared/src') }, logLevel: 'error' })
 const en = (await import(pathToFileURL(out).href)).en
-const plugin = (await import(pathToFileURL(path.join(ROOT, 'dist/plugin.js')).href)).default
+const plugin = (await import(pathToFileURL(path.join(ROOT, 'plugin.js')).href)).default
 let reg = null
 plugin.register({ i18n: { registerAppLocale: (id, r) => { reg = { id, ...r }; return () => {} } }, onDispose() {} })
 const isObj = v => v && typeof v === 'object' && !Array.isArray(v)
