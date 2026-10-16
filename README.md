@@ -8,6 +8,8 @@
 
 > ⚠️ **Projeto da comunidade, não oficial.** Não é afiliado, mantido nem endossado pela Nous Research. O Hermes Desktop não tem português na interface (a PR [#38846](https://github.com/NousResearch/hermes-agent/pull/38846) foi fechada sem merge e a issue [#40239](https://github.com/NousResearch/hermes-agent/issues/40239) segue aberta). Este plugin preenche esse buraco enquanto isso.
 
+> 💬 **Dúvidas?** Me chama no privado do Instagram: [@fabiopego](https://www.instagram.com/fabiopego/).
+
 ---
 
 ## Por que existe
@@ -138,6 +140,10 @@ Precisa de `node` e do `esbuild` que já vem no checkout do hermes-agent.
 | `tools/` | `gap`, `merge-gaps`, `build-plugin`, `verify`. |
 | `scripts/install-plugin.py` | Instalador local. |
 | `scripts/apply.py` | **Legado (v1).** Não funciona no 0.22. |
+
+## Dúvidas ou ajuda?
+
+Se travou na instalação ou tem qualquer dúvida, me manda uma mensagem no privado do Instagram: **[@fabiopego](https://www.instagram.com/fabiopego/)**. Para bug ou sugestão de tradução, prefira abrir uma issue aqui, assim fica registrado para todo mundo.
 
 ## Contribuir
 
