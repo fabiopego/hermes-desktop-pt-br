@@ -42,6 +42,8 @@ Windows com `C:/...`, node nao entende `/tmp` do bash).
 
 ## Pegadinhas
 
+- Plugin de disco entra DESLIGADO no app (nem `defaultEnabled: true` vence). Depois de instalar: Capabilities > Plugins > linha "Português (Brasil)" > ligar o interruptor **Desktop**. Sem isso o idioma nao carrega e a tela fica em ingles.
+
 - O app apaga (ghost-prune) qualquer pasta de `desktop-plugins/` cujo `.hermes-package.json` tenha `source` SEM `plugin.js` na raiz. O `source` tem que ser a propria pasta instalada. (Foi o que fez o plugin sumir na 1a tentativa.)
 
 - Funcao no pt onde o en agora e string (e vice-versa) quebra o texto: o verify

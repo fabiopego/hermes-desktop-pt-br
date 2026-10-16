@@ -22,4 +22,5 @@ version = json.loads((root / "package.json").read_text(encoding="utf-8"))["versi
 (dest / ".hermes-package.json").write_text(json.dumps({
     "package": "hermes-pt-br", "source": str(dest), "version": version,
     "repo": "https://github.com/fabiopego/hermes-pt-br"}, indent=2), encoding="utf-8")
+print("LEMBRETE: ligue o interruptor Desktop em Capabilities > Plugins > Portugues (Brasil)")
 print(f"instalado em {dest} (v{version}, {src.stat().st_size} bytes)")

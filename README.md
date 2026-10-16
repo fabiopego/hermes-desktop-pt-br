@@ -25,7 +25,7 @@ git clone https://github.com/fabiopego/hermes-pt-br && cd hermes-pt-br
 python scripts/install-plugin.py      # copia dist/plugin.js (já versionado)
 ```
 
-Depois reabra o Hermes Desktop e vá em Settings > Appearance > Language >
+**Passo obrigatório:** em Capabilities > Plugins, ligue o interruptor **Desktop** da linha "Português (Brasil)" (plugins de disco entram desligados). Depois vá em Settings > Appearance > Language >
 Português. (Se quiser o backend também em português: `display.language: pt`.)
 
 ### Depois de um `hermes update` (textos novos em inglês)
