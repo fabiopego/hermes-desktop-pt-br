@@ -138,4 +138,4 @@ Achou uma tradução estranha, termo inconsistente ou texto que ficou em inglês
 
 ---
 
-<sub>Hermes é um projeto da Nous Research. Este repositório é independente e não tem vínculo com ela.</sub>
+<sub>Hermes é um projeto da Nous Research. Este repositório é independente e não tem vínculo com ela. A mascote "Nous Girl" que aparece no banner, em tamanho pequeno e só como referência, é arte de marca da Nous Research (criada por John Galt), usada aqui apenas para identificar o projeto ao qual o plugin se refere. Se a Nous Research preferir que seja removida, é só pedir.</sub>
