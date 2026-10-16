@@ -13,14 +13,17 @@ src = root / "plugin.js"
 if not src.exists():
     sys.exit("plugin.js nao existe -- rode: node tools/build-plugin.mjs (ver README)")
 home = Path(os.environ.get("HERMES_HOME") or Path(os.environ.get("LOCALAPPDATA", Path.home() / ".hermes")) / "hermes")
-dest = home / "desktop-plugins" / "hermes-pt-br"
+dest = home / "desktop-plugins" / "hermes-desktop-pt-br"
+legacy = home / "desktop-plugins" / "hermes-pt-br"  # pasta com o nome antigo (mesmo plugin id)
+if legacy.is_dir():
+    shutil.rmtree(legacy)
 dest.mkdir(parents=True, exist_ok=True)
 shutil.copy2(src, dest / "plugin.js")
 version = json.loads((root / "package.json").read_text(encoding="utf-8"))["version"]
 # IMPORTANTE: o app apaga copias cujo `source`/plugin.js nao existe (ghost-prune);
 # por isso source aponta para a propria pasta instalada, que contem plugin.js.
 (dest / ".hermes-package.json").write_text(json.dumps({
-    "package": "hermes-pt-br", "source": str(dest), "version": version,
-    "repo": "https://github.com/fabiopego/hermes-pt-br"}, indent=2), encoding="utf-8")
+    "package": "hermes-desktop-pt-br", "source": str(dest), "version": version,
+    "repo": "https://github.com/fabiopego/hermes-desktop-pt-br"}, indent=2), encoding="utf-8")
 print("LEMBRETE: ligue o interruptor Desktop em Capabilities > Plugins > Portugues (Brasil)")
 print(f"instalado em {dest} (v{version}, {src.stat().st_size} bytes)")

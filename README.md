@@ -53,7 +53,7 @@ Capturas reais do Hermes Desktop 0.22.2 com o plugin ligado.
 ### Opção A: pelo próprio app
 
 1. No Hermes Desktop, abra **Recursos → Plugins → Instalar do Git**.
-2. Cole `fabiopego/hermes-pt-br` e confirme.
+2. Cole `fabiopego/hermes-desktop-pt-br` e confirme.
 3. Ligue o interruptor **Desktop** da linha **Português (Brasil)**.
 4. **Configurações → Aparência → Idioma → Português**.
 
@@ -62,8 +62,8 @@ Capturas reais do Hermes Desktop 0.22.2 com o plugin ligado.
 ### Opção B: pelo terminal
 
 ```bash
-git clone https://github.com/fabiopego/hermes-pt-br
-cd hermes-pt-br
+git clone https://github.com/fabiopego/hermes-desktop-pt-br
+cd hermes-desktop-pt-br
 python scripts/install-plugin.py
 ```
 
@@ -85,7 +85,7 @@ Esse é o ponto principal, e é o motivo desta versão existir.
 
 | | v1 (editava o app) | v2 (plugin) |
 |---|---|---|
-| Onde fica | dentro de `hermes-agent/apps/desktop/src` | na sua pasta de dados: `<hermes home>/desktop-plugins/hermes-pt-br` |
+| Onde fica | dentro de `hermes-agent/apps/desktop/src` | na sua pasta de dados: `<hermes home>/desktop-plugins/hermes-desktop-pt-br` |
 | O `hermes update` mexe? | **Sim**, `git reset --hard` apaga | **Não**, o update só atualiza o código do app |
 | Precisa recompilar o app? | Sim | **Não**, é JavaScript puro carregado na hora |
 | Como entra no app | editando arquivos internos | pela API de idioma do próprio Hermes (`registerAppLocale`) |

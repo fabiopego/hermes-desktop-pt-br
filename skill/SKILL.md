@@ -9,11 +9,11 @@ O Hermes Desktop nao tem portugues na interface (PR upstream #38846 fechada,
 issue #40239 aberta). So o backend/terminal vem em pt (`locales/pt.yaml`).
 Mantemos uma traducao propria como **plugin de desktop**:
 
-**https://github.com/fabiopego/hermes-pt-br** (privado)
+**https://github.com/fabiopego/hermes-desktop-pt-br** (privado)
 
 ## Por que plugin
 
-No 0.22+ o idioma entra por `<hermes home>/desktop-plugins/hermes-pt-br/plugin.js`
+No 0.22+ o idioma entra por `<hermes home>/desktop-plugins/hermes-desktop-pt-br/plugin.js`
 (`ctx.i18n.registerAppLocale`). Nao toca no checkout do hermes-agent, nao
 recompila, e o `hermes update` (git reset --hard) nao apaga. O metodo antigo
 (`scripts/apply.py`, editar types/languages/catalog + rebuild) quebrou no 0.22.
@@ -23,7 +23,7 @@ nao aparece um segundo "Portugues" duplicado no seletor.
 ## Reinstalar (plugin sumiu ou maquina nova)
 
 ```bash
-git clone https://github.com/fabiopego/hermes-pt-br && cd hermes-pt-br
+git clone https://github.com/fabiopego/hermes-desktop-pt-br && cd hermes-desktop-pt-br
 python scripts/install-plugin.py
 ```
 Reabrir o Desktop; Settings > Appearance > Language > Portugues.
