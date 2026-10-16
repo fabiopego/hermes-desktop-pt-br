@@ -48,16 +48,20 @@ Capturas reais do Hermes Desktop 0.22.2 com o plugin ligado.
 
 ---
 
-## Instalar em 2 minutos
+## Instalar em 1 minuto (tudo automático)
 
-### Opção A: pelo próprio app
+O instalador faz **as duas coisas por você**: coloca o plugin já **ligado** e define o idioma como Português. Não precisa abrir Plugins nem mexer em Configurações → Aparência.
 
-1. No Hermes Desktop, abra **Recursos → Plugins → Instalar do Git**.
-2. Cole `fabiopego/hermes-desktop-pt-br` e confirme.
-3. Ligue o interruptor **Desktop** da linha **Português (Brasil)**.
-4. **Configurações → Aparência → Idioma → Português**.
+### Opção A: peça ao próprio Hermes 🤖
 
-> A opção A usa o `plugin.js` na raiz deste repositório, que é o formato que o instalador do app procura. Ainda não foi testada pelo botão; a opção B é a que foi testada.
+Cole isto numa conversa do Hermes e aperte Enter:
+
+```
+Instale o plugin de tradução pt-BR do Hermes Desktop: rode
+git clone https://github.com/fabiopego/hermes-desktop-pt-br e depois
+python scripts/install-plugin.py dentro da pasta clonada. Quando terminar,
+me diga se a interface trocou para português.
+```
 
 ### Opção B: pelo terminal
 
@@ -67,11 +71,18 @@ cd hermes-desktop-pt-br
 python scripts/install-plugin.py
 ```
 
-Depois, os passos 3 e 4 acima.
+O script:
 
-### Por que preciso ligar o interruptor?
+1. copia o `plugin.js` para `<hermes home>/desktop-plugins/hermes-desktop-pt-br/`, **sem** o marcador que faria o app instalar o plugin desligado;
+2. roda `hermes config set display.language pt` (comando oficial) para o app já abrir em português.
 
-O Hermes instala plugins de disco **desligados**, por segurança. Um plugin não pode se ativar sozinho. É um clique, uma vez.
+Se o Hermes Desktop estiver aberto, a pasta é monitorada e a tela troca em instantes. Se não trocar, feche e abra o app uma vez.
+
+### Opção C: botão "Instalar do Git" do app
+
+**Recursos → Plugins → Instalar do Git** e cole `fabiopego/hermes-desktop-pt-br`. O app só instala o plugin: o idioma você escolhe em **Configurações → Aparência → Idioma → Português** (ou rode `hermes config set display.language pt`).
+
+> **Honestidade sobre os testes:** o instalador (opções A e B) foi rodado na máquina do autor e o idioma ficou `pt`. Que o plugin entra *ligado* sem o marcador vem da leitura do código do app (`runtime-loader.ts`); ainda não foi conferido numa instalação limpa. Se aparecer desligado, ligue o interruptor **Desktop** em Recursos → Plugins e abra uma issue. A opção C não foi testada pelo botão.
 
 ---
 

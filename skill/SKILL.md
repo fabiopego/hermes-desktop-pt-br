@@ -42,7 +42,8 @@ Windows com `C:/...`, node nao entende `/tmp` do bash).
 
 ## Pegadinhas
 
-- Plugin de disco entra DESLIGADO no app (nem `defaultEnabled: true` vence). Depois de instalar: Capabilities > Plugins > linha "Português (Brasil)" > ligar o interruptor **Desktop**. Sem isso o idioma nao carrega e a tela fica em ingles.
+- Pasta em `desktop-plugins/` COM `.hermes-package.json` entra DESLIGADA (opt-in, runtime-loader.ts `defaultEnabled: marker ? false`); SEM o marcador entra LIGADA. O `scripts/install-plugin.py` nao grava marcador e roda `hermes config set display.language pt`, entao a instalacao e 100% automatica. O botao "Instalar do Git" do app so grava marcador quando o repo tem plugin.yaml+__init__.py ou plugin.json (nosso nao tem) -> tambem entra ligado, mas nao define idioma.
+- Plugin de disco desligado manualmente fica `false` no localStorage do app (decisoes por id); o instalador nao consegue limpar isso -> ligar o interruptor Desktop em Recursos > Plugins.
 
 - O app apaga (ghost-prune) qualquer pasta de `desktop-plugins/` cujo `.hermes-package.json` tenha `source` SEM `plugin.js` na raiz. O `source` tem que ser a propria pasta instalada. (Foi o que fez o plugin sumir na 1a tentativa.)
 
