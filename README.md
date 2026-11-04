@@ -32,7 +32,7 @@ Este plugin traduz a tela.
 
 ## Veja funcionando
 
-Capturas reais do Hermes Desktop 0.22.2 com o plugin ligado.
+Capturas reais do Hermes Desktop 0.22.7 com o plugin v2.1.0 ligado (04/11/2026).
 
 **Configurações → Aparência → Idioma**
 
