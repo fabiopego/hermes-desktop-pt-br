@@ -110,7 +110,7 @@ Em uma frase: **o update troca o app, mas o plugin mora fora do app.** O Hermes 
 
 Detalhe técnico para quem quiser conferir: o plugin só registra um catálogo de textos para o idioma `pt` por cima do catálogo em inglês. Onde faltar tradução, o app cai no inglês, nunca em tela em branco.
 
-**Status honesto dos testes:** funciona no Hermes Desktop 0.22.2 no Windows e sobrevive a fechar e reabrir o app. **Atualização real observada:** o Hermes foi de 0.22.2 para 0.22.7 e a pasta do plugin continuou intacta, sem reinstalar nada (os textos novos dessa versão estão na v2.1.0). Se algo mudar na API de plugins do Hermes, abra uma issue.
+**Status honesto dos testes:** funciona no Hermes Desktop 0.22.2 e 0.22.7 no Windows (capturas da 0.22.7 acima) e sobrevive a fechar e reabrir o app. **Atualização real observada:** o Hermes foi de 0.22.2 para 0.22.7 e a pasta do plugin continuou intacta, sem reinstalar nada (os textos novos dessa versão estão na v2.1.0). Se algo mudar na API de plugins do Hermes, abra uma issue.
 
 ---
 
