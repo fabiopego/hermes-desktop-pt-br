@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/img/banner.webp" alt="Hermes Desktop em Português — plugin não oficial" width="100%">
+  <img src="docs/img/banner-v2.1.webp" alt="Hermes Desktop em Português — plugin não oficial" width="100%">
 </p>
 
 # Hermes Desktop em Português 🇧🇷
