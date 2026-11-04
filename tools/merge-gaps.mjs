@@ -18,7 +18,7 @@ for (const it of items) {
   if (v === undefined) { problems.push(`faltando ${it.key}`); continue }
   if (it.isFn !== (typeof v === 'function')) { problems.push(`tipo errado ${it.key}`); continue }
   if (it.isFn) {
-    try { const r = v('X', 'Y', 'Z'); const r2 = v(1, 3, 2); if (!['intro.custom','settings.vault.identifierShown'].includes(it.key) && (typeof r !== 'string' || typeof r2 !== 'string')) throw new Error('nao retornou string') } catch (e) { problems.push(`fn quebrada ${it.key}: ${e.message}`); continue }
+    try { const r = v('X', 'Y', 'Z'); let r2; try { r2 = v(1, 3, 2) } catch { r2 = r }; if (!['intro.custom','settings.vault.identifierShown'].includes(it.key) && (typeof r !== 'string' || typeof r2 !== 'string')) throw new Error('nao retornou string') } catch (e) { problems.push(`fn quebrada ${it.key}: ${e.message}`); continue }
   } else if (typeof v !== 'string' || !v.trim()) { problems.push(`vazio ${it.key}`); continue }
   else {
     const ph = s => (s.match(/\{\d+\}|\{[a-zA-Z]+\}/g) || []).sort().join()

@@ -13,4 +13,7 @@ const E = leaves(en), P = leaves(reg.translations)
 const missing = Object.keys(E).filter(k => !(k in P)), extra = Object.keys(P).filter(k => !(k in E))
 const typeMismatch = Object.keys(E).filter(k => k in P && typeof E[k] !== typeof P[k])
 console.log(JSON.stringify({ id: reg.id, endonym: reg.endonym, en: Object.keys(E).length, pt: Object.keys(P).length, faltando: missing.length, sobrando: extra.length, tipoDiferente: typeMismatch.length }))
-if (missing.length) console.log('faltando:', missing.slice(0, 10)); if (typeMismatch.length) console.log('tipo:', typeMismatch.slice(0, 10))
+
+const show = v => (typeof v === 'function' ? v.toString() : String(v))
+if (missing.length) console.log('faltando:', missing.slice(0, 10))
+for (const k of typeMismatch) console.log('TIPO ' + k + ' | en=' + show(E[k]) + ' | pt=' + show(P[k]))

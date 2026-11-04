@@ -30,7 +30,7 @@ Reabrir o Desktop; Settings > Appearance > Language > Portugues.
 
 ## Apos hermes update: textos novos em ingles
 
-O plugin cobre o en.ts do 0.22.2 (5.088/5.088). Update novo pode trazer chaves
+O plugin cobre o en.ts do 0.22.7 (5.552/5.552); v2.1.0 em 04/11/2026 (+523 textos, 59 obsoletos). `tools/gap.mjs` agora le o `plugin.js` (nao depende de arquivo no app); use GAPS_OUT=work/gaps.new.js no merge-gaps e depois `tools/union-gaps.mjs`. Chave que vira funcao no en (nome de provedor/modelo) aparece em `tipoDiferente`: acrescentar a funcao no FIM de pt-BR.gaps.js (a ultima entrada vence). Update novo pode trazer chaves
 novas (ficam em ingles, sem quebrar). Fluxo (detalhes no README do repo):
 `tools/gap.mjs` (lista o que falta) -> traduzir `work/missing.json` em
 `work/out_N.js` (subagentes em paralelo, lotes de ~200, funcao fica funcao,

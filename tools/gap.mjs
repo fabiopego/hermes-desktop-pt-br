@@ -26,7 +26,10 @@ async function load(entry, name, plugins = []) {
   return import(pathToFileURL(outfile).href + '?t=' + Date.now())
 }
 
-const pt = (await load(path.join(SRC, 'i18n/pt-BR.ts'), 'pt', [identityDefineLocale])).ptBR
+// pt = traducao completa atual, lida do plugin.js ja gerado (nao depende de arquivos dentro do app)
+const plug = (await import(pathToFileURL(path.join(process.env.REPO_DIR || '.', 'plugin.js')).href + '?t=' + Date.now())).default
+let pt = null
+plug.register({ i18n: { registerAppLocale: (id, r) => { pt = r.translations; return () => {} } }, onDispose() {} })
 const en = (await load(path.join(SRC, 'i18n/en.ts'), 'en')).en
 
 const isObj = v => v && typeof v === 'object' && !Array.isArray(v)

@@ -8,7 +8,7 @@
 
 > ⚠️ **Projeto da comunidade, não oficial.** Não é afiliado, mantido nem endossado pela Nous Research. O Hermes Desktop não tem português na interface (a PR [#38846](https://github.com/NousResearch/hermes-agent/pull/38846) foi fechada sem merge e a issue [#40239](https://github.com/NousResearch/hermes-agent/issues/40239) segue aberta). Este plugin preenche esse buraco enquanto isso.
 
-> 🚀 **Lançado em 16/10/2026** · versão 2.0.0 · testado no Hermes Desktop 0.22.2 (Windows)
+> 🚀 **Lançado em 16/10/2026** · atualizado em 04/11/2026 · versão 2.1.0 · testado no Hermes Desktop **0.22.7** (Windows)
 >
 > 💬 **Dúvidas?** Me chama no privado do Instagram: [@fabiopego](https://www.instagram.com/fabiopego/).
 
@@ -24,7 +24,7 @@ Este plugin traduz a tela.
 
 ## O que você ganha
 
-- **5.088 textos traduzidos**: Configurações, notificações, atalhos, voz, plugins, conectores, assistente, atualizações, primeiro uso. Medido contra o Hermes **0.22.2**, nenhum texto faltando (`node tools/verify.mjs`).
+- **5.552 textos traduzidos**: Configurações, notificações, atalhos, voz, plugins, conectores, assistente, atualizações, primeiro uso. Medido contra o Hermes **0.22.7**, nenhum texto faltando (`node tools/verify.mjs`).
 - **Português de produto, não de tradutor automático**: segue um glossário único (sessão, perfil, conector, skill...) e acentuação correta.
 - **Plural certo**: "1 ferramenta desativada", "3 ferramentas desativadas". Frases com nome e número montadas do jeito brasileiro, não coladas.
 - **Um só "Português" no seletor**: usa o mesmo idioma do backend (`pt`), então tela e mensagens do agente combinam.
@@ -110,7 +110,7 @@ Em uma frase: **o update troca o app, mas o plugin mora fora do app.** O Hermes 
 
 Detalhe técnico para quem quiser conferir: o plugin só registra um catálogo de textos para o idioma `pt` por cima do catálogo em inglês. Onde faltar tradução, o app cai no inglês, nunca em tela em branco.
 
-**Status honesto dos testes:** funciona no Hermes Desktop 0.22.2 no Windows e sobrevive a fechar e reabrir o app. Uma atualização real para uma versão *nova* ainda não foi observada; se algo mudar na API de plugins do Hermes, abra uma issue.
+**Status honesto dos testes:** funciona no Hermes Desktop 0.22.2 no Windows e sobrevive a fechar e reabrir o app. **Atualização real observada:** o Hermes foi de 0.22.2 para 0.22.7 e a pasta do plugin continuou intacta, sem reinstalar nada (os textos novos dessa versão estão na v2.1.0). Se algo mudar na API de plugins do Hermes, abra uma issue.
 
 ---
 
@@ -123,7 +123,8 @@ export HERMES_AGENT_DIR="$LOCALAPPDATA/hermes/hermes-agent"   # pasta do hermes-
 export REPO_DIR="$PWD" WORK_DIR="$PWD/work" GAPS_OUT="$PWD/i18n/pt-BR.gaps.js"
 node tools/gap.mjs          # lista o que falta (work/missing.json) e o que saiu (work/extra.json)
 # traduza work/missing.json em work/out_N.js:  { id: 'texto' | (n) => `...` }
-node tools/merge-gaps.mjs   # valida e gera i18n/pt-BR.gaps.js
+node tools/merge-gaps.mjs   # valida e gera work/gaps.new.js (GAPS_OUT="$PWD/work/gaps.new.js")
+node tools/union-gaps.mjs   # une ao i18n/pt-BR.gaps.js e registra as chaves que saíram
 node tools/build-plugin.mjs # gera plugin.js
 node tools/verify.mjs       # precisa dar faltando:0 e tipoDiferente:0
 python scripts/install-plugin.py
@@ -137,7 +138,7 @@ Precisa de `node` e do `esbuild` que já vem no checkout do hermes-agent.
 |---|---|
 | `plugin.js` | O plugin pronto. É o que o app instala. |
 | `i18n/pt-BR.ts` | Base da tradução (3.394 textos). |
-| `i18n/pt-BR.gaps.js` | Textos adicionados para o 0.22.2 (1.826). |
+| `i18n/pt-BR.gaps.js` | Textos adicionados depois da base (2.328, até o 0.22.7). |
 | `i18n/pt-BR.obsolete.js` | Chaves antigas que saíram do inglês. |
 | `tools/` | `gap`, `merge-gaps`, `build-plugin`, `verify`. |
 | `scripts/install-plugin.py` | Instalador local. |
