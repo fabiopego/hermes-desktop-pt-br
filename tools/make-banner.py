@@ -1,4 +1,4 @@
-"""Gera docs/img/banner-v2.1.webp a partir das capturas docs/img/tela-*.webp.
+"""Gera docs/img/banner-v2.2.webp a partir das capturas docs/img/tela-*.webp.
 Mascote: Nous Girl (c) Nous Research, usada pequena como referencia; o projeto NAO e oficial.
 Uso: python tools/make-banner.py  (precisa de docs/img/_nous-girl.png, nao versionado)"""
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -41,8 +41,8 @@ d.text((70, 188), "Hermes Desktop", font=font("segoeuib.ttf", 92), fill=(17, 24,
 d.text((70, 290), "em Português", font=font("segoeuib.ttf", 92), fill=(31, 157, 85))
 d.text((74, 416), "A interface do Hermes em português do Brasil.", font=font("segoeui.ttf", 32), fill=(55, 65, 81))
 d.text((74, 462), "Atualizou o Hermes? A tradução continua lá.", font=font("segoeuib.ttf", 34), fill=(17, 24, 39))
-for i, (n, l) in enumerate([("5.552", "textos traduzidos"), ("0", "recompilações"), ("0.22.7", "Hermes testado")]):
+for i, (n, l) in enumerate([("5.570", "textos traduzidos"), ("0", "recompilações"), ("0.23.0", "versão coberta")]):
     x = 74 + i * 270
     d.text((x, 536), n, font=font("segoeuib.ttf", 50), fill=(31, 157, 85)); d.text((x, 592), l, font=font("segoeui.ttf", 21), fill=(55, 65, 81))
-out = base.convert("RGB"); out.save(os.path.join(D, "banner-v2.1.webp"), quality=88, method=6); out.save(os.path.join(D, "_preview.png"))
-print("ok", os.path.getsize(os.path.join(D, "banner-v2.1.webp")) // 1024, "KB")
+out = base.convert("RGB"); out.save(os.path.join(D, "banner-v2.2.webp"), quality=88, method=6); out.save(os.path.join(D, "_preview.png"))
+print("ok", os.path.getsize(os.path.join(D, "banner-v2.2.webp")) // 1024, "KB")

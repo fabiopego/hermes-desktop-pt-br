@@ -21,7 +21,13 @@ src = root / "plugin.js"
 if not src.exists():
     sys.exit("plugin.js nao existe na raiz do repositorio (rode: node tools/build-plugin.mjs)")
 
-home = Path(os.environ.get("HERMES_HOME") or Path(os.environ.get("LOCALAPPDATA", Path.home() / ".hermes")) / "hermes")
+# Windows: %LOCALAPPDATA%\hermes | Linux/macOS/servidor/Docker: ~/.hermes | qualquer um: HERMES_HOME
+if os.environ.get("HERMES_HOME"):
+    home = Path(os.environ["HERMES_HOME"])
+elif os.environ.get("LOCALAPPDATA"):
+    home = Path(os.environ["LOCALAPPDATA"]) / "hermes"
+else:
+    home = Path.home() / ".hermes"
 plugins = home / "desktop-plugins"
 dest = plugins / "hermes-desktop-pt-br"
 
@@ -39,7 +45,7 @@ print(f"[1/2] plugin instalado e LIGADO por padrao em {dest} (v{version}, {src.s
 
 
 def find_hermes():
-    for cand in (shutil.which("hermes"), home / "hermes-agent" / ".hermes" / "bin" / "hermes.exe",
+    for cand in (shutil.which("hermes"), home / "hermes-agent" / ".hermes" / "bin" / "hermes.exe", home / "hermes-agent" / "venv" / "bin" / "hermes",
                  home / "hermes-agent" / "venv" / "Scripts" / "hermes.exe"):
         if cand and Path(cand).exists():
             return str(cand)

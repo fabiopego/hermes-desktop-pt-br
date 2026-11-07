@@ -30,7 +30,7 @@ Reabrir o Desktop; Settings > Appearance > Language > Portugues.
 
 ## Apos hermes update: textos novos em ingles
 
-O plugin cobre o en.ts do 0.22.7 (5.552/5.552); v2.1.0 em 04/11/2026 (+523 textos, 59 obsoletos). `tools/gap.mjs` agora le o `plugin.js` (nao depende de arquivo no app); use GAPS_OUT=work/gaps.new.js no merge-gaps e depois `tools/union-gaps.mjs`. Chave que vira funcao no en (nome de provedor/modelo) aparece em `tipoDiferente`: acrescentar a funcao no FIM de pt-BR.gaps.js (a ultima entrada vence). Update novo pode trazer chaves
+O plugin cobre o en.ts da 0.23.0 (5.570/5.570; v2.2.0); v2.1.0 em 04/11/2026 (+523 textos, 59 obsoletos). `tools/gap.mjs` agora le o `plugin.js` (nao depende de arquivo no app); use GAPS_OUT=work/gaps.new.js no merge-gaps e depois `tools/union-gaps.mjs`. Chave que vira funcao no en (nome de provedor/modelo) aparece em `tipoDiferente`: acrescentar a funcao no FIM de pt-BR.gaps.js (a ultima entrada vence). Update novo pode trazer chaves
 novas (ficam em ingles, sem quebrar). Fluxo (detalhes no README do repo):
 `tools/gap.mjs` (lista o que falta) -> traduzir `work/missing.json` em
 `work/out_N.js` (subagentes em paralelo, lotes de ~200, funcao fica funcao,
@@ -52,3 +52,6 @@ Windows com `C:/...`, node nao entende `/tmp` do bash).
 - Funcoes validas que nao retornam string: `intro.custom` (lista) e
   `settings.vault.identifierShown` (devolve o argumento).
 - 3 chaves do en.ts oficial com `***` corrompido foram reconstruidas por contexto.
+
+- Versao web (`hermes webapp`, SurfacePolicy.desktop_plugins) le o MESMO `desktop-plugins` do servidor via hermes_cli/web_routers/desktop_plugins.py: o mesmo plugin.js serve. Instalar na maquina do servidor (HERMES_HOME=~/.hermes). Nao testado no navegador (webapp.enabled estava off). `hermes dashboard` (9119) e outro app, ja tem pt proprio.
+- Banner renomeado a cada versao (banner-vX.Y.webp) para furar o cache do GitHub.

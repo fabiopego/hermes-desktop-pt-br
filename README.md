@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/img/banner-v2.1.webp" alt="Hermes Desktop em Português — plugin não oficial" width="100%">
+  <img src="docs/img/banner-v2.2.webp" alt="Hermes Desktop em Português — plugin não oficial" width="100%">
 </p>
 
 # Hermes Desktop em Português 🇧🇷
@@ -8,7 +8,7 @@
 
 > ⚠️ **Projeto da comunidade, não oficial.** Não é afiliado, mantido nem endossado pela Nous Research. O Hermes Desktop não tem português na interface (a PR [#38846](https://github.com/NousResearch/hermes-agent/pull/38846) foi fechada sem merge e a issue [#40239](https://github.com/NousResearch/hermes-agent/issues/40239) segue aberta). Este plugin preenche esse buraco enquanto isso.
 
-> 🚀 **Lançado em 16/10/2026** · atualizado em 04/11/2026 · versão 2.1.0 · testado no Hermes Desktop **0.22.7** (Windows)
+> 🚀 **Lançado em 16/10/2026** · atualizado em 04/11/2026 · versão 2.2.0 · cobertura verificada no Hermes **0.23.0**; capturas da 0.22.7 (Windows)
 >
 > 💬 **Dúvidas?** Me chama no privado do Instagram: [@fabiopego](https://www.instagram.com/fabiopego/).
 
@@ -24,7 +24,7 @@ Este plugin traduz a tela.
 
 ## O que você ganha
 
-- **5.552 textos traduzidos**: Configurações, notificações, atalhos, voz, plugins, conectores, assistente, atualizações, primeiro uso. Medido contra o Hermes **0.22.7**, nenhum texto faltando (`node tools/verify.mjs`).
+- **5.570 textos traduzidos**: Configurações, notificações, atalhos, voz, plugins, conectores, assistente, atualizações, primeiro uso. Medido contra o Hermes **0.23.0**, nenhum texto faltando (`node tools/verify.mjs`).
 - **Português de produto, não de tradutor automático**: segue um glossário único (sessão, perfil, conector, skill...) e acentuação correta.
 - **Plural certo**: "1 ferramenta desativada", "3 ferramentas desativadas". Frases com nome e número montadas do jeito brasileiro, não coladas.
 - **Um só "Português" no seletor**: usa o mesmo idioma do backend (`pt`), então tela e mensagens do agente combinam.
@@ -114,6 +114,25 @@ Detalhe técnico para quem quiser conferir: o plugin só registra um catálogo d
 
 ---
 
+## 🌐 Funciona também na versão web (`hermes webapp`)
+
+O Hermes tem uma versão que abre o **Desktop dentro do navegador** (`hermes webapp`, com `webapp.enabled: true` no `config.yaml`). Ela carrega os plugins da **mesma pasta `desktop-plugins` do servidor**, com o mesmo carregador do app. Ou seja: o mesmo `plugin.js` traduz as duas versões, sem build separado.
+
+Para instalar num servidor (Linux, Docker, VPS), rode o instalador **na máquina onde o Hermes roda**:
+
+```bash
+git clone https://github.com/fabiopego/hermes-desktop-pt-br && cd hermes-desktop-pt-br
+HERMES_HOME=~/.hermes python3 scripts/install-plugin.py   # HERMES_HOME é opcional; padrão: ~/.hermes
+```
+
+Depois recarregue a aba do navegador. O instalador também roda `hermes config set display.language pt`.
+
+> **Honestidade:** isto vem da leitura do código do Hermes (`web_routers/desktop_plugins.py`). Eu ainda **não testei no navegador**: a versão web está desligada na máquina do autor. Se você testar, conte na issue.
+
+> O **painel antigo** (`hermes dashboard`, porta 9119) é outro app, que já tem português próprio. Este plugin não mexe nele.
+
+---
+
 ## Quando sair versão nova do Hermes
 
 Textos novos aparecem em inglês até serem traduzidos. Para atualizar a tradução:
@@ -138,7 +157,7 @@ Precisa de `node` e do `esbuild` que já vem no checkout do hermes-agent.
 |---|---|
 | `plugin.js` | O plugin pronto. É o que o app instala. |
 | `i18n/pt-BR.ts` | Base da tradução (3.394 textos). |
-| `i18n/pt-BR.gaps.js` | Textos adicionados depois da base (2.328, até o 0.22.7). |
+| `i18n/pt-BR.gaps.js` | Textos adicionados depois da base (2.349, até a 0.23.0). |
 | `i18n/pt-BR.obsolete.js` | Chaves antigas que saíram do inglês. |
 | `tools/` | `gap`, `merge-gaps`, `build-plugin`, `verify`. |
 | `scripts/install-plugin.py` | Instalador local. |
