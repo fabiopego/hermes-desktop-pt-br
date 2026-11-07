@@ -8,7 +8,7 @@
 
 > ⚠️ **Projeto da comunidade, não oficial.** Não é afiliado, mantido nem endossado pela Nous Research. O Hermes Desktop não tem português na interface (a PR [#38846](https://github.com/NousResearch/hermes-agent/pull/38846) foi fechada sem merge e a issue [#40239](https://github.com/NousResearch/hermes-agent/issues/40239) segue aberta). Este plugin preenche esse buraco enquanto isso.
 
-> 🚀 **Lançado em 16/10/2026** · atualizado em 04/11/2026 · versão 2.2.0 · cobertura verificada no Hermes **0.23.0**; capturas da 0.22.7 (Windows)
+> 🚀 **Lançado em 16/10/2026** · atualizado em 04/11/2026 · versão 2.3.0 · cobertura verificada no Hermes **0.23.0**; capturas da 0.22.7 (Windows)
 >
 > 💬 **Dúvidas?** Me chama no privado do Instagram: [@fabiopego](https://www.instagram.com/fabiopego/).
 
@@ -28,6 +28,7 @@ Este plugin traduz a tela.
 - **Português de produto, não de tradutor automático**: segue um glossário único (sessão, perfil, conector, skill...) e acentuação correta.
 - **Plural certo**: "1 ferramenta desativada", "3 ferramentas desativadas". Frases com nome e número montadas do jeito brasileiro, não coladas.
 - **Um só "Português" no seletor**: usa o mesmo idioma do backend (`pt`), então tela e mensagens do agente combinam.
+- **Modelos de tarefas agendadas também em português** ("Resumo da manhã", "Monitor de e-mails importantes"...): esses textos vêm do servidor do Hermes, só em inglês, então o plugin os traduz na tela. Detalhes abaixo.
 - **Zero recompilação**: nada de `npm run build`, nada de mexer no código do app.
 
 ## Veja funcionando
@@ -45,6 +46,10 @@ Capturas reais do Hermes Desktop 0.22.7 com o plugin v2.1.0 ligado (04/11/2026).
 **Voz**
 
 ![Configurações de conversa por voz em português](docs/img/tela-voz.webp)
+
+**Modelos de tarefas agendadas** (textos que o Hermes manda em inglês, traduzidos na tela)
+
+![Formulário de nova tarefa agendada em português](docs/img/tela-modelos.webp)
 
 **Atalhos de teclado**
 
@@ -114,6 +119,18 @@ Detalhe técnico para quem quiser conferir: o plugin só registra um catálogo d
 
 ---
 
+## 🗓️ Modelos de tarefas agendadas (textos do servidor)
+
+Os **modelos** da tela "Tarefas agendadas" (Resumo da manhã, Revisão semanal, Cardápio semanal...) e o formulário deles não fazem parte do catálogo de idioma do app: o **servidor do Hermes** (Python) manda esses textos prontos, **só em inglês**. Por isso a tradução comum não alcança.
+
+O plugin resolve **na tela**: quando o idioma é português e aparece uma frase conhecida (título, descrição, pergunta do formulário, dica), ele troca pela versão em português. Não grava nada no servidor, então o `hermes update` também não desfaz.
+
+**Limites (honestos):**
+- A troca é por **frase exata**. Se o Hermes reescrever um texto, ele volta ao inglês até a próxima versão do plugin.
+- **Continua em inglês:** o texto interno que o agente recebe (o *prompt* do modelo), o valor já preenchido em campos de texto, o log de execução ("COMPLETED", "Job ID"...), o nome técnico `origin` e os rótulos das plataformas.
+- Palavras soltas ("quick", "medium") só são trocadas dentro de listas de seleção, para não mexer no resto do app.
+- Testado na 0.23.0 em teste automatizado (DOM simulado) e ao vivo no app (lista de modelos, formulário e "a cada 15 min").
+
 ## 🌐 Funciona também na versão web (`hermes webapp`)
 
 O Hermes tem uma versão que abre o **Desktop dentro do navegador** (`hermes webapp`, com `webapp.enabled: true` no `config.yaml`). Ela carrega os plugins da **mesma pasta `desktop-plugins` do servidor**, com o mesmo carregador do app. Ou seja: o mesmo `plugin.js` traduz as duas versões, sem build separado.
@@ -146,6 +163,9 @@ node tools/merge-gaps.mjs   # valida e gera work/gaps.new.js (GAPS_OUT="$PWD/wor
 node tools/union-gaps.mjs   # une ao i18n/pt-BR.gaps.js e registra as chaves que saíram
 node tools/build-plugin.mjs # gera plugin.js
 node tools/verify.mjs       # precisa dar faltando:0 e tipoDiferente:0
+# textos do servidor (modelos de tarefa): lista o que falta em i18n/pt-BR.backend.js
+<hermes-agent>/venv/Scripts/python.exe tools/extract-backend.py <hermes-agent>
+node tools/test-dom.mjs     # teste do tradutor de tela (usa o jsdom do hermes-agent)
 python scripts/install-plugin.py
 ```
 
@@ -159,7 +179,9 @@ Precisa de `node` e do `esbuild` que já vem no checkout do hermes-agent.
 | `i18n/pt-BR.ts` | Base da tradução (3.394 textos). |
 | `i18n/pt-BR.gaps.js` | Textos adicionados depois da base (2.349, até a 0.23.0). |
 | `i18n/pt-BR.obsolete.js` | Chaves antigas que saíram do inglês. |
-| `tools/` | `gap`, `merge-gaps`, `build-plugin`, `verify`. |
+| `i18n/pt-BR.backend.js` | Modelos de tarefas agendadas e sugestões (textos do servidor). |
+| `i18n/dom-translate.js` | Tradutor de tela desses textos. |
+| `tools/` | `gap`, `merge-gaps`, `union-gaps`, `build-plugin`, `verify`, `extract-backend`, `test-dom`. |
 | `scripts/install-plugin.py` | Instalador local. |
 | `scripts/apply.py` | **Legado (v1).** Não funciona no 0.22. |
 

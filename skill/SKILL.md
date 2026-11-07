@@ -55,3 +55,5 @@ Windows com `C:/...`, node nao entende `/tmp` do bash).
 
 - Versao web (`hermes webapp`, SurfacePolicy.desktop_plugins) le o MESMO `desktop-plugins` do servidor via hermes_cli/web_routers/desktop_plugins.py: o mesmo plugin.js serve. Instalar na maquina do servidor (HERMES_HOME=~/.hermes). Nao testado no navegador (webapp.enabled estava off). `hermes dashboard` (9119) e outro app, ja tem pt proprio.
 - Banner renomeado a cada versao (banner-vX.Y.webp) para furar o cache do GitHub.
+
+- Textos do BACKEND (cron/blueprint_catalog.py e suggestion_catalog.py: modelos de tarefa agendada, rotulos do formulario) NAO passam pelo catalogo de idioma: vem em ingles pela API. O plugin traduz na tela (i18n/dom-translate.js + i18n/pt-BR.backend.js; frases exatas, so com <html lang=pt>; palavras soltas so em role=combobox/option/listbox; regex em `patterns`). Apos update do Hermes: rodar tools/extract-backend.py (python do venv do hermes-agent) e acrescentar o que faltar; tools/test-dom.mjs valida. Nao editar cron/*.py (o update apaga).

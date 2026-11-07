@@ -20,6 +20,8 @@ const entry = `
 import { ptBR } from ${P('i18n/pt-BR.ts')}
 import gaps from ${P('i18n/pt-BR.gaps.js')}
 import obsolete from ${P('i18n/pt-BR.obsolete.js')}
+import { phrases, words, patterns } from ${P('i18n/pt-BR.backend.js')}
+import { startDomTranslator } from ${P('i18n/dom-translate.js')}
 const isObj = v => v && typeof v === 'object' && !Array.isArray(v)
 const tree = structuredCloneWithFns(ptBR)
 function structuredCloneWithFns(o) { const r = {}; for (const [k, v] of Object.entries(o)) r[k] = isObj(v) ? structuredCloneWithFns(v) : v; return r }
@@ -32,7 +34,7 @@ export default {
   defaultEnabled: true,
   register(ctx) {
     const dispose = ctx.i18n.registerAppLocale('pt', { endonym: 'Português', englishName: 'Portuguese (Brazil)', translations: tree })
-    if (typeof ctx.onDispose === 'function') ctx.onDispose(dispose)
+    if (typeof ctx.onDispose === 'function') { ctx.onDispose(dispose); ctx.onDispose(startDomTranslator(phrases, words, patterns)) } else startDomTranslator(phrases, words, patterns)
   }
 }
 `

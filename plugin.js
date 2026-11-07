@@ -6115,6 +6115,193 @@ var pt_BR_gaps_default = [
 // i18n/pt-BR.obsolete.js
 var pt_BR_obsolete_default = [["notifications", "errors", "openaiRejectedApiKeyWithStatus"], ["keybinds", "actions", "nav.skills"], ["settings", "plugins", "blurb"], ["settings", "plugins", "count"], ["settings", "plugins", "enable"], ["settings", "plugins", "disable"], ["settings", "plugins", "empty"], ["settings", "plugins", "agentHalfMissing"], ["settings", "plugins", "agentHalfMissingTip"], ["settings", "plugins", "agent", "title"], ["settings", "plugins", "agent", "movedToCapabilities"], ["settings", "plugins", "agent", "openCapabilities"], ["settings", "plugins", "installModal", "catalogPinned"], ["settings", "plugins", "installModal", "reviewedHeading"], ["settings", "plugins", "installModal", "reviewedIntro"], ["settings", "plugins", "installModal", "restartToApply"], ["settings", "plugins", "installModal", "restartNow"], ["settings", "plugins", "installModal", "securityHeading"], ["settings", "plugins", "installModal", "gitCloneLabel"], ["settings", "appearance", "pet", "on"], ["settings", "appearance", "pet", "off"], ["settings", "about", "heading"], ["settings", "about", "version"], ["settings", "about", "versionUnavailable"], ["settings", "about", "bundleOutOfSync"], ["settings", "about", "bundleOutOfSyncDesc"], ["settings", "about", "bundleOutOfSyncAction"], ["settings", "about", "bundleSwapPending"], ["settings", "about", "bundleSwapPendingDesc"], ["settings", "about", "bundleSwapPendingAction"], ["settings", "about", "checkNow"], ["settings", "about", "checking"], ["settings", "about", "seeWhatsNew"], ["settings", "about", "updateNow"], ["settings", "about", "releaseNotes"], ["settings", "about", "onLatest"], ["settings", "about", "installing"], ["settings", "about", "cantUpdate"], ["settings", "about", "cantReach"], ["settings", "about", "tapCheck"], ["settings", "about", "updateReady"], ["settings", "about", "updateReadyUnknown"], ["settings", "about", "lastChecked"], ["settings", "about", "justNowSuffix"], ["settings", "about", "automaticUpdates"], ["settings", "about", "automaticUpdatesDesc"], ["settings", "about", "branchCommit"], ["settings", "about", "never"], ["settings", "about", "justNow"], ["settings", "about", "minAgo"], ["settings", "about", "hoursAgo"], ["settings", "about", "daysAgo"], ["settings", "mcp", "failedLoad"], ["settings", "mcp", "nameRequiredTitle"], ["settings", "mcp", "nameRequiredMessage"], ["settings", "mcp", "objectRequired"], ["settings", "mcp", "gatewayUnavailableTitle"], ["settings", "mcp", "gatewayUnavailableMessage"], ["settings", "mcp", "reloadedTitle"], ["settings", "mcp", "reloadedMessage"], ["settings", "mcp", "newServer"], ["settings", "mcp", "reload"], ["settings", "mcp", "reloading"], ["settings", "mcp", "emptyTitle"], ["settings", "mcp", "emptyDesc"], ["settings", "mcp", "editServer"], ["settings", "mcp", "saveServer"], ["settings", "mcp", "testing"], ["settings", "mcp", "testOk"], ["settings", "mcp", "testFailed"], ["settings", "mcp", "enableServer"], ["settings", "mcp", "disableServer"], ["settings", "mcp", "serverEnabled"], ["settings", "mcp", "serverDisabled"], ["settings", "mcp", "toggleFailed"], ["settings", "mcp", "tabServers"], ["settings", "mcp", "tabCatalog"], ["settings", "mcp", "catalogLoadFailed"], ["settings", "mcp", "catalogEmpty"], ["settings", "mcp", "catalogInstalled"], ["settings", "mcp", "catalogEnabled"], ["settings", "mcp", "catalogNeedsInstall"], ["settings", "mcp", "catalogInstall"], ["settings", "mcp", "catalogInstalling"], ["settings", "mcp", "catalogInstallStarted"], ["settings", "mcp", "catalogEnvPrompt"], ["settings", "mcp", "unusedPill"], ["settings", "mcp", "waitingForBrowser"], ["settings", "mcp", "unsavedConnect"], ["settings", "mcp", "enableTool"], ["settings", "mcp", "disableTool"], ["settings", "mcp", "importButton"], ["settings", "mcp", "importPlaceholder"], ["settings", "mcp", "importNoMatch"], ["settings", "mcp", "importConfirm"], ["settings", "mcp", "importConfirmMany"], ["settings", "localModels", "recommendedReason", "fastest-resident"], ["settings", "localModels", "recommendedReason", "least-painful-spilled"], ["settings", "localModels", "updateToast"], ["skills", "tabMcp"], ["commandCenter", "sectionDescriptions", "maintenance"], ["commandCenter", "sectionDescriptions", "sessions"], ["commandCenter", "sectionDescriptions", "system"], ["commandCenter", "sectionDescriptions", "usage"], ["commandCenter", "nav", "skills", "title"], ["commandCenter", "nav", "skills", "detail"], ["cron", "modelImpact", "title"], ["cron", "modelImpact", "message"], ["cron", "modelImpact", "detailMore"], ["cron", "modelImpact", "review"], ["cron", "modelImpact", "saveFailed"], ["cron", "modelImpact", "confirmTitle"], ["cron", "modelImpact", "confirmDetail"], ["cron", "modelImpact", "confirmAction"], ["cron", "modelImpact", "declined"], ["sidebar", "nav", "skills"], ["onboarding", "autoBrowser"], ["onboarding", "reopenSignInPage"], ["shell", "statusbar", "session"], ["assistant", "clarify", "continueLabel"], ["assistant", "clarify", "answeredBadge"], ["assistant", "clarify", "lateAnswer"], ["assistant", "clarify", "lateAnswerTip"], ["assistant", "clarify", "lateAnswerHint"], ["assistant", "mcpSetup", "decline"], ["assistant", "mcpSetup", "declined"], ["assistant", "mcpSetup", "unanswered"], ["assistant", "mcpSetup", "notInCatalog"], ["assistant", "mcpSetup", "catalogSource"], ["tips", "items", "local-setup", "title"], ["tips", "items", "local-setup", "text"], ["tips", "items", "local-setup", "action"], ["settings", "poolLimits", "warmBotBackendsAria"], ["settings", "poolLimits", "warmBotBackendsTitle"], ["settings", "poolLimits", "backendIdleTimeoutAria"], ["settings", "poolLimits", "backendIdleTimeoutTitle"], ["skills", "plugins", "catalogTitle"], ["skills", "plugins", "catalogBrowse"], ["skills", "plugins", "catalogHide"], ["skills", "plugins", "catalogHint"], ["skills", "plugins", "tierOfficial"], ["skills", "plugins", "tierCommunity"], ["commandCenter", "maintenance", "memoryDataDesc"], ["commandCenter", "maintenance", "memoryProvider"], ["commandCenter", "maintenance", "builtinMemory"], ["profiles", "fleet", "switchDeviceTitle"], ["profiles", "fleet", "switchDeviceDesc"], ["profiles", "fleet", "switchDeviceConfirm"], ["sidebar", "row", "continuationOrigin"], ["composer", "mcpSuggestions", "label"], ["composer", "mcpSuggestions", "tip"], ["composer", "mcpSuggestions", "connecting"], ["composer", "mcpSuggestions", "cancelTip"], ["composer", "mcpSuggestions", "added"], ["composer", "mcpSuggestions", "addedTip"], ["composer", "mcpSuggestions", "connectFailed"], ["composer", "skillSuggestions", "label"], ["composer", "skillSuggestions", "tip"], ["composer", "skillSuggestions", "done"], ["composer", "skillSuggestions", "doneTip"], ["composer", "githubSuggestions", "label"], ["composer", "githubSuggestions", "tip"], ["composer", "githubSuggestions", "done"], ["composer", "githubSuggestions", "doneTip"], ["composer", "repairSuggestions", "label"], ["composer", "repairSuggestions", "tip"], ["composer", "repairSuggestions", "working"], ["composer", "repairSuggestions", "workingTip"], ["composer", "repairSuggestions", "done"], ["composer", "repairSuggestions", "doneTip"], ["composer", "repairSuggestions", "failed"], ["composer", "cronSuggestions", "label"], ["composer", "cronSuggestions", "tip"], ["composer", "cronSuggestions", "prefix"], ["composer", "cronSuggestions", "done"], ["composer", "cronSuggestions", "doneTip"], ["statusStack", "control", "heartbeatDueWaitingForIdle"], ["assistant", "thread", "errorCopyDiagnostics"], ["assistant", "thread", "errorLimitResets"], ["assistant", "thread", "errorRetryAtReset"], ["sharedMetrics", "local"], ["sharedMetrics", "collectLabel"], ["sharedMetrics", "collectDesc"], ["sharedMetrics", "stripChoices", "local"], ["freeTier", "codeBody"], ["freeTier", "copyLink"], ["freeTier", "signedInAs"], ["freeTier", "startAgain"], ["freeTier", "rejectedBody"], ["freeTier", "supersededBody"], ["freeTier", "retiredBody"], ["settings", "model", "tasks", "skills_hub", "label"], ["settings", "model", "tasks", "skills_hub", "hint"]];
 
+// i18n/pt-BR.backend.js
+var phrases = {
+  "Morning briefing": "Resumo da manhã",
+  "A short daily briefing: today's calendar, weather, and anything urgent waiting on you.": "Um resumo diário curto: agenda de hoje, clima e qualquer coisa urgente esperando por você.",
+  "What time?": "Que horas?",
+  "24h local time, e.g. 08:00": "Horário local em 24h, ex.: 08:00",
+  "Where to deliver?": "Onde entregar?",
+  "origin = the chat you set this up from (or your configured home channel when created from the dashboard); local = save only, no message; or any connected platform name": "origin = o chat de onde você configurou isto (ou seu canal principal, quando criado pelo painel); local = só salvar, sem mensagem; ou o nome de qualquer plataforma conectada",
+  "Important-mail monitor": "Monitor de e-mails importantes",
+  "Check your inbox periodically and ping you ONLY about mail that actually needs attention.": "Verifica sua caixa de entrada de tempos em tempos e avisa você SÓ sobre e-mails que realmente precisam de atenção.",
+  "Check your inbox periodically and ping you ONLY about mail that actually needs attention — never the newsletters.": "Verifica sua caixa de entrada de tempos em tempos e avisa você SÓ sobre e-mails que realmente precisam de atenção, nunca as newsletters.",
+  "How often?": "Com que frequência?",
+  "minutes between checks": "minutos entre as verificações",
+  "Only notify me if the mail…": "Só me avise se o e-mail…",
+  "Weekly review": "Revisão semanal",
+  "A weekly recap: what got done, what's still open, and what's coming up.": "Um resumo da semana: o que foi feito, o que ainda está aberto e o que vem por aí.",
+  "Which day?": "Que dia?",
+  "Workday start reminder": "Lembrete de início do expediente",
+  "A weekday nudge with your agenda and top priorities.": "Um lembrete nos dias úteis com sua agenda e suas principais prioridades.",
+  "Custom reminder": "Lembrete personalizado",
+  "A recurring reminder in your own words, on your schedule.": "Um lembrete recorrente, com suas palavras e no seu horário.",
+  "Remind me to…": "Lembrar de…",
+  "Repeat on": "Repetir em",
+  "Evening wind-down": "Encerramento do dia",
+  "An end-of-day check-in: tomorrow's calendar at a glance and anything you should prep tonight.": "Um check-in no fim do dia: a agenda de amanhã de relance e o que vale preparar hoje à noite.",
+  "Topic news digest": "Resumo de notícias por tema",
+  "A recurring digest on a topic you care about — deduped against what was already sent, so only genuinely new items land.": "Um resumo recorrente sobre um tema do seu interesse, sem repetir o que já foi enviado, para chegar só o que é realmente novo.",
+  "What topic?": "Qual tema?",
+  "a subject, product, person, or search phrase": "um assunto, produto, pessoa ou frase de busca",
+  "AI and technology": "IA e tecnologia",
+  "How many bullets?": "Quantos tópicos?",
+  "Bills & renewals reminder": "Lembrete de contas e renovações",
+  "A heads-up before a recurring payment, subscription renewal, or due date — so nothing auto-charges by surprise.": "Um aviso antes de um pagamento recorrente, renovação de assinatura ou vencimento, para nada ser cobrado de surpresa.",
+  "What's due?": "O que vence?",
+  "my streaming subscription renews soon": "minha assinatura de streaming renova em breve",
+  "Price & availability watch": "Monitor de preço e disponibilidade",
+  "Watch an exact product, flight, hotel, or listing and alert when your price or availability condition is met.": "Acompanha um produto, voo, hotel ou anúncio específico e avisa quando sua condição de preço ou disponibilidade for atendida.",
+  "What exactly to watch?": "O que exatamente acompanhar?",
+  "URL or precise description — variant, dates, seller": "URL ou descrição precisa: variação, datas, vendedor",
+  "a product URL or exact flight/hotel/listing description": "a URL de um produto ou a descrição exata do voo, hotel ou anúncio",
+  "Alert me when…": "Avise-me quando…",
+  "threshold price (state the currency), availability, or terms change": "preço-limite (informe a moeda), disponibilidade ou mudança nas condições",
+  "the all-in price drops below my target": "o preço final cair abaixo da minha meta",
+  "hours between checks — be gentle with rate limits": "horas entre as verificações; vá com calma por causa dos limites de requisição",
+  "Competitor news watch": "Monitor de notícias de concorrentes",
+  "Track named companies for material news — launches, pricing, funding, filings — with a cited digest.": "Acompanha empresas específicas atrás de notícias relevantes (lançamentos, preços, investimentos, registros), com um resumo que cita as fontes.",
+  "Which companies?": "Quais empresas?",
+  "canonical names and domains; aliases help dedup": "nomes oficiais e domínios; apelidos ajudam a evitar repetição",
+  "two or three competitors, by canonical name": "dois ou três concorrentes, pelo nome oficial",
+  "Which events matter?": "Quais eventos importam?",
+  "product launches, pricing changes, funding, partnerships, executive moves, incidents": "lançamentos de produtos, mudanças de preço, investimentos, parcerias, mudanças de executivos, incidentes",
+  "Habit check-in": "Check-in de hábito",
+  "A recurring nudge to keep a habit on track and reflect on whether you did it.": "Um lembrete recorrente para manter um hábito em dia e refletir se você o cumpriu.",
+  "Which habit?": "Qual hábito?",
+  "20 minutes of reading": "20 minutos de leitura",
+  "Hydration & movement nudge": "Lembrete de água e movimento",
+  "A periodic nudge during the day to drink water, stand up, and stretch.": "Um lembrete periódico durante o dia para beber água, levantar e se alongar.",
+  "hours between nudges": "horas entre os lembretes",
+  "Start hour": "Hora de início",
+  "first hour of the active window (24h)": "primeira hora da janela ativa (24h)",
+  "End hour": "Hora de fim",
+  "last hour of the active window (24h)": "última hora da janela ativa (24h)",
+  "Weekly meal plan": "Cardápio semanal",
+  "A weekly meal plan plus a consolidated grocery list, tuned to your diet and how much time you have to cook.": "Um cardápio semanal com lista de compras consolidada, ajustado à sua dieta e ao tempo que você tem para cozinhar.",
+  "Diet?": "Dieta?",
+  "Meals per day?": "Refeições por dia?",
+  "Cooking effort?": "Esforço na cozinha?",
+  "Daily learning drip": "Aprendizado diário",
+  "One bite-sized lesson a day on a topic you want to learn, building progressively over time.": "Uma lição curtinha por dia sobre um tema que você quer aprender, evoluindo aos poucos.",
+  "Learn about…": "Aprender sobre…",
+  "Spanish vocabulary": "vocabulário de espanhol",
+  "Gratitude & reflection prompt": "Gratidão e reflexão",
+  "A gentle evening prompt to reflect on the day and note what went well.": "Um convite suave à noite para refletir sobre o dia e anotar o que deu certo.",
+  "On-this-day discovery": "Descoberta do dia",
+  "A daily dose of curiosity: a notable historical event, fact, or word for the day.": "Uma dose diária de curiosidade: um fato histórico, uma informação ou uma palavra do dia.",
+  "What kind?": "Que tipo?",
+  "Daily briefing": "Resumo diário",
+  "Every morning at 8am, a short briefing: today's calendar, weather, and anything urgent waiting on you.": "Toda manhã às 8h, um resumo curto: agenda de hoje, clima e qualquer coisa urgente esperando por você.",
+  "Every Sunday evening, a recap of the week: what got done, what's still open, and what's coming up next week.": "Todo domingo à noite, um resumo da semana: o que foi feito, o que ainda está aberto e o que vem na próxima semana.",
+  "A weekday nudge at 9am with your day's agenda and top priorities, so you start focused.": "Um lembrete nos dias úteis às 9h com a agenda e as principais prioridades do dia, para você começar focado."
+};
+var words = {
+  sunday: "domingo",
+  monday: "segunda-feira",
+  tuesday: "terça-feira",
+  wednesday: "quarta-feira",
+  thursday: "quinta-feira",
+  friday: "sexta-feira",
+  saturday: "sábado",
+  everyday: "todos os dias",
+  weekdays: "dias úteis",
+  weekends: "fins de semana",
+  "no restrictions": "sem restrições",
+  vegetarian: "vegetariana",
+  vegan: "vegana",
+  "high-protein": "rica em proteína",
+  "low-carb": "baixo carboidrato",
+  "dinner only": "só jantar",
+  "lunch and dinner": "almoço e jantar",
+  "all three": "as três refeições",
+  quick: "rápido",
+  medium: "médio",
+  ambitious: "elaborado",
+  "on this day in history": "neste dia na história",
+  "word of the day": "palavra do dia",
+  "science fact": "fato científico",
+  "quote of the day": "frase do dia"
+};
+var patterns = [
+  [/^every (\d+)m$/i, "a cada $1 min"],
+  [/^every (\d+)h$/i, "a cada $1 h"],
+  [/^every (\d+)d$/i, "a cada $1 d"],
+  [/^Bot Chat \(default\)$/, "Bot Chat (padrão)"]
+];
+
+// i18n/dom-translate.js
+function startDomTranslator(phrases2, words2, patterns2 = []) {
+  if (typeof document === "undefined" || typeof MutationObserver === "undefined") return () => {
+  };
+  const norm = (s) => s.replace(/\s+/g, " ").trim();
+  const P = new Map(Object.entries(phrases2).map(([k, v]) => [norm(k), v]));
+  const W = new Map(Object.entries(words2));
+  const LIST = '[role="combobox"],[role="option"],[role="listbox"],[role="menuitem"]';
+  const active = () => /^pt/i.test(document.documentElement.lang || "");
+  const lookup = (text, el) => {
+    const n = norm(text);
+    if (!n) return null;
+    const hit = P.get(n);
+    if (hit) return hit;
+    for (const [re, to] of patterns2) if (re.test(n)) return n.replace(re, to);
+    return el && el.closest && el.closest(LIST) ? W.get(n) || W.get(n.toLowerCase()) || null : null;
+  };
+  const fixText = (node) => {
+    const v = lookup(node.nodeValue, node.parentElement);
+    if (!v) return;
+    const raw = node.nodeValue;
+    node.nodeValue = raw.match(/^\s*/)[0] + v + raw.match(/\s*$/)[0];
+  };
+  const ATTRS = ["placeholder", "title", "aria-label"];
+  const fixAttrs = (el) => {
+    for (const a of ATTRS) {
+      const cur = el.getAttribute && el.getAttribute(a);
+      if (!cur) continue;
+      const v = lookup(cur, el);
+      if (v) el.setAttribute(a, v);
+    }
+  };
+  const walk = (root2) => {
+    if (root2.nodeType === 3) return fixText(root2);
+    if (root2.nodeType !== 1) return;
+    fixAttrs(root2);
+    const tw = document.createTreeWalker(root2, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT);
+    for (let n = tw.nextNode(); n; n = tw.nextNode()) n.nodeType === 3 ? fixText(n) : fixAttrs(n);
+  };
+  let queue = /* @__PURE__ */ new Set(), scheduled = false;
+  const flush = () => {
+    scheduled = false;
+    const items = [...queue];
+    queue = /* @__PURE__ */ new Set();
+    if (!active()) return;
+    for (const n of items) if (n.isConnected !== false) walk(n);
+  };
+  const enqueue = (n) => {
+    queue.add(n);
+    if (!scheduled) {
+      scheduled = true;
+      requestAnimationFrame(flush);
+    }
+  };
+  const mo = new MutationObserver((muts) => {
+    for (const m of muts) {
+      if (m.type === "childList") m.addedNodes.forEach(enqueue);
+      else if (m.type === "characterData") enqueue(m.target);
+      else enqueue(m.target);
+    }
+  });
+  const root = document.body || document.documentElement;
+  mo.observe(root, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ATTRS });
+  enqueue(root);
+  const lo = new MutationObserver(() => enqueue(root));
+  lo.observe(document.documentElement, { attributes: true, attributeFilter: ["lang"] });
+  return () => {
+    mo.disconnect();
+    lo.disconnect();
+  };
+}
+
 // <stdin>
 var isObj = (v) => v && typeof v === "object" && !Array.isArray(v);
 var tree = structuredCloneWithFns(ptBR);
@@ -6136,11 +6323,14 @@ for (const [p, v] of pt_BR_gaps_default) {
 var stdin_default = {
   id: "hermes-pt-br",
   name: "Português (Brasil)",
-  description: "Traduz a interface do Hermes Desktop para português do Brasil. v2.2.0",
+  description: "Traduz a interface do Hermes Desktop para português do Brasil. v2.3.0",
   defaultEnabled: true,
   register(ctx) {
     const dispose = ctx.i18n.registerAppLocale("pt", { endonym: "Português", englishName: "Portuguese (Brazil)", translations: tree });
-    if (typeof ctx.onDispose === "function") ctx.onDispose(dispose);
+    if (typeof ctx.onDispose === "function") {
+      ctx.onDispose(dispose);
+      ctx.onDispose(startDomTranslator(phrases, words, patterns));
+    } else startDomTranslator(phrases, words, patterns);
   }
 };
 export {
